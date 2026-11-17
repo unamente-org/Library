@@ -1,0 +1,12 @@
+<header class="site-header wrap">
+  <a class="brand" href="{{ "/" | relLangURL }}">Una<b>Mente</b></a>
+  <span class="tagline">{{ site.Params.tagline }}</span>
+  <nav class="langs" aria-label="Language">
+    {{- if .IsTranslated }}
+      {{- range .AllTranslations }}
+        {{- if eq .Language.Lang $.Language.Lang }}<span aria-current="true">{{ .Language.Label }}</span>
+        {{- else }}<a href="{{ .RelPermalink }}" hreflang="{{ .Language.Locale }}">{{ .Language.Label }}</a>{{ end }}
+      {{- end }}
+    {{- end }}
+  </nav>
+</header>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.Locale }}" dir="{{ or site.Language.Direction "ltr" }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{- if site.Params.testBuild }}<meta name="robots" content="noindex, nofollow">{{ end }}
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+{{- with .Description }}<meta name="description" content="{{ . }}">{{ end }}
+{{- range .AllTranslations }}
+<link rel="alternate" hreflang="{{ .Language.Locale }}" href="{{ .Permalink }}">
+{{- end }}
+<link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
+</head>
+<body>
+{{- if site.Params.testBuild }}
+<div class="testbar">Test build — not the public library. Nothing here is published.</div>
+{{- end }}
+{{ partial "header.html" . }}
+<main class="wrap">
+{{ block "main" . }}{{ end }}
+</main>
+{{ partial "footer.html" . }}
+</body>
+</html>

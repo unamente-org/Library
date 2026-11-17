@@ -1,0 +1,15 @@
+{{ with .Params.sources }}
+<section class="sources">
+  <h2>Sources</h2>
+  <ol>
+    {{ range . }}
+    <li>
+      {{ if .url }}<a href="{{ .url }}" rel="noopener">{{ .label }}</a>{{ else }}{{ .label }}{{ end }}
+      {{ with .archive }} · <a href="{{ . }}" rel="noopener">archived copy</a>{{ end }}
+      {{ with .language }} · <span class="lang">{{ . }}</span>{{ end }}
+      {{ with .note }}<span class="note"> — {{ . }}</span>{{ end }}
+    </li>
+    {{ end }}
+  </ol>
+</section>
+{{ end }}

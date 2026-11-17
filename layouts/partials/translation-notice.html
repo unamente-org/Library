@@ -1,0 +1,10 @@
+{{- /* Shown only on translated pages. Field names are a proposal awaiting Verus's sign-off (design proposal, part B item 3). */ -}}
+{{ if ne .Language.Lang site.Params.defaultLang }}
+  {{ with .Params.translation }}
+  <p class="translation-notice">
+    {{ if eq .status "checked" }}Translation checked by {{ .checked_by }}{{ with .checked_on }}, {{ . }}{{ end }}.
+    {{ else }}Machine-translated, not yet checked by a person.{{ end }}
+    {{ with .from_revision }}Made from the English version of {{ . }}.{{ end }}
+  </p>
+  {{ end }}
+{{ end }}

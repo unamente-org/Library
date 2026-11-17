@@ -1,0 +1,25 @@
+{{ define "main" }}
+<article class="entry">
+  {{ if .Params.test }}<p class="testnote">This is a test entry with placeholder text. It is not a real innovation.</p>{{ end }}
+  {{ partial "translation-notice.html" . }}
+  <h1>{{ .Title }}</h1>
+
+  {{- /* Spec section 1: header / at-a-glance. Field names follow UnaMente_Entry_Template_Spec. */ -}}
+  <table class="glance">
+    {{ with .Params.lane }}<tr><th>Lane</th><td>{{ delimit . ", " }}</td></tr>{{ end }}
+    {{ with .Params.category }}<tr><th>Category</th><td>{{ delimit . ", " }}</td></tr>{{ end }}
+    {{ with .Params.origin }}<tr><th>Origin</th><td>{{ . }}</td></tr>{{ end }}
+    {{ with .Params.maturity }}<tr><th>Maturity</th><td>{{ . }}</td></tr>{{ end }}
+    {{ with .Params.trust }}<tr><th>Trust</th><td><span class="chip trust">{{ delimit . ", " }}</span></td></tr>{{ end }}
+    {{ with .Params.licence }}<tr><th>Licence</th><td>{{ . }}</td></tr>{{ end }}
+    {{ with .Params.entry_date }}<tr><th>Entry date</th><td>{{ . }}</td></tr>{{ end }}
+    {{ with .Params.documented_by }}<tr><th>Documented by</th><td>{{ . }}</td></tr>{{ end }}
+  </table>
+
+  {{- /* Spec sections 2 to 9 are the body, in the spec's order and under the spec's own headings. */ -}}
+  {{ .Content }}
+
+  {{- /* Spec section 10: sources, each with live and archived links where held. */ -}}
+  {{ partial "sources.html" . }}
+</article>
+{{ end }}
