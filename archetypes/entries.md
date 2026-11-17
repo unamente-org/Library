@@ -16,12 +16,17 @@ lane: []                # e.g. ["Lane 1 — Solutions"]
 track: ""               # 1 (buildable) or 2 (knowledge)
 category: []
 origin: ""              # free text, as on the entry
-maturity: ""            # Idea / Tested / Proven / Scaled
+maturity: ""            # Idea / Tested / Proven / Scaled, as written on the entry
+setting: ""             # e.g. Rural, as in the live "Setting:" tag
+entry_type: ""          # e.g. Technical, as in the live "Type:" tag ("type" is reserved by Hugo)
 trust: []               # Strong / Moderate / Limited
 licence: ""
 entry_date: ""          # YYYY-MM-DD
 documented_by: ""
 keywords: []
+published_on: ""        # first published, YYYY-MM-DD
+source_page: ""         # where the text was copied from, during the move off Squarespace
+image_live: ""          # the image's current address, until the image files are added here
 
 # ---- Structured place (B5): only what the entry's own sources state; otherwise "not stated", never inferred ----
 place:

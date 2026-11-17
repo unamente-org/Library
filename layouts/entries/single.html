@@ -5,6 +5,7 @@
   {{ if $unverified }}<p class="testnote">Unverified submission. UnaMente has not yet checked this against sources, so it carries no trust rating.</p>{{ end }}
   {{ partial "translation-notice.html" . }}
   <h1>{{ .Title }}</h1>
+  {{ with .Params.image_live }}<img class="hero" src="{{ . }}?format=750w" alt="" loading="lazy">{{ end }}
 
   {{- /* Spec section 1: header / at-a-glance. Field names follow UnaMente_Entry_Template_Spec. */ -}}
   <table class="glance">
@@ -12,6 +13,8 @@
     {{ with .Params.category }}<tr><th>Category</th><td>{{ delimit . ", " }}</td></tr>{{ end }}
     {{ with .Params.origin }}<tr><th>Origin</th><td>{{ . }}</td></tr>{{ end }}
     {{ with .Params.maturity }}<tr><th>Maturity</th><td>{{ . }}</td></tr>{{ end }}
+    {{ with .Params.setting }}<tr><th>Setting</th><td>{{ . }}</td></tr>{{ end }}
+    {{ with .Params.entry_type }}<tr><th>Type</th><td>{{ . }}</td></tr>{{ end }}
     {{- /* B2: an unverified submission shows no trust tier at all. */ -}}
     {{ if not $unverified }}{{ with .Params.trust }}<tr><th>Trust</th><td><span class="chip trust">{{ delimit . ", " }}</span></td></tr>{{ end }}{{ end }}
     {{ with .Params.licence }}<tr><th>Licence</th><td>{{ . }}</td></tr>{{ end }}
