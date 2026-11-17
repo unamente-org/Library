@@ -20,7 +20,10 @@
   <p class="count" id="count" aria-live="polite"></p>
 </section>
 <ul class="cards" id="cards">
-  {{- range $entries.ByTitle }}
+  {{- /* Entries listed in site.Params.pinFirst (by id) come first, in that order; the rest follow alphabetically. */ -}}
+  {{- $pinned := slice }}{{ range (site.Params.pinFirst | default slice) }}{{ with where $entries "Params.id" . }}{{ $pinned = $pinned | append (index . 0) }}{{ end }}{{ end }}
+  {{- $rest := slice }}{{ range $entries.ByTitle }}{{ if not (in $pinned .) }}{{ $rest = $rest | append . }}{{ end }}{{ end }}
+  {{- range ($pinned | append $rest) }}
   <li class="card" data-lane="{{ delimit (.Params.lane | default slice) "|" }}" data-category="{{ delimit (.Params.category | default slice) "|" }}" data-trust="{{ delimit (.Params.trust | default slice) "|" }}" data-text="{{ lower (printf "%s %s %s %s" .Title (.Params.summary | default "") (.Params.problem | default "") (delimit (.Params.keywords | default slice) " ")) }}">
     <a href="{{ .RelPermalink }}">
       <h2>{{ .Title }}</h2>

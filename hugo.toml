@@ -11,6 +11,8 @@ disableKinds = ["taxonomy", "term"]
 # Search engines must not index the test build.
 [params]
   testBuild = true
+  # Entries always shown first in the library list, by id, in this order (Daniela, 17 November 2026).
+  pinFirst = ["fog-nets-drinking-water-from-mist"]
   defaultLang = "en"
   tagline = "Minds everywhere, solutions for everyone"
 
