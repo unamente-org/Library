@@ -1,6 +1,6 @@
 # UnaMente Library — site configuration
 # Placeholder address until the real one is decided (see README).
-baseURL = "https://example.invalid/"
+baseURL = "https://library.unamente.org/"   # Daniela, 17 November 2026
 title = "UnaMente Library"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
