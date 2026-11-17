@@ -13,3 +13,8 @@
     {{ end }}
   {{ end }}
 {{ end }}
+{{- /* Unpublished entries never go live by accident: outside the test build, any entry whose status is not
+     "published" must also say build: {render: never, list: never}, or the build stops. */ -}}
+{{ if and (eq .Kind "page") (eq .Section "entries") (not site.Params.testBuild) (ne .Params.status "published") }}
+  {{ errorf "Unpublished entry %q (status %q) would get a public page. Add  build: {render: never, list: never}  to its header, or set its status to published once it has passed the gates." .File.Path .Params.status }}
+{{ end }}

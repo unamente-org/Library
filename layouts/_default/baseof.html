@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
 </head>
 <body>
-{{- partial "translation-guard.html" . -}}
+{{- partial "publish-guards.html" . -}}
 {{- if site.Params.testBuild }}
 <div class="testbar">Test build — not the public library. Nothing here is published.</div>
 {{- end }}
