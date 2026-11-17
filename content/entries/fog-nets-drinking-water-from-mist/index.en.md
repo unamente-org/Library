@@ -11,7 +11,7 @@ trust: ["Strong"]
 maturity: "Scaled"
 setting: "Rural"
 entry_type: "Technical"
-published_on: "2026-10-08"
+published_on: "2026-09-20"   # Daniela, 17 November 2026: first published 20 September 2026. The live page read 8 October on the morning of 17 November, then 17 November after it was re-dated to show first on Squarespace.
 live_updated_on: "2026-11-17"
 source_page: "https://www.unamente.org/library/fog-nets-drinking-water-from-mist"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1790005576830-E4TJ8F5VQ6SGE36RVWLO/fog_nets_1500x1500.jpg"
