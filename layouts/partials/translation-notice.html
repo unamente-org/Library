@@ -1,10 +1,11 @@
-{{- /* Shown only on translated pages. Field names are a proposal awaiting Verus's sign-off (design proposal, part B item 3). */ -}}
+{{- /* Shown on every translated page (design B3; label and rule decided by Daniela, 17 November 2026).
+     A translation without a "translation" block is treated as unchecked, so the label can never be missed. */ -}}
 {{ if ne .Language.Lang site.Params.defaultLang }}
-  {{ with .Params.translation }}
+  {{ $t := .Params.translation | default dict }}
   <p class="translation-notice">
-    {{ if eq .status "checked" }}Translation checked by {{ .checked_by }}{{ with .checked_on }}, {{ . }}{{ end }}.
-    {{ else }}Machine-translated, not yet checked by a person.{{ end }}
-    {{ with .from_revision }}Made from the English version of {{ . }}.{{ end }}
+    {{ if eq $t.status "checked" }}Translation checked by {{ $t.checked_by }}{{ with $t.checked_on }}, {{ . }}{{ end }}.
+    {{ else }}<strong>Machine-translated, not checked.</strong> A person has not yet compared this page with the English original.{{ end }}
+    {{ with $t.from_revision }}Made from the English version of {{ . }}.{{ end }}
+    {{ range .Translations }}{{ if eq .Language.Lang site.Params.defaultLang }}<a href="{{ .RelPermalink }}" hreflang="en">Read the English original</a>.{{ end }}{{ end }}
   </p>
-  {{ end }}
 {{ end }}

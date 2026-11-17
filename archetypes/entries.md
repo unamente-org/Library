@@ -49,9 +49,11 @@ custodian_contact: []   # shown to readers as "Custodian contact": dated approac
 #    note: ""
 
 # ---- Translations (B3): only in non-English files ----
-# translation:
+safety_figures: true   # does the English entry give a dose, temperature, ratio or safety limit? Verus sets this.
+                       # Left true (or missing), an unchecked machine translation of this entry cannot be published.
+# translation:         # only in translated files (index.es.md, index.fr.md, ...)
 #   from_revision: ""   # git revision of the English file this was made from
-#   status: unchecked   # unchecked | checked
+#   status: unchecked   # unchecked | checked. Unchecked pages show "Machine-translated, not checked."
 #   checked_by: ""
 #   checked_on: ""
 

@@ -40,5 +40,13 @@ for f in sorted(root.glob("*/index.*.md")):
         print(f"{rel}: {i}")
     problems += len(issues)
 
+# Information, not a problem: English entries Verus has not yet marked for the translation rule.
+# Unmarked entries count as having safety figures, so none can be published as an unchecked translation.
+unmarked = [f.parent.name for f in sorted(root.glob("*/index.en.md"))
+            if not re.search(r"^safety_figures:\s*(true|false)\b", f.read_text(encoding="utf-8"), re.M)]
+if unmarked:
+    print(f"Note: {len(unmarked)} entr{'y' if len(unmarked) == 1 else 'ies'} not yet marked safety_figures: true or false "
+          "(treated as true: no unchecked translation can be published).")
+
 print(f"{problems} problem(s) found." if problems else "All entries pass the checks.")
 sys.exit(1 if problems else 0)
