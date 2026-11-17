@@ -1,0 +1,2 @@
+{{- range hugo.Data.redirects }}{{ .from }} {{ .to }} 301
+{{ end -}}

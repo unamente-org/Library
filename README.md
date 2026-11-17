@@ -36,6 +36,14 @@ hugo server     # preview at http://localhost:1313
 hugo --minify   # build the site into public/
 ```
 
+## Checks before publishing
+
+`python3 scripts/check_entries.py` lists, for every entry: a missing id or status, a status outside the agreed set, a trust tier on an unverified submission, a source without a URL, and place fields left blank instead of "not stated". It changes nothing; a person decides what to do about each problem.
+
+## Old addresses
+
+Every change of an entry's public address adds a line to `data/redirects.yaml`. The build turns that list into a `_redirects` file, which Cloudflare Pages uses to send old links on to the new address (301).
+
 ## Not decided yet
 
 - The public address. `baseURL` in `hugo.toml` is a placeholder until it is chosen.

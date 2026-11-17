@@ -33,3 +33,17 @@ disableKinds = ["taxonomy", "term"]
 
 [markup.goldmark.renderer]
   unsafe = false
+
+# Cloudflare Pages reads a plain-text _redirects file from the site root.
+# It is generated from data/redirects.yaml (design B1).
+[mediaTypes."text/redirects"]
+  delimiter = ""
+
+[outputFormats.redirects]
+  mediaType = "text/redirects"
+  baseName = "_redirects"
+  isPlainText = true
+  notAlternative = true
+
+[outputs]
+  home = ["html", "redirects"]
