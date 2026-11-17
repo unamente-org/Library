@@ -15,8 +15,6 @@ published_on: "2026-10-08"
 live_updated_on: "2026-10-23"
 source_page: "https://www.unamente.org/library/push-pull-companion-planting-that-beats-two-pests-at-once"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1791425479361-U1OL88V8A7HFETJQCBO1/PUSH-PULL.jpg"
-image: "illustration.jpg"
-image_original_file: "E:\\UnaMente\\Website Images\\Technical Ilustrations\\PUSH-PULL.jpg"
 place:
   country: "not stated"
   region: "not stated"

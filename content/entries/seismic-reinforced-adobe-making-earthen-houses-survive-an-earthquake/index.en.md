@@ -15,8 +15,6 @@ published_on: "2026-10-08"
 live_updated_on: "2026-10-23"
 source_page: "https://www.unamente.org/library/seismic-reinforced-adobe-making-earthen-houses-survive-an-earthquake"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1791429760056-0GSBV6OZ725B0X7PONT8/SEISMIC-REINFORCED+ADOBE.jpg"
-image: "illustration.jpg"
-image_original_file: "E:\\UnaMente\\Website Images\\Technical Ilustrations\\SEISMIC-REINFORCED ADOBE.jpg"
 place:
   country: "not stated"
   region: "not stated"

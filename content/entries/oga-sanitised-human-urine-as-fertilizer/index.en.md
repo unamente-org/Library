@@ -14,7 +14,7 @@ entry_type: "Technical"
 published_on: "2026-11-17"
 live_updated_on: "2026-11-17"
 source_page: "https://www.unamente.org/library/oga-sanitised-human-urine-as-fertilizer"
-image_live: "https://static1.squarespace.com/static/6a4b0fb8c22bbc0ca4119515/6aa75452482ae9594fbfe7ac/6afb9e62b0455264e7b9911d/1794879652527/"
+image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1794932841892-GJRGIFV3BB4GI99BARDG/OGA_2026-11-17.jpg"
 place:
   country: "not stated"
   region: "not stated"

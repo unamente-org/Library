@@ -1,0 +1,165 @@
+# Which illustration each library entry shows. Kept apart from the entry files so a picture
+# can be replaced without touching the entry (Verus, 17 November 2026).
+# Mapping from claude/UnaMente_Library_ImageList_forCimiento_2026-11-17 (Verus), checked against the
+# live library feed by Cimiento on 17 November 2026: all 21 live filenames match.
+#   file: the copy in assets/illustrations/, named after the entry
+#   original_file: the file in Daniela's folder E:\UnaMente\Website Images\Technical Ilustrations\
+#   ai_generated: recorded here as well as on the image, so the disclosure survives a crop
+#   status: current, or due-to-change with the reason
+#   alt: description for readers who cannot see the picture (empty until written)
+
+fog-nets-drinking-water-from-mist:
+  file: "fog-nets-drinking-water-from-mist.jpg"
+  original_file: "fog_nets_1500x1500.jpg"
+  ai_generated: true
+  status: current
+  alt: ""
+
+biosand-filter-cleaner-drinking-water-from-sand-gravel-and-a-living-layer:
+  file: "biosand-filter-cleaner-drinking-water-from-sand-gravel-and-a-living-layer.jpg"
+  original_file: "BIOSAND_2026-11-17b.jpg"
+  ai_generated: true
+  status: current
+  alt: ""
+
+oga-sanitised-human-urine-as-fertilizer:
+  file: "oga-sanitised-human-urine-as-fertilizer.jpg"
+  original_file: "OGA_2026-11-17.jpg"
+  ai_generated: true
+  status: current
+  alt: ""
+
+sodis-disinfecting-drinking-water-with-a-clear-bottle-and-sunshine:
+  file: "sodis-disinfecting-drinking-water-with-a-clear-bottle-and-sunshine.jpg"
+  original_file: "image_416d69b4 (1).jpg"
+  ai_generated: true
+  status: current
+  alt: ""
+
+oral-rehydration-solution-ors-stopping-dehydration-with-salt-sugar-and-water:
+  file: "oral-rehydration-solution-ors-stopping-dehydration-with-salt-sugar-and-water.jpg"
+  original_file: "image_42affb38 (1).jpg"
+  ai_generated: true
+  status: due-to-change
+  status_note: "caption sits mid-picture, not at the bottom edge; Lente has a caption fix coming"
+  alt: ""
+
+ticino-biomasa-a-town-powered-by-peanut-shells:
+  file: "ticino-biomasa-a-town-powered-by-peanut-shells.jpg"
+  original_file: "TICINO BIOMASA.jpg"
+  ai_generated: true
+  status: due-to-change
+  status_note: "purple-flower edit coming from Lente"
+  alt: ""
+
+solar-food-dryer-preserving-a-harvest-with-sun-and-airflow:
+  file: "solar-food-dryer-preserving-a-harvest-with-sun-and-airflow.jpg"
+  original_file: "SOLAR FOOD DRYER.jpg"
+  ai_generated: true
+  status: due-to-change
+  status_note: "purple-flower edit coming from Lente"
+  alt: ""
+
+improved-wood-cookstove-less-wood-less-smoke-built-locally:
+  file: "improved-wood-cookstove-less-wood-less-smoke-built-locally.jpg"
+  original_file: "IMPROVED WOOD COOKSTOVE.jpg"
+  ai_generated: true
+  status: due-to-change
+  status_note: "purple-flower edit coming from Lente"
+  alt: ""
+
+seismic-reinforced-adobe-making-earthen-houses-survive-an-earthquake:
+  file: "seismic-reinforced-adobe-making-earthen-houses-survive-an-earthquake.jpg"
+  original_file: "SEISMIC-REINFORCED ADOBE.jpg"
+  ai_generated: true
+  status: due-to-change
+  status_note: "purple-flower edit coming from Lente"
+  alt: ""
+
+sand-dams-banking-a-seasons-water-inside-the-sand:
+  file: "sand-dams-banking-a-seasons-water-inside-the-sand.jpg"
+  original_file: "SAND_DAMS_2026-11-17b.jpg"
+  ai_generated: true
+  status: current
+  alt: ""
+
+azolla-a-water-fern-that-fertilizes-a-rice-paddy-for-free:
+  file: "azolla-a-water-fern-that-fertilizes-a-rice-paddy-for-free.jpg"
+  original_file: "AZOLLA.jpg"
+  ai_generated: true
+  status: due-to-change
+  status_note: "purple-flower edit coming from Lente"
+  alt: ""
+
+push-pull-companion-planting-that-beats-two-pests-at-once:
+  file: "push-pull-companion-planting-that-beats-two-pests-at-once.jpg"
+  original_file: "PUSH-PULL.jpg"
+  ai_generated: true
+  status: current
+  alt: ""
+
+tusafishe-low-cost-water-filters-for-schools-uganda:
+  file: "tusafishe-low-cost-water-filters-for-schools-uganda.jpg"
+  original_file: "Tusafishe.jpg"
+  ai_generated: true
+  status: current
+  alt: ""
+
+biochar-charcoal-that-rebuilds-soil:
+  file: "biochar-charcoal-that-rebuilds-soil.jpg"
+  original_file: "Biochar.jpg"
+  ai_generated: true
+  status: current
+  alt: ""
+
+oyster-mushrooms-on-bagasse-food-from-a-waste:
+  file: "oyster-mushrooms-on-bagasse-food-from-a-waste.jpg"
+  original_file: "Oyster mushrooms.jpg"
+  ai_generated: true
+  status: current
+  alt: ""
+
+vermifiltration-earthworms-that-clean-wastewater:
+  file: "vermifiltration-earthworms-that-clean-wastewater.jpg"
+  original_file: "Vermifiltration_TreatedWater_2026-11-16.jpg"
+  ai_generated: true
+  status: current
+  alt: ""
+
+biogas-digesters-cooking-gas-from-waste:
+  file: "biogas-digesters-cooking-gas-from-waste.jpg"
+  original_file: "Biogas digesters.jpg"
+  ai_generated: true
+  status: current
+  alt: ""
+
+zeer-pot-a-fridge-that-runs-on-nothing:
+  file: "zeer-pot-a-fridge-that-runs-on-nothing.jpg"
+  original_file: "zeer_pot_1500x1500.jpg"
+  ai_generated: true
+  status: current
+  alt: ""
+
+treadle-pump-irrigation-by-foot:
+  file: "treadle-pump-irrigation-by-foot.jpg"
+  original_file: "treadle_pump_1500x1500.jpg"
+  ai_generated: true
+  status: current
+  alt: ""
+
+beehive-fences-keeping-elephants-out-with-bees:
+  file: "beehive-fences-keeping-elephants-out-with-bees.jpg"
+  original_file: "beehive_fence_1500x1500.jpg"
+  ai_generated: true
+  status: current
+  alt: ""
+
+za-pits-bringing-dead-soil-back-to-life:
+  file: "za-pits-bringing-dead-soil-back-to-life.jpg"
+  original_file: "zai_pits_1500x1500.jpg"
+  ai_generated: true
+  status: current
+  alt: ""
+
+# Passed by Verus on 17 November 2026, waiting for their pages to be published; files in assets/illustrations/pending/.
+# FMNR_2026-11-17.jpg (FMNR, Niger) and QOCHAS_2026-11-17.jpg (Qochas). Add an entry above when the page goes live.

@@ -15,8 +15,6 @@ published_on: "2026-10-08"
 live_updated_on: "2026-11-17"
 source_page: "https://www.unamente.org/library/oyster-mushrooms-on-bagasse-food-from-a-waste"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1792263544904-AXPBQ8Y5VL1S7YQ9E80Q/Oyster+mushrooms.jpg"
-image: "illustration.jpg"
-image_original_file: "E:\\UnaMente\\Website Images\\Technical Ilustrations\\Oyster mushrooms.jpg"
 place:
   country: "not stated"
   region: "not stated"

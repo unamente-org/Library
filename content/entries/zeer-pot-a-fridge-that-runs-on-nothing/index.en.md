@@ -15,8 +15,6 @@ published_on: "2026-09-21"
 live_updated_on: "2026-11-16"
 source_page: "https://www.unamente.org/library/zeer-pot-a-fridge-that-runs-on-nothing"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1790005792577-5BC9PJG36PI4S8MJVIU3/zeer_pot_1500x1500.jpg"
-image: "illustration.jpg"
-image_original_file: "E:\\UnaMente\\Website Images\\Technical Ilustrations\\zeer_pot_1500x1500.jpg"
 place:
   country: "not stated"
   region: "not stated"
