@@ -1,0 +1,8 @@
+# Old public addresses and where they now live (design B1).
+# An entry's id never changes; its url may. Every change of url adds a line here,
+# so links already shared keep working.
+#
+# - from: /library/old-address
+#   to: /library/new-address
+#   since: 2026-10-21
+[]

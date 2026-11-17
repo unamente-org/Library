@@ -1,6 +1,8 @@
 {{ define "main" }}
+{{- $unverified := eq .Params.status "unverified-submission" -}}
 <article class="entry">
   {{ if .Params.test }}<p class="testnote">This is a test entry with placeholder text. It is not a real innovation.</p>{{ end }}
+  {{ if $unverified }}<p class="testnote">Unverified submission. UnaMente has not yet checked this against sources, so it carries no trust rating.</p>{{ end }}
   {{ partial "translation-notice.html" . }}
   <h1>{{ .Title }}</h1>
 
@@ -10,14 +12,32 @@
     {{ with .Params.category }}<tr><th>Category</th><td>{{ delimit . ", " }}</td></tr>{{ end }}
     {{ with .Params.origin }}<tr><th>Origin</th><td>{{ . }}</td></tr>{{ end }}
     {{ with .Params.maturity }}<tr><th>Maturity</th><td>{{ . }}</td></tr>{{ end }}
-    {{ with .Params.trust }}<tr><th>Trust</th><td><span class="chip trust">{{ delimit . ", " }}</span></td></tr>{{ end }}
+    {{- /* B2: an unverified submission shows no trust tier at all. */ -}}
+    {{ if not $unverified }}{{ with .Params.trust }}<tr><th>Trust</th><td><span class="chip trust">{{ delimit . ", " }}</span></td></tr>{{ end }}{{ end }}
     {{ with .Params.licence }}<tr><th>Licence</th><td>{{ . }}</td></tr>{{ end }}
     {{ with .Params.entry_date }}<tr><th>Entry date</th><td>{{ . }}</td></tr>{{ end }}
     {{ with .Params.documented_by }}<tr><th>Documented by</th><td>{{ . }}</td></tr>{{ end }}
+    {{ with .Params.basis }}<tr><th>Basis</th><td>{{ . }}</td></tr>{{ end }}
   </table>
 
   {{- /* Spec sections 2 to 9 are the body, in the spec's order and under the spec's own headings. */ -}}
   {{ .Content }}
+
+  {{- /* B6: Lane 2 record of approaches to the custodians. */ -}}
+  {{ with .Params.custodian_contact }}
+  <section class="custodian-contact">
+    <h2>Custodian contact</h2>
+    <ul>{{ range . }}<li>{{ .date }} — {{ .note }}</li>{{ end }}</ul>
+  </section>
+  {{ end }}
+
+  {{- /* B4: contributor credit. */ -}}
+  {{ with .Params.credits }}
+  <section class="credits">
+    <h2>Contributors</h2>
+    <ul>{{ range . }}<li>{{ .name }}{{ with .contributed }} — {{ . }}{{ end }}{{ with .date }} ({{ . }}){{ end }}{{ with .verified_by }} · verified by {{ . }}{{ end }}</li>{{ end }}</ul>
+  </section>
+  {{ end }}
 
   {{- /* Spec section 10: sources, each with live and archived links where held. */ -}}
   {{ partial "sources.html" . }}

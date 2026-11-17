@@ -18,7 +18,14 @@ The source of the UnaMente library: a free, permanent library of proven communit
 
 The top of each file holds the header fields from the spec (lane, category, origin, maturity, trust, licence, entry date, documented by), plus a short summary, search keywords, and the source list. Each source has a label, a URL, an optional archived copy, a language and a note. The body holds the spec's sections as headings, in the spec's order, under the spec's own names.
 
-**The entry structure belongs to Verus.** Adding, removing, renaming, splitting, merging or reordering any section or field needs his sign-off first. The proposed additions (permanent IDs, publication status, translation fields, contributor credit, structured place fields, the Lane 2 Basis field) are in `UnaMente_Cimiento_LibraryDesign_Proposal_2026-11-16` on the Project shelf. Until he rules, the only proposed field present in the templates is the translation notice, which shows nothing on English pages.
+**The entry structure belongs to Verus.** Adding, removing, renaming, splitting, merging or reordering any section or field needs his sign-off first. On 16 November 2026 he approved the six additions in `UnaMente_Cimiento_LibraryDesign_Proposal_2026-11-16`, with changes. The full field list, with comments, is in `archetypes/entries.md`. In short:
+
+- **`id`** never changes and is never reused. The public address (`url`) may change; every old address goes in `data/redirects.yaml`.
+- **`status`** is one of draft, in-review, published or unverified-submission. An unverified submission shows **no** trust tier at all.
+- **`place`** fields hold only what the entry's own sources state, and otherwise read "not stated". They are never inferred.
+- **`credits`** are credit only, never contact details. "Verified by" names the helper and the date.
+- **Lane 2:** `basis` (the three values in the 15 November protocol), and `custodian_contact`, shown as "Custodian contact": a dated record of approaches and replies.
+- **Translations** carry `from_revision` and a checked or unchecked status, shown to readers. Whether unchecked translations may go live is Daniela's decision.
 
 ## Building it
 

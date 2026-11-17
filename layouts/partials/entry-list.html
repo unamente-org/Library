@@ -1,5 +1,7 @@
 {{- /* Filterable list of entries. Filtering runs in the reader's browser, so it works offline once the page has loaded. */ -}}
+{{- /* Only published entries are listed, except in the test build, where everything shows with its status. */ -}}
 {{- $entries := .RegularPages -}}
+{{- if not site.Params.testBuild }}{{ $entries = where $entries "Params.status" "published" }}{{ end -}}
 <section class="finder" aria-label="Find an innovation">
   <label for="q">Search by problem or name</label>
   <input id="q" type="search" autocomplete="off" placeholder="For example: water for a dry season">
@@ -25,7 +27,8 @@
       {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
       <p class="chips">
         {{ range .Params.lane }}<span class="chip">{{ . }}</span>{{ end }}
-        {{ range .Params.trust }}<span class="chip trust">Trust: {{ . }}</span>{{ end }}
+        {{ if ne .Params.status "unverified-submission" }}{{ range .Params.trust }}<span class="chip trust">Trust: {{ . }}</span>{{ end }}{{ else }}<span class="chip test">Unverified</span>{{ end }}
+        {{ if and site.Params.testBuild (ne .Params.status "published") }}<span class="chip">{{ .Params.status | default "no status" }}</span>{{ end }}
         {{ if .Params.test }}<span class="chip test">TEST</span>{{ end }}
       </p>
     </a>
