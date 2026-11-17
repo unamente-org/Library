@@ -15,6 +15,8 @@ published_on: "2026-10-08"
 live_updated_on: "2026-10-23"
 source_page: "https://www.unamente.org/library/biochar-charcoal-that-rebuilds-soil"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1791425091222-G7QS8TYO0N1UKFNOLXUV/Biochar.jpg"
+image: "illustration.jpg"
+image_original_file: "E:\\UnaMente\\Website Images\\Technical Ilustrations\\Biochar.jpg"
 place:
   country: "not stated"
   region: "not stated"

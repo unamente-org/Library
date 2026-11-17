@@ -26,7 +26,10 @@ documented_by: ""
 keywords: []
 published_on: ""        # first published, YYYY-MM-DD
 source_page: ""         # where the text was copied from, during the move off Squarespace
-image_live: ""          # the image's current address, until the image files are added here
+image_live: ""          # the image's address on the old Squarespace site, kept for the record
+image: ""               # the illustration file in this entry's folder, e.g. illustration.jpg (stored unchanged; the build makes a 750-pixel copy)
+image_original_file: "" # where the file came from on Daniela's computer
+image_alt: ""           # a description of the picture for people who cannot see it
 
 # ---- Structured place (B5): only what the entry's own sources state; otherwise "not stated", never inferred ----
 place:

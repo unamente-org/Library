@@ -15,6 +15,8 @@ published_on: "2026-10-08"
 live_updated_on: "2026-10-21"
 source_page: "https://www.unamente.org/library/tusafishe-low-cost-water-filters-for-schools-uganda"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1791425252539-S95W7I4FD1H6RSWMHN8B/Tusafishe.jpg"
+image: "illustration.jpg"
+image_original_file: "E:\\UnaMente\\Website Images\\Technical Ilustrations\\Tusafishe.jpg"
 place:
   country: "not stated"
   region: "not stated"

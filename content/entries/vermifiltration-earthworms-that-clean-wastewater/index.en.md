@@ -15,6 +15,8 @@ published_on: "2026-10-08"
 live_updated_on: "2026-11-17"
 source_page: "https://www.unamente.org/library/vermifiltration-earthworms-that-clean-wastewater"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1791424583285-KMEMGD1W5UR5XBJMFVHD/Vermifiltration.jpg"
+image: "illustration.jpg"
+image_original_file: "E:\\UnaMente\\Website Images\\Technical Ilustrations\\Vermifiltration.jpg"
 place:
   country: "not stated"
   region: "not stated"

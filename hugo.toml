@@ -47,3 +47,10 @@ disableKinds = ["taxonomy", "term"]
 
 [outputs]
   home = ["html", "redirects"]
+
+# Keep the full-size originals in the repository but publish only the web-sized copies.
+[[cascade]]
+  [cascade.build]
+    publishResources = false
+  [cascade.target]
+    path = "{/entries/**,/library/**}"

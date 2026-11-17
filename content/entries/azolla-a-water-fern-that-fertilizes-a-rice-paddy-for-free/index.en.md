@@ -15,6 +15,8 @@ published_on: "2026-10-08"
 live_updated_on: "2026-11-17"
 source_page: "https://www.unamente.org/library/azolla-a-water-fern-that-fertilizes-a-rice-paddy-for-free"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1791428682222-VXVU9A4YU7TXHNAC8NT1/AZOLLA.jpg"
+image: "illustration.jpg"
+image_original_file: "E:\\UnaMente\\Website Images\\Technical Ilustrations\\AZOLLA.jpg"
 place:
   country: "not stated"
   region: "not stated"

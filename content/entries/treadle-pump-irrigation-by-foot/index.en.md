@@ -15,6 +15,8 @@ published_on: "2026-09-21"
 live_updated_on: "2026-11-16"
 source_page: "https://www.unamente.org/library/treadle-pump-irrigation-by-foot"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1790005599251-65TZA3JAHCOO1YB5RRNU/treadle_pump_1500x1500.jpg"
+image: "illustration.jpg"
+image_original_file: "E:\\UnaMente\\Website Images\\Technical Ilustrations\\treadle_pump_1500x1500.jpg"
 place:
   country: "not stated"
   region: "not stated"

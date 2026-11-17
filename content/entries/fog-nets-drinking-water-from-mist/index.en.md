@@ -15,6 +15,8 @@ published_on: "2026-10-08"
 live_updated_on: "2026-11-17"
 source_page: "https://www.unamente.org/library/fog-nets-drinking-water-from-mist"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1790005576830-E4TJ8F5VQ6SGE36RVWLO/fog_nets_1500x1500.jpg"
+image: "illustration.jpg"
+image_original_file: "E:\\UnaMente\\Website Images\\Technical Ilustrations\\fog_nets_1500x1500.jpg"
 place:
   country: "not stated"
   region: "not stated"

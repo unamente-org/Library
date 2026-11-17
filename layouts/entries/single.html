@@ -5,7 +5,7 @@
   {{ if $unverified }}<p class="testnote">Unverified submission. UnaMente has not yet checked this against sources, so it carries no trust rating.</p>{{ end }}
   {{ partial "translation-notice.html" . }}
   <h1>{{ .Title }}</h1>
-  {{ with .Params.image_live }}<img class="hero" src="{{ . }}?format=750w" alt="" loading="lazy">{{ end }}
+  {{- with .Params.image }}{{ with $.Resources.Get . }}{{ $img := .Resize "750x q80" }}<img class="hero" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $.Params.image_alt }}" loading="lazy">{{ end }}{{ end }}
 
   {{- /* Spec section 1: header / at-a-glance. Field names follow UnaMente_Entry_Template_Spec. */ -}}
   <table class="glance">

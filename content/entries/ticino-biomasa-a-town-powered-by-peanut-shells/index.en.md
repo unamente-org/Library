@@ -15,6 +15,8 @@ published_on: "2026-10-08"
 live_updated_on: "2026-11-17"
 source_page: "https://www.unamente.org/library/ticino-biomasa-a-town-powered-by-peanut-shells"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1791430847294-PVPC4PYXUFWTOXDWGJCS/TICINO+BIOMASA.jpg"
+image: "illustration.jpg"
+image_original_file: "E:\\UnaMente\\Website Images\\Technical Ilustrations\\TICINO BIOMASA.jpg"
 place:
   country: "not stated"
   region: "not stated"

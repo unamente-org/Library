@@ -15,6 +15,8 @@ published_on: "2026-09-21"
 live_updated_on: "2026-11-16"
 source_page: "https://www.unamente.org/library/beehive-fences-keeping-elephants-out-with-bees"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1790005626000-2T1PF2X006FL3GB191Z7/beehive_fence_1500x1500.jpg"
+image: "illustration.jpg"
+image_original_file: "E:\\UnaMente\\Website Images\\Technical Ilustrations\\beehive_fence_1500x1500.jpg"
 place:
   country: "not stated"
   region: "not stated"

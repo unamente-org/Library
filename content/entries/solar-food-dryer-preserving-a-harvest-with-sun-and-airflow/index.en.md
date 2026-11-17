@@ -15,6 +15,8 @@ published_on: "2026-10-08"
 live_updated_on: "2026-10-23"
 source_page: "https://www.unamente.org/library/solar-food-dryer-preserving-a-harvest-with-sun-and-airflow"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1791430700900-GCRB5YXH5S5X2ZDV7KHY/SOLAR+FOOD+DRYER.jpg"
+image: "illustration.jpg"
+image_original_file: "E:\\UnaMente\\Website Images\\Technical Ilustrations\\SOLAR FOOD DRYER.jpg"
 place:
   country: "not stated"
   region: "not stated"

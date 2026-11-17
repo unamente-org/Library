@@ -15,6 +15,8 @@ published_on: "2026-10-08"
 live_updated_on: "2026-10-23"
 source_page: "https://www.unamente.org/library/improved-wood-cookstove-less-wood-less-smoke-built-locally"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1791430140187-8MJBRXAAQ31CP55WQSN1/IMPROVED+WOOD+COOKSTOVE.jpg"
+image: "illustration.jpg"
+image_original_file: "E:\\UnaMente\\Website Images\\Technical Ilustrations\\IMPROVED WOOD COOKSTOVE.jpg"
 place:
   country: "not stated"
   region: "not stated"
