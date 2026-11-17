@@ -1,0 +1,12 @@
+{
+  "name": "unamente-library",
+  "private": true,
+  "description": "UnaMente's free library. Build: npm run build (Hugo); output in public/.",
+  "scripts": {
+    "check": "python3 scripts/check_entries.py",
+    "build": "hugo --minify"
+  },
+  "devDependencies": {
+    "hugo-extended": "0.170.0"
+  }
+}
