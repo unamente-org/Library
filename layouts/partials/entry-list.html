@@ -37,7 +37,7 @@
   <li class="card tier-{{ if eq .Params.status "unverified-submission" }}none{{ else }}{{ $tier }}{{ end }}" data-lane="{{ delimit (.Params.lane | default slice) "|" }}" data-category="{{ delimit (.Params.category | default slice) "|" }}" data-trust="{{ delimit (.Params.trust | default slice) "|" }}" data-text="{{ lower (printf "%s %s %s %s" .Title (.Params.summary | default "") (.Params.problem | default "") (delimit (.Params.keywords | default slice) " ")) }}">
     <a href="{{ .RelPermalink }}">
       {{- /* Card picture: sized for the card (Ducky's page-speed advice), lazy-loaded, with explicit size. */ -}}
-      {{- with index hugo.Data.illustrations .Params.id }}{{ $d := . }}{{ with resources.Get (printf "illustrations/%s" $d.file) }}{{ $s := .Resize "400x q75" }}{{ $l := .Resize "800x q75" }}<img class="thumb" src="{{ $s.RelPermalink }}" srcset="{{ $s.RelPermalink }} 400w, {{ $l.RelPermalink }} 800w" sizes="(max-width: 520px) 92vw, 340px" width="{{ $s.Width }}" height="{{ $s.Height }}" alt="{{ $d.alt }}" loading="lazy">{{ end }}{{ end }}
+      {{- with index hugo.Data.illustrations .Params.id }}{{ $d := . }}{{ with resources.Get (printf "illustrations/%s" ($d.card_file | default $d.file)) }}{{ $s := .Resize "400x q75" }}{{ $l := .Resize "800x q75" }}<img class="thumb" src="{{ $s.RelPermalink }}" srcset="{{ $s.RelPermalink }} 400w, {{ $l.RelPermalink }} 800w" sizes="(max-width: 520px) 92vw, 340px" width="{{ $s.Width }}" height="{{ $s.Height }}" alt="{{ $d.alt }}" loading="lazy">{{ end }}{{ end }}
       <h2>{{ .Title }}</h2>
       {{ partial "badges.html" . }}
       {{ with .Params.summary }}<p class="summary">{{ . }}</p>{{ end }}

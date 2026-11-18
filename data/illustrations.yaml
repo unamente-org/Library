@@ -7,6 +7,7 @@
 #   ai_generated: recorded here as well as on the image, so the disclosure survives a crop
 #   status: current, or due-to-change with the reason
 #   alt: description for readers who cannot see the picture (empty until written)
+#   card_file: optional 16:9 version for the library cards (Lente, after Verus passes it); the square file stays on the entry page
 
 fog-nets-drinking-water-from-mist:
   file: "fog-nets-drinking-water-from-mist.jpg"
