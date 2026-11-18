@@ -19,6 +19,14 @@ a{color:var(--accent)}
 .fchip:hover{border-color:var(--line)}
 .fchip[aria-pressed="true"]{background:var(--accent);color:#fff;border-color:var(--accent)}
 @media (prefers-color-scheme:dark){.fchip[aria-pressed="true"]{color:#0c130f}}
+/* Filter buttons in the card badges' colours: tinted when off, solid when on. */
+.fchip[data-filter="lane"]{color:var(--accent);background:var(--accent-soft)}
+.fchip[data-filter="category"]{color:var(--muted);text-decoration:underline dotted var(--faint);text-underline-offset:2px}
+.fchip[data-value="Strong"]{--c:var(--strong)}.fchip[data-value="Moderate"]{--c:var(--moderate)}.fchip[data-value="Limited"]{--c:var(--limited)}
+.fchip[data-filter="trust"]{color:var(--c);background:color-mix(in srgb,var(--c) 14%,var(--card));font-weight:600}
+.fchip[data-filter="trust"][aria-pressed="true"]{background:var(--c);border-color:var(--c);color:#fff}
+.fchip[data-filter="category"][aria-pressed="true"]{text-decoration:none}
+@media (prefers-color-scheme:dark){.fchip[data-filter="trust"][aria-pressed="true"]{color:#0c130f}}
 .clear{align-self:flex-start;font:inherit;font-size:.8rem;color:var(--accent);background:transparent;border:1px solid var(--line);border-radius:9px;padding:5px 11px;cursor:pointer}
 .filters select{margin-left:6px;padding:4px;background:var(--card);color:var(--fg);border:1px solid var(--line);border-radius:6px}
 .count{color:var(--muted);font-size:.9rem}
