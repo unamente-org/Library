@@ -5,17 +5,20 @@
 <section class="finder" aria-label="Find an innovation">
   <label for="q">Search by problem or name</label>
   <input id="q" type="search" autocomplete="off" placeholder="For example: water for a dry season">
+  {{- /* Filter buttons, as in the 23 October demo: tap to switch on or off, hover or focus for what each means. */ -}}
   <div class="filters">
-    {{- range $key, $label := dict "lane" "Lane" "category" "Category" "trust" "Trust" }}
-    <label>{{ $label }}
-      <select data-filter="{{ $key }}">
-        <option value="">All</option>
-        {{- $vals := slice }}
-        {{- range $entries }}{{ with index .Params $key }}{{ $vals = $vals | append . }}{{ end }}{{ end }}
-        {{- range ($vals | uniq | sort) }}<option value="{{ . }}">{{ . }}</option>{{ end }}
-      </select>
-    </label>
+    {{- $L := hugo.Data.labels }}
+    {{- range (slice (slice "category" "Category") (slice "lane" "Lane") (slice "trust" "Trust")) }}
+    {{- $key := index . 0 }}
+    <div class="fgroup" role="group" aria-label="{{ index . 1 }}">
+      <span class="flabel">{{ index . 1 }}</span>
+      {{- $vals := slice }}
+      {{- range $entries }}{{ with index .Params $key }}{{ $vals = $vals | append . }}{{ end }}{{ end }}
+      {{- $order := cond (eq $key "trust") (slice "Strong" "Moderate" "Limited") ($vals | uniq | sort) }}
+      {{- range $order }}{{ if in $vals . }}<button type="button" class="fchip" data-filter="{{ $key }}" data-value="{{ . }}" aria-pressed="false"{{ with index (index $L $key) . }} data-tip="{{ . }}"{{ end }}>{{ . }}</button>{{ end }}{{ end }}
+    </div>
     {{- end }}
+    <button type="button" class="clear" id="clearAll" hidden>Clear all</button>
   </div>
   <details class="legend">
     <summary>What the labels mean</summary>
