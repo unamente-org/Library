@@ -3,10 +3,10 @@
 {{- $p := .Params -}}
 {{- $L := hugo.Data.labels -}}
 <div class="badges">
-  {{- if ne $p.status "unverified-submission" }}{{ range $p.trust }}<span class="b tier tier-{{ lower . }}" title="Trust: {{ . }}. {{ index $L.trust . }}">{{ . }}</span>{{ end }}{{ end }}
-  {{- range $p.lane }}<span class="b lane" title="{{ index $L.lane . }}">{{ . }}</span>{{ end }}
-  {{- range $p.category }}<span class="b cat" title="{{ index $L.category . }}">{{ . }}</span>{{ end }}
-  {{- with $p.maturity }}<span class="b" title="Maturity">{{ . }}</span>{{ end }}
-  {{- with $p.setting }}<span class="b" title="Setting">{{ . }}</span>{{ end }}
-  {{- with $p.entry_type }}<span class="b" title="Type">{{ . }}</span>{{ end }}
+  {{- if ne $p.status "unverified-submission" }}{{ range $p.trust }}<span class="b tier tier-{{ lower . }}" data-tip="Trust: {{ . }}. {{ index $L.trust . }}" tabindex="0">{{ . }}</span>{{ end }}{{ end }}
+  {{- range $p.lane }}<span class="b lane" data-tip="{{ index $L.lane . }}" tabindex="0">{{ . }}</span>{{ end }}
+  {{- range $p.category }}<span class="b cat" data-tip="{{ index $L.category . }}" tabindex="0">{{ . }}</span>{{ end }}
+  {{- with $p.maturity }}<span class="b" data-tip="Maturity" tabindex="0">{{ . }}</span>{{ end }}
+  {{- with $p.setting }}<span class="b" data-tip="Setting" tabindex="0">{{ . }}</span>{{ end }}
+  {{- with $p.entry_type }}<span class="b" data-tip="Type" tabindex="0">{{ . }}</span>{{ end }}
 </div>

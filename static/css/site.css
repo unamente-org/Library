@@ -22,12 +22,15 @@ a{color:var(--accent)}
 .card a:hover{border-color:var(--accent);border-left-color:var(--tier)}
 .card h2{font-family:var(--serif);font-weight:600;font-size:1.12rem;line-height:1.25;margin:0}
 .card .summary{font-size:.92rem;margin:0}
-.card .thumb{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:9px;border:1px solid var(--line);background:var(--surface-2);display:block}
+.card .thumb{width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;border-radius:9px;border:1px solid var(--line);background:var(--surface-2);display:block}
 .openlink{font-size:.8rem;color:var(--accent);font-weight:600;margin-top:auto}
 /* Badges, in the style of the 23 October demo: one horizontal row, hover for what each means. */
 .badges{display:flex;flex-wrap:wrap;gap:5px;margin:4px 0 10px}
 .b{font-size:.72rem;letter-spacing:.02em;border-radius:6px;padding:2px 7px;white-space:nowrap;border:1px solid var(--line);color:var(--muted);background:var(--surface-2)}
-.b[title]{cursor:help}
+.b[data-tip]{cursor:help;position:relative}
+/* Pop-up explanation on hover, keyboard focus or tap; does not rely on the browser's own tooltip. */
+.b[data-tip]:hover::after,.b[data-tip]:focus::after{content:attr(data-tip);position:absolute;left:0;top:calc(100% + 6px);z-index:10;width:max-content;max-width:260px;white-space:normal;background:var(--fg);color:var(--bg);font-size:.78rem;font-weight:400;letter-spacing:0;line-height:1.4;padding:7px 9px;border-radius:7px;box-shadow:var(--shadow);text-decoration:none}
+.b[data-tip]:focus{outline:2px solid var(--accent);outline-offset:1px}
 .b.lane{color:var(--accent);border-color:var(--accent-soft);background:var(--accent-soft)}
 .b.cat{text-decoration:underline dotted var(--faint);text-underline-offset:2px}
 .b.tier{color:#fff;border:0;font-weight:600;background:var(--limited)}
