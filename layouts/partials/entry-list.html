@@ -17,6 +17,15 @@
     </label>
     {{- end }}
   </div>
+  <details class="legend">
+    <summary>What the labels mean</summary>
+    <div class="defs">
+      {{- range $group, $defs := hugo.Data.labels }}
+      <div class="ghead">{{ index (dict "lane" "Lanes" "trust" "Trust" "category" "Categories") $group }}</div>
+      {{- range $k, $v := $defs }}<div><b>{{ $k }}</b> — {{ $v }}</div>{{ end }}
+      {{- end }}
+    </div>
+  </details>
   <p class="count" id="count" aria-live="polite"></p>
 </section>
 <ul class="cards" id="cards">
@@ -24,16 +33,17 @@
   {{- $pinned := slice }}{{ range (site.Params.pinFirst | default slice) }}{{ with where $entries "Params.id" . }}{{ $pinned = $pinned | append (index . 0) }}{{ end }}{{ end }}
   {{- $rest := slice }}{{ range $entries.ByTitle }}{{ if not (in $pinned .) }}{{ $rest = $rest | append . }}{{ end }}{{ end }}
   {{- range ($pinned | append $rest) }}
-  <li class="card" data-lane="{{ delimit (.Params.lane | default slice) "|" }}" data-category="{{ delimit (.Params.category | default slice) "|" }}" data-trust="{{ delimit (.Params.trust | default slice) "|" }}" data-text="{{ lower (printf "%s %s %s %s" .Title (.Params.summary | default "") (.Params.problem | default "") (delimit (.Params.keywords | default slice) " ")) }}">
+  {{- $tier := lower (index (.Params.trust | default (slice "none")) 0) }}
+  <li class="card tier-{{ if eq .Params.status "unverified-submission" }}none{{ else }}{{ $tier }}{{ end }}" data-lane="{{ delimit (.Params.lane | default slice) "|" }}" data-category="{{ delimit (.Params.category | default slice) "|" }}" data-trust="{{ delimit (.Params.trust | default slice) "|" }}" data-text="{{ lower (printf "%s %s %s %s" .Title (.Params.summary | default "") (.Params.problem | default "") (delimit (.Params.keywords | default slice) " ")) }}">
     <a href="{{ .RelPermalink }}">
+      {{- /* Card picture: sized for the card (Ducky's page-speed advice), lazy-loaded, with explicit size. */ -}}
+      {{- with index hugo.Data.illustrations .Params.id }}{{ $d := . }}{{ with resources.Get (printf "illustrations/%s" $d.file) }}{{ $s := .Fill "400x225 q75 Center" }}{{ $l := .Fill "800x450 q75 Center" }}<img class="thumb" src="{{ $s.RelPermalink }}" srcset="{{ $s.RelPermalink }} 400w, {{ $l.RelPermalink }} 800w" sizes="(max-width: 520px) 92vw, 340px" width="400" height="225" alt="{{ $d.alt }}" loading="lazy">{{ end }}{{ end }}
       <h2>{{ .Title }}</h2>
-      {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
-      <p class="chips">
-        {{ range .Params.lane }}<span class="chip">{{ . }}</span>{{ end }}
-        {{ if ne .Params.status "unverified-submission" }}{{ range .Params.trust }}<span class="chip trust">Trust: {{ . }}</span>{{ end }}{{ else }}<span class="chip test">Unverified</span>{{ end }}
-        {{ if and site.Params.testBuild (ne .Params.status "published") }}<span class="chip">{{ .Params.status | default "no status" }}</span>{{ end }}
-        {{ if .Params.test }}<span class="chip test">TEST</span>{{ end }}
-      </p>
+      {{ partial "badges.html" . }}
+      {{ with .Params.summary }}<p class="summary">{{ . }}</p>{{ end }}
+      {{ if eq .Params.status "unverified-submission" }}<p class="chips"><span class="chip test">Unverified</span></p>{{ end }}
+      {{ if and site.Params.testBuild (ne .Params.status "published") }}<p class="chips"><span class="chip">{{ .Params.status | default "no status" }}</span></p>{{ end }}
+      <span class="openlink">Open the full entry →</span>
     </a>
   </li>
   {{- end }}

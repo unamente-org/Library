@@ -1,0 +1,20 @@
+# Hover explanations for the badges, copied word for word from the 23 October demo artifact
+# ("UnaMente Library", LANE_DEF / TRUST_DEF / DOMAIN_DEF). Daniela asked for that formatting on 17 November 2026.
+# "Human-Wildlife Coexistence" uses the demo's "Human-wildlife" text; the live category name is longer.
+lane:
+  Solutions: "A build-it-yourself solution with real, free instructions. Owned by no one."
+  Preserved Knowledge: "Traditional knowledge owned by its custodians — documented with respect, never a copy-paste blueprint."
+  Story: "An inspiring project or person, sometimes patented or commercial. We share the story and are clear which is which."
+trust:
+  Strong: "Checked by several people who tested it themselves, working separately and getting the same result."
+  Moderate: "Real and documented, but the evidence is thinner or partly self-reported."
+  Limited: "Promising but lightly evidenced — treat it with care."
+category:
+  Water: "Drinking water, irrigation, and making unsafe water safe."
+  Food: "Growing, raising, and preserving food."
+  Energy: "Cooking fuel, heat, and power."
+  Soil: "Keeping land fertile and holding it in place."
+  Health: "Staying well and treating illness."
+  Waste: "Turning waste into something useful, safely."
+  Shelter: "Safe, affordable housing."
+  Human-Wildlife Coexistence: "Living alongside wild animals without losing crops or safety."

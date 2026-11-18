@@ -1,0 +1,12 @@
+{{- /* Horizontal badges with hover explanations, in the style of the 23 October demo.
+     Order: trust, lane, categories, maturity, setting, type. An unverified submission shows no trust badge (B2). */ -}}
+{{- $p := .Params -}}
+{{- $L := hugo.Data.labels -}}
+<div class="badges">
+  {{- if ne $p.status "unverified-submission" }}{{ range $p.trust }}<span class="b tier tier-{{ lower . }}" title="Trust: {{ . }}. {{ index $L.trust . }}">{{ . }}</span>{{ end }}{{ end }}
+  {{- range $p.lane }}<span class="b lane" title="{{ index $L.lane . }}">{{ . }}</span>{{ end }}
+  {{- range $p.category }}<span class="b cat" title="{{ index $L.category . }}">{{ . }}</span>{{ end }}
+  {{- with $p.maturity }}<span class="b" title="Maturity">{{ . }}</span>{{ end }}
+  {{- with $p.setting }}<span class="b" title="Setting">{{ . }}</span>{{ end }}
+  {{- with $p.entry_type }}<span class="b" title="Type">{{ . }}</span>{{ end }}
+</div>
