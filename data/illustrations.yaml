@@ -39,10 +39,9 @@ sodis-disinfecting-drinking-water-with-a-clear-bottle-and-sunshine:
 
 oral-rehydration-solution-ors-stopping-dehydration-with-salt-sugar-and-water:
   file: "oral-rehydration-solution-ors-stopping-dehydration-with-salt-sugar-and-water.jpg"
-  original_file: "image_42affb38 (1).jpg"
+  original_file: "ORS_2026-11-17.jpg"
   ai_generated: true
-  status: due-to-change
-  status_note: "caption sits mid-picture, not at the bottom edge; Lente has a caption fix coming"
+  status: current   # replaced 18 November 2026 (Daniela; read back by Umbral)
   alt: ""
 
 ticino-biomasa-a-town-powered-by-peanut-shells:
@@ -122,7 +121,7 @@ oyster-mushrooms-on-bagasse-food-from-a-waste:
 
 vermifiltration-earthworms-that-clean-wastewater:
   file: "vermifiltration-earthworms-that-clean-wastewater.jpg"
-  original_file: "Vermifiltration_TreatedWater_2026-11-16.jpg"
+  original_file: "Vermifiltration_TreatedWater_Graywater_2026-11-17.jpg"
   ai_generated: true
   status: current
   alt: ""

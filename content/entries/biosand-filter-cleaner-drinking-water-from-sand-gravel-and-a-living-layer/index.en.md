@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-17. Source: /library/biosand-filter-cleaner-drinking-water-from-sand-gravel-and-a-living-layer
+# Copied unchanged from the live Squarespace entry on 2026-11-19. Source: /library/biosand-filter-cleaner-drinking-water-from-sand-gravel-and-a-living-layer
 id: "biosand-filter-cleaner-drinking-water-from-sand-gravel-and-a-living-layer"
 url: "/library/biosand-filter-cleaner-drinking-water-from-sand-gravel-and-a-living-layer/"
 title: "Biosand Filter: Cleaner Drinking Water From Sand, Gravel and a Living Layer"
@@ -40,15 +40,15 @@ Many families get their water from a river, a pond, a shallow well or a tank tha
 
 The filter is a tall box, usually concrete, filled with layers of fine sand and gravel. You pour water into the top. It sinks slowly through the sand and comes out of a pipe into a clean container.
 
-A layer of water, about 5 cm deep, always sits on top of the sand. In that layer, and in the top of the sand, a living film of tiny organisms grows. It is called the biolayer. Germs from the dirty water get trapped in the sand, eaten by the organisms in the biolayer, or simply die. CAWST describes four ways the filter removes them: trapping, sticking to the sand, being eaten, and dying off.
+A layer of water, 4 to 6 cm deep, always sits on top of the sand when no water is flowing. In that layer, and in the top of the sand, a living film of tiny organisms grows. It is called the biolayer. Germs from the dirty water get trapped in the sand, eaten by the organisms in the biolayer, or simply die. CAWST describes four ways the filter removes them: trapping, sticking to the sand, being eaten, and dying off.
 
 ### What you need
 
 **To build one:** a concrete box cast in a mould, or another container that is waterproof, rustproof and safe for drinking water. Sand and gravel that have been sorted to the right sizes and washed. A diffuser plate so the water you pour does not stir up the top of the sand. A pipe and a clean container with a lid for the filtered water. The steps are in CAWST's construction manual, which is free and linked below.
 
-**The cost.** In 2009 CAWST put the cost of a concrete filter at 12 to 40 US dollars to build, with nothing to pay after that. That figure is old, and it leaves out the cost of training, transport and teaching families to use the filter.
+**The cost.** CAWST's 2025 sheet puts it at 12 to 100 US dollars, depending on what the filter body is made of and what labor costs. Its 2009 sheet gave 12 to 40 US dollars for a concrete filter. Neither figure includes training, transport or teaching families to use the filter. After that there is little to buy: the sand never needs replacing, but the lid and diffuser may need replacing every few years. CAWST expects a filter to last ten years or more.
 
-**The work.** Building one is real work: mixing and casting concrete, and sorting and washing a lot of sand and gravel. Using it is daily work too. CAWST's design takes 12 to 18 litres at a time and filters about 0.4 litres a minute. Four batches a day give a household 24 to 72 litres. After each batch you wait at least an hour before pouring in more. Someone has to fetch and carry all of that water.
+**The work.** Building one is real work: mixing and casting concrete, and sorting and washing a lot of sand and gravel. Using it is daily work too. CAWST's 2025 sheet says a household filter treats up to 48 liters a day, poured in as one to four batches spread through the day, and the water comes out at 0.29 to 0.6 liters a minute. After each batch you wait at least an hour before pouring in more. Someone has to fetch and carry all of that water.
 
 ### How to use it
 
@@ -58,11 +58,13 @@ A layer of water, about 5 cm deep, always sits on top of the sand. In that layer
 
 3.  **Use the same water source.** Switching sources can make the filter work less well for a while.
 
-4.  **Strain very muddy water first.** If the water is very cloudy, let it settle or pour it through a cloth before it goes in.
+4.  **Never put chlorine in the filter.** Do not pour in chlorinated water, even water that is chlorinated only some of the time. CAWST says chlorine makes the filter work less well. If you also want to disinfect, do it after the water comes out.
 
-5.  **Clean it only when it slows down.** When the flow gets too slow for the family's needs, stir the top of the sand by hand and scoop out the dirty water. CAWST calls this "swirl and dump". It disturbs the biolayer, so the filter cleans less well for a while afterwards.
+5.  **Strain very muddy water first.** If the water is very cloudy (CAWST's threshold is more than 50 NTU, a measure of cloudiness), let it settle or pour it through a cloth before it goes in.
 
-6.  **Keep the clean water clean.** Collect it straight into a covered container and keep the outlet pipe clean.
+6.  **Clean it only when it slows down.** When the flow gets too slow for the family's needs, stir the top of the sand by hand and scoop out the dirty water. CAWST calls this "swirl and dump". It disturbs the biolayer, so the filter cleans less well for a while afterwards.
+
+7.  **Keep the clean water clean.** Collect it straight into a covered container and keep the outlet pipe clean.
 
 ### What to expect, and what not to expect
 
@@ -76,11 +78,15 @@ A layer of water, about 5 cm deep, always sits on top of the sand. In that layer
 
 ### When it does not work
 
-**It does not remove chemicals dissolved in the water.** CAWST lists dissolved chemicals as something the filter is not effective for. If your water has a chemical problem, for example arsenic in some wells, this filter is not the answer.
+**It does not remove most chemicals dissolved in the water, including salt.** CAWST says it does remove iron, and that a modified design, the Kanchan Arsenic Filter, can remove arsenic. If your water has a chemical problem, the standard filter is not the answer on its own.
 
 **It is not safe straight away.** For up to a month after it is built, the biolayer is still growing. Disinfect the water during that time.
 
 **It does not stop all viruses.** CAWST rates it only somewhat effective against them.
+
+**It is not meant for chlorinated water.** CAWST's 2025 sheet says a biosand filter is not the right choice where the water is chlorinated, even if only sometimes.
+
+**It cannot be moved.** Once installed, the filter stays where it is. An empty concrete body weighs 70 to 135 kg, so it does not suit families who move often.
 
 **The trial did not show a benefit in the rainy season.** See above. Plan for that, especially if floods or heavy rain bring dirtier water.
 
@@ -92,7 +98,7 @@ A layer of water, about 5 cm deep, always sits on top of the sand. In that layer
 
 ### Common mistakes, and how to avoid them
 
-Drinking the water before the filter has ripened. Leaving the filter unused for more than two days. Cleaning the sand when the flow is still fine. Using a dirty or open container for the filtered water. Using sand that is too fine, which makes the water barely drip. The manual explains how to get each of these right.
+Drinking the water before the filter has ripened. Leaving the filter unused for more than two days. Cleaning the sand when the flow is still fine. Using a dirty or open container for the filtered water. Using sand that is too fine, which makes the water barely drip. Putting a tap or hose on the outlet pipe: the outlet sets the water level inside the filter, and a tap changes it. Using the same container to fetch dirty water and to collect filtered water, which makes the clean water dirty again. The manual explains how to get each of these right.
 
 ### Where it has been used
 
@@ -118,8 +124,10 @@ Manz patented the filter in 1995. A plastic version of the filter is patented an
 
 3.  CAWST, *Household Water Treatment and Safe Storage Fact Sheet: Biosand Filter*, last updated October 2009. Copy held by SSWM: <https://sswm.info/sites/default/files/reference_attachments/CAWST%202009%20Biosand%20Filter%20Fact%20Sheet%20academic_1.pdf> (archived: <https://web.archive.org/web/20160314112624/http://www.sswm.info/sites/default/files/reference_attachments/CAWST%202009%20Biosand%20Filter%20Fact%20Sheet%20academic_1.pdf>) — what it removes, ripening time, batch size, flow, rest times, maintenance and cost.
 
-4.  Government of Alberta, Alberta Order of Excellence, "David Manz" (inducted 2018): <https://www.alberta.ca/aoe-david-manz> (archived: <https://web.archive.org/web/20260614124502/https://www.alberta.ca/aoe-david-manz>) — the origin story, the patent, CAWST's founding and the numbers of filters built.
+4.  CAWST, *Biosand Filter – Technical Information* (2025): <https://washresources.cawst.org/en/resources/7c47441f/biosand-filter-technical-information-sheet> (archived file: <https://web.archive.org/web/20261117191407/https://cdn.sanity.io/files/r8bm187e/production/b6e8d4c9aebfdc32959eb1a8eb5bb35edd0a62c6.docx>) and *Biosand Filter – Operation & Maintenance* (2025): <https://washresources.cawst.org/en/resources/fed0d49e/biosand-filter-operation-and-maintenance-sheet> (archived file: <https://web.archive.org/web/20261117191422/https://cdn.sanity.io/files/r8bm187e/production/d9c3c5cdb6b1062018b7d8daa61bb1dfb4c919c0.docx>) — chlorine, cost, daily volume, flow, water layer, weight, lifespan, and the tap and container mistakes.
 
-5.  Camille Dow Baker, "Turning water into opportunity: The story behind CAWST," CAWST blog: <https://www.cawst.org/blog/celebrating-camille-dow-bakers-legacy> (archived: <https://web.archive.org/web/20260303190609/https://www.cawst.org/blog/celebrating-camille-dow-bakers-legacy>) — CAWST's founding, in its co-founder's words.
+5.  Government of Alberta, Alberta Order of Excellence, "David Manz" (inducted 2018): <https://www.alberta.ca/aoe-david-manz> (archived: <https://web.archive.org/web/20260614124502/https://www.alberta.ca/aoe-david-manz>) — the origin story, the patent, CAWST's founding and the numbers of filters built.
+
+6.  Camille Dow Baker, "Turning water into opportunity: The story behind CAWST," CAWST blog: <https://www.cawst.org/blog/celebrating-camille-dow-bakers-legacy> (archived: <https://web.archive.org/web/20260303190609/https://www.cawst.org/blog/celebrating-camille-dow-bakers-legacy>) — CAWST's founding, in its co-founder's words.
 
 *UnaMente — Minds everywhere, solutions for everyone.*
