@@ -1,0 +1,26 @@
+# Squarespace URL Mappings for the library move (Settings > Developer tools > URL mappings).
+# One line per old address -> new address, 301. Use at go-live only; Ducky/Umbral test one entry first.
+# Generated from the repository's entries on 2026-11-19 by Cimiento.
+
+/library/azolla-a-water-fern-that-fertilizes-a-rice-paddy-for-free -> https://library.unamente.org/library/azolla-a-water-fern-that-fertilizes-a-rice-paddy-for-free/ 301
+/library/beehive-fences-keeping-elephants-out-with-bees -> https://library.unamente.org/library/beehive-fences-keeping-elephants-out-with-bees/ 301
+/library/biochar-charcoal-that-rebuilds-soil -> https://library.unamente.org/library/biochar-charcoal-that-rebuilds-soil/ 301
+/library/biogas-digesters-cooking-gas-from-waste -> https://library.unamente.org/library/biogas-digesters-cooking-gas-from-waste/ 301
+/library/biosand-filter-cleaner-drinking-water-from-sand-gravel-and-a-living-layer -> https://library.unamente.org/library/biosand-filter-cleaner-drinking-water-from-sand-gravel-and-a-living-layer/ 301
+/library/fog-nets-drinking-water-from-mist -> https://library.unamente.org/library/fog-nets-drinking-water-from-mist/ 301
+/library/improved-wood-cookstove-less-wood-less-smoke-built-locally -> https://library.unamente.org/library/improved-wood-cookstove-less-wood-less-smoke-built-locally/ 301
+/library/oga-sanitised-human-urine-as-fertilizer -> https://library.unamente.org/library/oga-sanitised-human-urine-as-fertilizer/ 301
+/library/oral-rehydration-solution-ors-stopping-dehydration-with-salt-sugar-and-water -> https://library.unamente.org/library/oral-rehydration-solution-ors-stopping-dehydration-with-salt-sugar-and-water/ 301
+/library/oyster-mushrooms-on-bagasse-food-from-a-waste -> https://library.unamente.org/library/oyster-mushrooms-on-bagasse-food-from-a-waste/ 301
+/library/push-pull-companion-planting-that-beats-two-pests-at-once -> https://library.unamente.org/library/push-pull-companion-planting-that-beats-two-pests-at-once/ 301
+/library/sand-dams-banking-a-seasons-water-inside-the-sand -> https://library.unamente.org/library/sand-dams-banking-a-seasons-water-inside-the-sand/ 301
+/library/seismic-reinforced-adobe-making-earthen-houses-survive-an-earthquake -> https://library.unamente.org/library/seismic-reinforced-adobe-making-earthen-houses-survive-an-earthquake/ 301
+/library/sodis-disinfecting-drinking-water-with-a-clear-bottle-and-sunshine -> https://library.unamente.org/library/sodis-disinfecting-drinking-water-with-a-clear-bottle-and-sunshine/ 301
+/library/solar-food-dryer-preserving-a-harvest-with-sun-and-airflow -> https://library.unamente.org/library/solar-food-dryer-preserving-a-harvest-with-sun-and-airflow/ 301
+/library/ticino-biomasa-a-town-powered-by-peanut-shells -> https://library.unamente.org/library/ticino-biomasa-a-town-powered-by-peanut-shells/ 301
+/library/treadle-pump-irrigation-by-foot -> https://library.unamente.org/library/treadle-pump-irrigation-by-foot/ 301
+/library/tusafishe-low-cost-water-filters-for-schools-uganda -> https://library.unamente.org/library/tusafishe-low-cost-water-filters-for-schools-uganda/ 301
+/library/vermifiltration-earthworms-that-clean-wastewater -> https://library.unamente.org/library/vermifiltration-earthworms-that-clean-wastewater/ 301
+/library/za-pits-bringing-dead-soil-back-to-life -> https://library.unamente.org/library/za-pits-bringing-dead-soil-back-to-life/ 301
+/library/zeer-pot-a-fridge-that-runs-on-nothing -> https://library.unamente.org/library/zeer-pot-a-fridge-that-runs-on-nothing/ 301
+/library -> https://library.unamente.org/ 301

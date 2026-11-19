@@ -1,0 +1,9 @@
+{{- /* Links inside entry text. Entries are copied from Squarespace, where "/contact" means unamente.org/contact.
+     On library.unamente.org that would break, so site-relative links outside /library/ point back to the main site.
+     Formatting only: the link text and the page it leads to are unchanged. */ -}}
+{{- $u := .Destination -}}
+{{- if and (hasPrefix $u "/") (not (hasPrefix $u "//")) (not (hasPrefix $u "/library/")) -}}
+  {{- $u = printf "%s%s" (site.Params.mainSite | default "https://www.unamente.org") $u -}}
+{{- end -}}
+<a href="{{ $u | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if or (hasPrefix $u "http://") (hasPrefix $u "https://") }}{{ if not (hasPrefix $u (site.BaseURL | strings.TrimSuffix "/")) }} rel="noopener"{{ end }}{{ end }}>{{ .Text | safeHTML }}</a>
+{{- /* */ -}}

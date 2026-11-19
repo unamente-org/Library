@@ -1,0 +1,7 @@
+{{ define "main" }}
+<article class="entry">
+  <h1>Page not found</h1>
+  <p>This page isn't in the library, or its address has changed.</p>
+  <p><a href="{{ "/" | relURL }}">Search the library</a> · <a href="{{ site.Params.mainSite | default "https://www.unamente.org" }}/contact">Tell us what you were looking for</a></p>
+</article>
+{{ end }}

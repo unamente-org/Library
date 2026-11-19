@@ -1,8 +1,12 @@
-# Old public addresses and where they now live (design B1).
-# An entry's id never changes; its url may. Every change of url adds a line here,
-# so links already shared keep working.
-#
-# - from: /library/old-address
-#   to: /library/new-address
-#   since: 2026-10-21
-[]
+# Old-to-new addresses inside library.unamente.org, written by the build into _redirects (301).
+# Entry addresses keep the same path (/library/<slug>/), so they need no line here.
+# Forwarding from www.unamente.org/library/... to library.unamente.org is set up on the Squarespace
+# side at go-live; the list for that is in docs/squarespace-url-mappings.txt.
+- from: /library
+  to: /
+- from: /library/
+  to: /
+- from: /library/tag/*
+  to: /
+- from: /library/category/*
+  to: /
