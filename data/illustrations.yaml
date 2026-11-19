@@ -6,7 +6,7 @@
 #   original_file: the file in Daniela's folder E:\UnaMente\Website Images\Technical Ilustrations\
 #   ai_generated: recorded here as well as on the image, so the disclosure survives a crop
 #   status: current, or due-to-change with the reason
-#   alt: description for readers who cannot see the picture (empty until written)
+#   alt: description for readers who cannot see the picture (Lente, 19 November 2026, copied unchanged)
 #   card_file: optional 16:9 version for the library cards (Lente, after Verus passes it); the square file stays on the entry page
 
 fog-nets-drinking-water-from-mist:
@@ -14,35 +14,35 @@ fog-nets-drinking-water-from-mist:
   original_file: "fog_nets_1500x1500.jpg"
   ai_generated: true
   status: current
-  alt: ""
+  alt: "A fine mesh net stretched between two wooden posts; labels show fog droplets collecting on the mesh, merging and running down into a collection gutter, and a pipe carrying the water to a storage tank."
 
 biosand-filter-cleaner-drinking-water-from-sand-gravel-and-a-living-layer:
   file: "biosand-filter-cleaner-drinking-water-from-sand-gravel-and-a-living-layer.jpg"
   original_file: "BIOSAND_2026-11-17b.jpg"
   ai_generated: true
   status: current
-  alt: ""
+  alt: "Cutaway of a concrete biosand filter: water poured in at the top through a diffuser plate, a thin water layer over deep sand and gravel, and an outlet pipe carrying filtered water into a covered container with a tap."
 
 oga-sanitised-human-urine-as-fertilizer:
   file: "oga-sanitised-human-urine-as-fertilizer.jpg"
   original_file: "OGA_2026-11-17.jpg"
   ai_generated: true
   status: current
-  alt: ""
+  alt: "A dry field of young millet plants in planting pits; a cup pours a small amount of liquid into the soil beside one plant, with a plastic jerrycan nearby."
 
 sodis-disinfecting-drinking-water-with-a-clear-bottle-and-sunshine:
   file: "sodis-disinfecting-drinking-water-with-a-clear-bottle-and-sunshine.jpg"
   original_file: "image_416d69b4 (1).jpg"
   ai_generated: true
   status: current
-  alt: ""
+  alt: "Three clear plastic water bottles lying on their sides on a sunlit corrugated metal roof, with arrows showing the sun's rays falling on them."
 
 oral-rehydration-solution-ors-stopping-dehydration-with-salt-sugar-and-water:
   file: "oral-rehydration-solution-ors-stopping-dehydration-with-salt-sugar-and-water.jpg"
   original_file: "ORS_2026-11-17.jpg"
   ai_generated: true
   status: current   # replaced 18 November 2026 (Daniela; read back by Umbral)
-  alt: ""
+  alt: "A glass jug of clean water, an empty cup and a teaspoon on a wooden table, beside a large heap of sugar and a much smaller heap of salt."
 
 ticino-biomasa-a-town-powered-by-peanut-shells:
   file: "ticino-biomasa-a-town-powered-by-peanut-shells.jpg"
@@ -50,7 +50,7 @@ ticino-biomasa-a-town-powered-by-peanut-shells:
   ai_generated: true
   status: due-to-change
   status_note: "purple-flower edit coming from Lente"
-  alt: ""
+  alt: "A cutaway power plant: peanut shells are fed by conveyor into a furnace, the steam turns a turbine and generator, and power lines carry electricity to nearby houses."
 
 solar-food-dryer-preserving-a-harvest-with-sun-and-airflow:
   file: "solar-food-dryer-preserving-a-harvest-with-sun-and-airflow.jpg"
@@ -58,7 +58,7 @@ solar-food-dryer-preserving-a-harvest-with-sun-and-airflow:
   ai_generated: true
   status: due-to-change
   status_note: "purple-flower edit coming from Lente"
-  alt: ""
+  alt: "A sun-heated collector box beside a dryer cabinet with stacked trays of sliced fruit and vegetables; arrows show warm air rising through the trays and out of a vent at the top."
 
 improved-wood-cookstove-less-wood-less-smoke-built-locally:
   file: "improved-wood-cookstove-less-wood-less-smoke-built-locally.jpg"
@@ -66,7 +66,7 @@ improved-wood-cookstove-less-wood-less-smoke-built-locally:
   ai_generated: true
   status: due-to-change
   status_note: "purple-flower edit coming from Lente"
-  alt: ""
+  alt: "Cutaway of a brick cookstove with an insulated combustion chamber: sticks are fed into the fire, a pot sits on top, and arrows show hot gases rising to the pot and smoke leaving through a chimney."
 
 seismic-reinforced-adobe-making-earthen-houses-survive-an-earthquake:
   file: "seismic-reinforced-adobe-making-earthen-houses-survive-an-earthquake.jpg"
@@ -74,14 +74,14 @@ seismic-reinforced-adobe-making-earthen-houses-survive-an-earthquake:
   ai_generated: true
   status: due-to-change
   status_note: "purple-flower edit coming from Lente"
-  alt: ""
+  alt: "An adobe brick wall on a raised base, wrapped on both faces in mesh tied through the wall and topped with a bond beam, with arrows showing the wall held together against shaking."
 
 sand-dams-banking-a-seasons-water-inside-the-sand:
   file: "sand-dams-banking-a-seasons-water-inside-the-sand.jpg"
   original_file: "SAND_DAMS_2026-11-17b.jpg"
   ai_generated: true
   status: current
-  alt: ""
+  alt: "Cutaway of a sand dam: a masonry wall built across a dry riverbed down to the bedrock, with water-holding sand piled up behind it and a covered well with a hand pump drawing from the sand upstream."
 
 azolla-a-water-fern-that-fertilizes-a-rice-paddy-for-free:
   file: "azolla-a-water-fern-that-fertilizes-a-rice-paddy-for-free.jpg"
@@ -89,77 +89,80 @@ azolla-a-water-fern-that-fertilizes-a-rice-paddy-for-free:
   ai_generated: true
   status: due-to-change
   status_note: "purple-flower edit coming from Lente"
-  alt: ""
+  alt: "Cutaway of a flooded rice paddy covered in a floating mat of small azolla ferns, with a close-up circle showing the fern and its roots in the water, and ducks swimming among the rice."
 
 push-pull-companion-planting-that-beats-two-pests-at-once:
   file: "push-pull-companion-planting-that-beats-two-pests-at-once.jpg"
   original_file: "PUSH-PULL.jpg"
   ai_generated: true
   status: current
-  alt: ""
+  alt: "A plot seen from above: rows of maize interplanted with a low leafy legume, surrounded by a border of tall grass, with small moths drawn to the border and away from the crop."
 
 tusafishe-low-cost-water-filters-for-schools-uganda:
   file: "tusafishe-low-cost-water-filters-for-schools-uganda.jpg"
   original_file: "Tusafishe.jpg"
   ai_generated: true
   status: current
-  alt: ""
+  alt: "A stacked bucket water filter in cutaway: water poured in at the top passes down through layers of gravel, sand and charcoal into a clean-water chamber with a tap; moringa leaves and seeds beside it."
 
 biochar-charcoal-that-rebuilds-soil:
   file: "biochar-charcoal-that-rebuilds-soil.jpg"
   original_file: "Biochar.jpg"
   ai_generated: true
   status: current
-  alt: ""
+  alt: "A cone-shaped open kiln dug into the ground, with plant waste turning into black charcoal under a flame, above a cross-section of dark, charcoal-enriched soil."
 
 oyster-mushrooms-on-bagasse-food-from-a-waste:
   file: "oyster-mushrooms-on-bagasse-food-from-a-waste.jpg"
   original_file: "Oyster mushrooms.jpg"
   ai_generated: true
   status: current
-  alt: ""
+  alt: "A hanging bag of packed sugarcane waste with clusters of oyster mushrooms growing out of its sides, in a shaded growing room with more bags behind."
 
 vermifiltration-earthworms-that-clean-wastewater:
   file: "vermifiltration-earthworms-that-clean-wastewater.jpg"
   original_file: "Vermifiltration_TreatedWater_Graywater_2026-11-17.jpg"
   ai_generated: true
   status: current
-  alt: ""
+  alt: "Cutaway of a vermifilter tank: graywater trickles in from a sprinkler pipe onto a worm bed of composting worms, passes down through sand and gravel, and treated water flows out at the bottom; labels name each layer."
 
 biogas-digesters-cooking-gas-from-waste:
   file: "biogas-digesters-cooking-gas-from-waste.jpg"
   original_file: "Biogas digesters.jpg"
   ai_generated: true
   status: current
-  alt: ""
+  alt: "Cutaway of an underground dome digester: waste goes in through an inlet pipe, gas collects in the dome and is piped to a kitchen burner, and digested slurry flows out to a vegetable garden."
 
 zeer-pot-a-fridge-that-runs-on-nothing:
   file: "zeer-pot-a-fridge-that-runs-on-nothing.jpg"
   original_file: "zeer_pot_1500x1500.jpg"
   ai_generated: true
   status: current
-  alt: ""
+  alt: "Cutaway of a pot-in-pot cooler: a small clay pot holding fruit and vegetables sits inside a larger clay pot with wet sand between them under a damp cloth; arrows show heat pulled outward and carried away by evaporation."
 
 treadle-pump-irrigation-by-foot:
   file: "treadle-pump-irrigation-by-foot.jpg"
   original_file: "treadle_pump_1500x1500.jpg"
   ai_generated: true
   status: current
-  alt: ""
+  alt: "Diagram of a person standing on the foot pedals of a two-cylinder treadle pump that draws water up an intake pipe and pushes it along a delivery pipe into an irrigation channel beside a crop; labels name each part."
 
 beehive-fences-keeping-elephants-out-with-bees:
   file: "beehive-fences-keeping-elephants-out-with-bees.jpg"
   original_file: "beehive_fence_1500x1500.jpg"
   ai_generated: true
   status: current
-  alt: ""
+  alt: "Two views of a fence of hanging beehives and dummy hives linked by a wire along the edge of a farm: an elephant approaches, then turns away when the wire disturbs the bees; a jar of honey shows the harvest."
 
 za-pits-bringing-dead-soil-back-to-life:
   file: "za-pits-bringing-dead-soil-back-to-life.jpg"
   original_file: "zai_pits_1500x1500.jpg"
   ai_generated: true
   status: current
-  alt: ""
+  alt: "Cross-section of a zaï pit dug in hardened, crusted soil: rainwater collects in the pit around a seedling growing in manure or compost, the dug soil forms a ridge downslope, and termite tunnels break up the soil; an inset shows staggered rows of pits across a slope."
 
 # Passed by Verus on 17 November 2026, waiting for their pages to be published; files in assets/illustrations/pending/.
 # FMNR_2026-11-17.jpg (FMNR, Niger) and QOCHAS_2026-11-17.jpg (Qochas). Add an entry above when the page goes live.
+# Alt text from Lente (19 November), to use then:
+#   FMNR: "A tree regrowing from an old cut stump with a wide spreading root system below ground, its new stems pruned to a few strong ones, standing in a field of crops beside a mature tree."
+#   Qochas: "A small pond in a natural hollow in high Andean grassland, held back on its lower side by a low, grass-covered earth bank, with snow-dusted mountains in the distance."
