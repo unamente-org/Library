@@ -11,6 +11,7 @@ trust: ["Strong"]
 maturity: "Scaled"
 setting: "Rural"
 entry_type: "Technical"
+safety_figures: false   # Verus, 20 November 2026
 published_on: "2026-09-21"
 live_updated_on: "2026-11-16"
 source_page: "https://www.unamente.org/library/beehive-fences-keeping-elephants-out-with-bees"

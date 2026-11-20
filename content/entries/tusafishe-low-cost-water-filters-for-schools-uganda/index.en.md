@@ -11,6 +11,7 @@ trust: ["Moderate"]
 maturity: "Scaled (one operator)"
 setting: ""
 entry_type: "Social Enterprise"
+safety_figures: true   # Verus, 20 November 2026
 published_on: "2026-10-08"
 live_updated_on: "2026-10-21"
 source_page: "https://www.unamente.org/library/tusafishe-low-cost-water-filters-for-schools-uganda"

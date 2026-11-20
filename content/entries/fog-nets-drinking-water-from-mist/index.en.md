@@ -11,6 +11,7 @@ trust: ["Strong"]
 maturity: "Scaled"
 setting: "Rural"
 entry_type: "Technical"
+safety_figures: true   # Verus, 20 November 2026
 published_on: "2026-09-20"   # Daniela, 17 November 2026: first published 20 September 2026. The live page read 8 October on the morning of 17 November, then 17 November after it was re-dated to show first on Squarespace.
 live_updated_on: "2026-11-17"
 source_page: "https://www.unamente.org/library/fog-nets-drinking-water-from-mist"

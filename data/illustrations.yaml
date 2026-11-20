@@ -11,6 +11,7 @@
 
 fog-nets-drinking-water-from-mist:
   file: "fog-nets-drinking-water-from-mist.jpg"
+  card_file: "cards/fog-nets-drinking-water-from-mist.jpg"   # FOG_NETS_card_2026-11-19.jpg, passed by Verus 19 November
   original_file: "fog_nets_1500x1500.jpg"
   ai_generated: true
   status: current
@@ -18,6 +19,7 @@ fog-nets-drinking-water-from-mist:
 
 biosand-filter-cleaner-drinking-water-from-sand-gravel-and-a-living-layer:
   file: "biosand-filter-cleaner-drinking-water-from-sand-gravel-and-a-living-layer.jpg"
+  card_file: "cards/biosand-filter-cleaner-drinking-water-from-sand-gravel-and-a-living-layer.jpg"   # BIOSAND_card_2026-11-19.jpg, passed by Verus 19 November
   original_file: "BIOSAND_2026-11-17b.jpg"
   ai_generated: true
   status: current
@@ -25,6 +27,7 @@ biosand-filter-cleaner-drinking-water-from-sand-gravel-and-a-living-layer:
 
 oga-sanitised-human-urine-as-fertilizer:
   file: "oga-sanitised-human-urine-as-fertilizer.jpg"
+  card_file: "cards/oga-sanitised-human-urine-as-fertilizer.jpg"   # OGA_card_2026-11-19.jpg, passed by Verus 19 November
   original_file: "OGA_2026-11-17.jpg"
   ai_generated: true
   status: current
@@ -32,6 +35,7 @@ oga-sanitised-human-urine-as-fertilizer:
 
 sodis-disinfecting-drinking-water-with-a-clear-bottle-and-sunshine:
   file: "sodis-disinfecting-drinking-water-with-a-clear-bottle-and-sunshine.jpg"
+  card_file: "cards/sodis-disinfecting-drinking-water-with-a-clear-bottle-and-sunshine.jpg"   # SODIS_card_2026-11-19.jpg, passed by Verus 19 November
   original_file: "image_416d69b4 (1).jpg"
   ai_generated: true
   status: current
@@ -39,6 +43,7 @@ sodis-disinfecting-drinking-water-with-a-clear-bottle-and-sunshine:
 
 oral-rehydration-solution-ors-stopping-dehydration-with-salt-sugar-and-water:
   file: "oral-rehydration-solution-ors-stopping-dehydration-with-salt-sugar-and-water.jpg"
+  card_file: "cards/oral-rehydration-solution-ors-stopping-dehydration-with-salt-sugar-and-water.jpg"   # ORS_card_2026-11-19.jpg, passed by Verus 19 November
   original_file: "ORS_2026-11-17.jpg"
   ai_generated: true
   status: current   # replaced 18 November 2026 (Daniela; read back by Umbral)
@@ -78,6 +83,7 @@ seismic-reinforced-adobe-making-earthen-houses-survive-an-earthquake:
 
 sand-dams-banking-a-seasons-water-inside-the-sand:
   file: "sand-dams-banking-a-seasons-water-inside-the-sand.jpg"
+  card_file: "cards/sand-dams-banking-a-seasons-water-inside-the-sand.jpg"   # SAND_DAMS_card_2026-11-19.jpg, passed by Verus 19 November
   original_file: "SAND_DAMS_2026-11-17b.jpg"
   ai_generated: true
   status: current
@@ -93,6 +99,7 @@ azolla-a-water-fern-that-fertilizes-a-rice-paddy-for-free:
 
 push-pull-companion-planting-that-beats-two-pests-at-once:
   file: "push-pull-companion-planting-that-beats-two-pests-at-once.jpg"
+  card_file: "cards/push-pull-companion-planting-that-beats-two-pests-at-once.jpg"   # PUSH_PULL_card_2026-11-19.jpg, passed by Verus 19 November
   original_file: "PUSH-PULL.jpg"
   ai_generated: true
   status: current
@@ -100,6 +107,7 @@ push-pull-companion-planting-that-beats-two-pests-at-once:
 
 tusafishe-low-cost-water-filters-for-schools-uganda:
   file: "tusafishe-low-cost-water-filters-for-schools-uganda.jpg"
+  card_file: "cards/tusafishe-low-cost-water-filters-for-schools-uganda.jpg"   # TUSAFISHE_card_2026-11-19.jpg, passed by Verus 19 November
   original_file: "Tusafishe.jpg"
   ai_generated: true
   status: current
@@ -107,6 +115,7 @@ tusafishe-low-cost-water-filters-for-schools-uganda:
 
 biochar-charcoal-that-rebuilds-soil:
   file: "biochar-charcoal-that-rebuilds-soil.jpg"
+  card_file: "cards/biochar-charcoal-that-rebuilds-soil.jpg"   # BIOCHAR_card_2026-11-19.jpg, passed by Verus 19 November
   original_file: "Biochar.jpg"
   ai_generated: true
   status: current
@@ -114,6 +123,7 @@ biochar-charcoal-that-rebuilds-soil:
 
 oyster-mushrooms-on-bagasse-food-from-a-waste:
   file: "oyster-mushrooms-on-bagasse-food-from-a-waste.jpg"
+  card_file: "cards/oyster-mushrooms-on-bagasse-food-from-a-waste.jpg"   # OYSTER_MUSHROOMS_card_2026-11-19.jpg, passed by Verus 19 November
   original_file: "Oyster mushrooms.jpg"
   ai_generated: true
   status: current
@@ -121,6 +131,7 @@ oyster-mushrooms-on-bagasse-food-from-a-waste:
 
 vermifiltration-earthworms-that-clean-wastewater:
   file: "vermifiltration-earthworms-that-clean-wastewater.jpg"
+  card_file: "cards/vermifiltration-earthworms-that-clean-wastewater.jpg"   # VERMIFILTRATION_card_2026-11-19.jpg, passed by Verus 19 November
   original_file: "Vermifiltration_TreatedWater_Graywater_2026-11-17.jpg"
   ai_generated: true
   status: current
@@ -128,6 +139,7 @@ vermifiltration-earthworms-that-clean-wastewater:
 
 biogas-digesters-cooking-gas-from-waste:
   file: "biogas-digesters-cooking-gas-from-waste.jpg"
+  card_file: "cards/biogas-digesters-cooking-gas-from-waste.jpg"   # BIOGAS_card_2026-11-19.jpg, passed by Verus 19 November
   original_file: "Biogas digesters.jpg"
   ai_generated: true
   status: current
@@ -135,6 +147,7 @@ biogas-digesters-cooking-gas-from-waste:
 
 zeer-pot-a-fridge-that-runs-on-nothing:
   file: "zeer-pot-a-fridge-that-runs-on-nothing.jpg"
+  card_file: "cards/zeer-pot-a-fridge-that-runs-on-nothing.jpg"   # ZEER_POT_card_2026-11-19.jpg, passed by Verus 19 November
   original_file: "zeer_pot_1500x1500.jpg"
   ai_generated: true
   status: current
@@ -142,6 +155,7 @@ zeer-pot-a-fridge-that-runs-on-nothing:
 
 treadle-pump-irrigation-by-foot:
   file: "treadle-pump-irrigation-by-foot.jpg"
+  card_file: "cards/treadle-pump-irrigation-by-foot.jpg"   # TREADLE_PUMP_card_2026-11-19.jpg, passed by Verus 19 November
   original_file: "treadle_pump_1500x1500.jpg"
   ai_generated: true
   status: current
@@ -149,6 +163,7 @@ treadle-pump-irrigation-by-foot:
 
 beehive-fences-keeping-elephants-out-with-bees:
   file: "beehive-fences-keeping-elephants-out-with-bees.jpg"
+  card_file: "cards/beehive-fences-keeping-elephants-out-with-bees.jpg"   # BEEHIVE_FENCES_card_2026-11-19.jpg, passed by Verus 19 November
   original_file: "beehive_fence_1500x1500.jpg"
   ai_generated: true
   status: current
@@ -156,11 +171,15 @@ beehive-fences-keeping-elephants-out-with-bees:
 
 za-pits-bringing-dead-soil-back-to-life:
   file: "za-pits-bringing-dead-soil-back-to-life.jpg"
+  card_file: "cards/za-pits-bringing-dead-soil-back-to-life.jpg"   # ZAI_PITS_card_2026-11-19.jpg, passed by Verus 19 November
   original_file: "zai_pits_1500x1500.jpg"
   ai_generated: true
   status: current
   alt: "Cross-section of a zaï pit dug in hardened, crusted soil: rainwater collects in the pit around a seedling growing in manure or compost, the dug soil forms a ridge downslope, and termite tunnels break up the soil; an inset shows staggered rows of pits across a slope."
 
+# Card pictures passed by Verus on 19 November 2026 but not yet in use are in assets/illustrations/pending/cards/:
+#   the five flower-free cards (Azolla, Seismic Adobe, Cookstove, Solar Dryer, Ticino) wait until their new square pictures are live on unamente.org;
+#   FMNR and Qochas cards wait for their pages.
 # Passed by Verus on 17 November 2026, waiting for their pages to be published; files in assets/illustrations/pending/.
 # FMNR_2026-11-17.jpg (FMNR, Niger) and QOCHAS_2026-11-17.jpg (Qochas). Add an entry above when the page goes live.
 # Alt text from Lente (19 November), to use then:

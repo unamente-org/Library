@@ -11,6 +11,7 @@ trust: ["Moderate"]
 maturity: "Proven (in its own setting)"
 setting: "Rural"
 entry_type: "Technical"
+safety_figures: true   # Verus, 20 November 2026
 published_on: "2026-11-17"
 live_updated_on: "2026-11-17"
 source_page: "https://www.unamente.org/library/oga-sanitised-human-urine-as-fertilizer"

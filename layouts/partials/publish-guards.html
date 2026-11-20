@@ -1,6 +1,8 @@
 {{- /* Safety rule (Daniela, 17 November 2026): an unchecked machine translation may be published only
      if the English entry is marked safety_figures: false. Any entry with a dose, temperature, ratio or
      safety limit stays unpublished in a language until someone checks those figures in it.
+     "Safety figures" means (Verus, 20 November 2026): a mistranslated number or a mistranslated "not" could lead
+     to physical harm. That includes plain safety instructions with no number in them.
      A missing safety_figures counts as true, so an unmarked entry is never published unchecked.
      Breaking the rule stops the whole build with a message, so it cannot go live by accident. */ -}}
 {{ if and (eq .Kind "page") (ne .Language.Lang site.Params.defaultLang) }}
@@ -12,6 +14,14 @@
       {{ errorf "Translation rule: %q (%s) is an unchecked translation of an entry with safety figures, or of an entry not yet marked safety_figures: false. Have someone check the figures in this language and set translation.status to checked, or leave this language unpublished." .File.Path .Language.Lang }}
     {{ end }}
   {{ end }}
+{{ end }}
+{{- /* A translation must have its own address. If its header repeats the English url, it would silently
+     replace the English page at that address (found in a test, 20 November 2026). */ -}}
+{{ if and (eq .Kind "page") (ne .Language.Lang site.Params.defaultLang) }}
+  {{ $me := . }}
+  {{ range .Translations }}{{ if and (eq .Language.Lang site.Params.defaultLang) (eq .RelPermalink $me.RelPermalink) }}
+    {{ errorf "Translation %q (%s) has the same address as the English page (%s), so it would replace it. Give it its own url, for example with /%s/ in front." $me.File.Path $me.Language.Lang .RelPermalink $me.Language.Lang }}
+  {{ end }}{{ end }}
 {{ end }}
 {{- /* Unpublished entries never go live by accident: outside the test build, any entry whose status is not
      "published" must also say build: {render: never, list: never}, or the build stops. */ -}}

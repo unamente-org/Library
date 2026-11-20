@@ -49,7 +49,7 @@ custodian_contact: []   # shown to readers as "Custodian contact": dated approac
 #    note: ""
 
 # ---- Translations (B3): only in non-English files ----
-safety_figures: true   # does the English entry give a dose, temperature, ratio or safety limit? Verus sets this.
+safety_figures: true   # true if a mistranslated number or a mistranslated "not" could lead to physical harm: doses, temperatures, ratios, limits, and plain safety instructions with no number ("it does not make the water safe to drink"). Missing counts as true. Verus sets this, and checks it again whenever the entry's text changes.
                        # Left true (or missing), an unchecked machine translation of this entry cannot be published.
 # translation:         # only in translated files (index.es.md, index.fr.md, ...)
 #   from_revision: ""   # git revision of the English file this was made from

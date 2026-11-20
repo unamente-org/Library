@@ -11,6 +11,7 @@ trust: ["Moderate"]
 maturity: "Scaled"
 setting: ""
 entry_type: "Technical"
+safety_figures: true   # Verus, 20 November 2026
 published_on: "2026-10-08"
 live_updated_on: "2026-10-23"
 source_page: "https://www.unamente.org/library/biochar-charcoal-that-rebuilds-soil"
