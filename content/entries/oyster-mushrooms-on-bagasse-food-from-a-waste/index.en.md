@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-17. Source: /library/oyster-mushrooms-on-bagasse-food-from-a-waste
+# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/oyster-mushrooms-on-bagasse-food-from-a-waste
 id: "oyster-mushrooms-on-bagasse-food-from-a-waste"
 url: "/library/oyster-mushrooms-on-bagasse-food-from-a-waste/"
 title: "Oyster Mushrooms on Bagasse — Food from a Waste"
@@ -13,7 +13,7 @@ setting: ""
 entry_type: "Technical"
 safety_figures: true   # Verus, 20 November 2026
 published_on: "2026-10-08"
-live_updated_on: "2026-11-17"
+live_updated_on: "2026-11-20"
 source_page: "https://www.unamente.org/library/oyster-mushrooms-on-bagasse-food-from-a-waste"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1792263544904-AXPBQ8Y5VL1S7YQ9E80Q/Oyster+mushrooms.jpg"
 place:
@@ -42,5 +42,7 @@ Grow a protein-bearing food on the fibrous pulp left after sugarcane is pressed 
 **How it continues.** No single inventor — a shared, global technique refined by growers and researchers across many countries. Maintained now by smallholder growers, cooperatives, commercial farms, and ventures such as MycoFeeds. As a low-cost income activity it often continues on its own where a reliable spawn supply and a market exist; where it lapses, the usual reasons are loss of a spawn source, contamination, or no market — not the technique failing.
 
 **Grown oyster mushrooms on bagasse or other crop waste?** Tell us how it went — what you built it from, how it performed, whether it worked where you are, what you’d change, and roughly where and when. We want the honest result, including what didn’t work. Your contact details stay private; we read and check every report before anything is published, and we’ll never publish a detail you’ve asked us to keep private.
+
+Spotted a mistake, or know of a source we missed? [Tell us](https://www.unamente.org/contact), and we will check it.
 
 *Sources: [a Heliyon (2024) review of oyster-mushroom species (nutrition, cultivation, biological efficiency) ·](https://doi.org/10.1016/j.heliyon.2024.e26539) [a Journal of Applied Horticulture study of oyster-mushroom yield on sugarcane bagasse](https://horticultureresearch.net/jah/2020_22_3_215_219.PDF) ([archived](http://web.archive.org/web/20251221011742/http://www.horticultureresearch.net/jah/2020_22_3_215_219.PDF)) · Buzayehu Desisa, Diriba Muleta, Tatek Dejene, Mulissa Jida, Abayneh Goshu, Tadesse Negi and Pablo Martin-Pinto, "Utilization of local agro-industrial by-products based substrates to enhance production and dietary value of mushroom (P. ostreatus) in Ethiopia", World Journal of Microbiology and Biotechnology 40, 277 (2024) — <https://doi.org/10.1007/s11274-024-04062-3> · full text: <https://pmc.ncbi.nlm.nih.gov/articles/PMC11263479/> (archived: <https://web.archive.org/web/20250303214304/https://pmc.ncbi.nlm.nih.gov/articles/PMC11263479/> ) · an established mushroom-cultivation manual (build steps).*

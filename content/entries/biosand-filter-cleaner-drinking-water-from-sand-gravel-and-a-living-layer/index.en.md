@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-19. Source: /library/biosand-filter-cleaner-drinking-water-from-sand-gravel-and-a-living-layer
+# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/biosand-filter-cleaner-drinking-water-from-sand-gravel-and-a-living-layer
 id: "biosand-filter-cleaner-drinking-water-from-sand-gravel-and-a-living-layer"
 url: "/library/biosand-filter-cleaner-drinking-water-from-sand-gravel-and-a-living-layer/"
 title: "Biosand Filter: Cleaner Drinking Water From Sand, Gravel and a Living Layer"
@@ -13,7 +13,7 @@ setting: "Both"
 entry_type: "Technical"
 safety_figures: true   # Verus, 20 November 2026
 published_on: "2026-11-17"
-live_updated_on: "2026-11-17"
+live_updated_on: "2026-11-20"
 source_page: "https://www.unamente.org/library/biosand-filter-cleaner-drinking-water-from-sand-gravel-and-a-living-layer"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1794935122288-FMJUEIGJ007BYAR4V72B/BIOSAND_2026-11-17b.jpg"
 place:
@@ -116,6 +116,8 @@ Two smaller questions sit beside it. What is the cheapest reliable way to add a 
 David Manz designed the household biosand filter at the University of Calgary, starting in 1989, with help from his engineering students. One of his graduate students went with him to install the first filters in Nicaragua in 1993; we could not find that student's name. Camille Dow Baker co-founded CAWST with him and ran it for its first decade. CAWST developed the manual with WASH Skills Development Organization Cambodia. The Pan American Health Organization paid for the first trip to Nicaragua.
 
 Manz patented the filter in 1995. A plastic version of the filter is patented and sold under licence; this entry is about the concrete filter, whose design CAWST gives away. Manz also had a company, Davnor, that sold the filter. Camille Dow Baker writes that they first looked to that company to spread it, and then decided that getting it to the people who needed it most required a nonprofit of its own. CAWST gives the instructions for the concrete filter away free, in several languages. UnaMente links to CAWST's page rather than copying the manual, because CAWST updates it and asks that it not be rehosted.
+
+Spotted a mistake, or know of a source we missed? [Tell us](https://www.unamente.org/contact), and we will check it.
 
 ### Sources
 

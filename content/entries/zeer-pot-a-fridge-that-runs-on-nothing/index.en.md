@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-17. Source: /library/zeer-pot-a-fridge-that-runs-on-nothing
+# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/zeer-pot-a-fridge-that-runs-on-nothing
 id: "zeer-pot-a-fridge-that-runs-on-nothing"
 url: "/library/zeer-pot-a-fridge-that-runs-on-nothing/"
 title: "Zeer Pot — A Fridge That Runs on Nothing"
@@ -13,7 +13,7 @@ setting: "Both"
 entry_type: "Technical"
 safety_figures: true   # Verus, 20 November 2026
 published_on: "2026-09-21"
-live_updated_on: "2026-11-16"
+live_updated_on: "2026-11-20"
 source_page: "https://www.unamente.org/library/zeer-pot-a-fridge-that-runs-on-nothing"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1790005792577-5BC9PJG36PI4S8MJVIU3/zeer_pot_1500x1500.jpg"
 place:
@@ -80,5 +80,7 @@ The other frequent failure is a glazed pot bought by mistake — glaze blocks ev
 The two-pot fridge was developed and spread by Mohammed Bah Abba (1964–2010), Kano State, Nigeria — winner of the 2000 Rolex Award for Enterprise — building on a clay-cooling tradition far older than him, and carried further by others, including Practical Action's work in Sudan. Open, free for any use, commercial or not; no patent is known to have been filed. This entry documents the design as permanent prior art so no one can enclose it later.
 
 The pot-in-pot has no central owning organization today — Abba died in 2010. Communities building one can point to open resources such as Practical Action's guidance.
+
+Spotted a mistake, or know of a source we missed? [Tell us](https://www.unamente.org/contact), and we will check it.
 
 Sources: Practical Action, "Zeer Pots: One ingenious solution to fresh produce for longer", 4 April 2022 — <https://practicalaction.org/news-media/2022/04/04/zeer-pots-one-ingenious-solution-to-fresh-produce-for-longer/> (archived: <https://web.archive.org/web/20240527153900/https://practicalaction.org/news-media/2022/04/04/zeer-pots-one-ingenious-solution-to-fresh-produce-for-longer/>) · Practical Action Sudan with the Al Fashir and Gemayer Associations for Earthenware Manufacturing, "Clay Based Technologies" (manual; mirror copy held by RACHEL) — <https://rachel.core2learn.org/modules/en-practical_action/Manufacturing,%20handicraft,%20process%20industries/Pottery%20and%20ceramics/clay-based-tech-book.pdf> (archived: <https://web.archive.org/web/20250216034429/https://rachel.core2learn.org/modules/en-practical_action/Manufacturing,%20handicraft,%20process%20industries/Pottery%20and%20ceramics/clay-based-tech-book.pdf>) · Practical Action, "The Clay Refrigerator" (build guide; mirror copy held by RACHEL) — <https://rachel.core2learn.org/modules/en-practical_action/Manufacturing,%20handicraft,%20process%20industries/Pottery%20and%20ceramics/clay_based_technology_refrigerator.pdf> (archived: <https://web.archive.org/web/20250216030421/https://rachel.core2learn.org/modules/en-practical_action/Manufacturing,%20handicraft,%20process%20industries/Pottery%20and%20ceramics/clay_based_technology_refrigerator.pdf>) · Voice of America, "A Cool Way to Keep Food From Spoiling" — <https://learningenglish.voanews.com/a/a-23-2009-02-07-voa4-83141622/129843.html> (archived: <https://web.archive.org/web/20260518192348/https://learningenglish.voanews.com/a/a-23-2009-02-07-voa4-83141622/129843.html>) · Time, "Inventor: Mohamed Bah Abba" (Best inventions of 2001) — <https://content.time.com/time/specials/packages/article/0,28804,1936165_1936254_1936632,00.html> (archived: <https://web.archive.org/web/20261024004939/https://content.time.com/time/specials/packages/article/0,28804,1936165_1936254_1936632,00.html>)

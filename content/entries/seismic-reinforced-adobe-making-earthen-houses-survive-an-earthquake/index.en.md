@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-17. Source: /library/seismic-reinforced-adobe-making-earthen-houses-survive-an-earthquake
+# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/seismic-reinforced-adobe-making-earthen-houses-survive-an-earthquake
 id: "seismic-reinforced-adobe-making-earthen-houses-survive-an-earthquake"
 url: "/library/seismic-reinforced-adobe-making-earthen-houses-survive-an-earthquake/"
 title: "Seismic-Reinforced Adobe — Making Earthen Houses Survive an Earthquake"
@@ -13,7 +13,7 @@ setting: ""
 entry_type: "Technical (Life-safety)"
 safety_figures: true   # Verus, 20 November 2026
 published_on: "2026-10-08"
-live_updated_on: "2026-10-23"
+live_updated_on: "2026-11-20"
 source_page: "https://www.unamente.org/library/seismic-reinforced-adobe-making-earthen-houses-survive-an-earthquake"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1791429760056-0GSBV6OZ725B0X7PONT8/SEISMIC-REINFORCED+ADOBE.jpg"
 place:
@@ -34,5 +34,7 @@ Adobe — sun-dried earth brick — is one of the oldest, cheapest, most comfort
 **Who made it.** Marcial Blondet and colleagues at PUCP in Peru, whose shake-table work on both geomesh and rope-mesh reinforcement underpins Peru’s earthen-building code — a team effort across many researchers.
 
 **Used it? Tell us how it went** — whether the full detailing (mesh, collar beam, through-ties, opening reinforcement) was followed, how it performed in any shaking, what you’d change, and roughly where and when. We want the honest result, including what didn’t work. Your contact details stay private; we read and check every report before anything is published, and we’ll never publish a detail you’ve asked us to keep private.
+
+Spotted a mistake, or know of a source we missed? [Tell us](https://www.unamente.org/contact), and we will check it.
 
 *Sources: PUCP / Blondet reinforcement tutorials via the World Housing Encyclopedia ([world-housing.net](http://world-housing.net)); Peru’s earthen-building code (E.080); the shake-table studies — Bossio, Blondet & Rihal (2013), Earthquake Spectra, doi.org/10.1193/1.4000096 (geomesh) and the “mallas de sogas” rope-mesh study (via Dialnet); the Getty Seismic Adobe Project.*

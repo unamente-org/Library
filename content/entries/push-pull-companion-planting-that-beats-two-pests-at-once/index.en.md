@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-17. Source: /library/push-pull-companion-planting-that-beats-two-pests-at-once
+# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/push-pull-companion-planting-that-beats-two-pests-at-once
 id: "push-pull-companion-planting-that-beats-two-pests-at-once"
 url: "/library/push-pull-companion-planting-that-beats-two-pests-at-once/"
 title: "Push-Pull — Companion Planting That Beats Two Pests at Once"
@@ -13,7 +13,7 @@ setting: ""
 entry_type: "Technical"
 safety_figures: false   # Verus, 20 November 2026
 published_on: "2026-10-08"
-live_updated_on: "2026-10-23"
+live_updated_on: "2026-11-20"
 source_page: "https://www.unamente.org/library/push-pull-companion-planting-that-beats-two-pests-at-once"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1791425479361-U1OL88V8A7HFETJQCBO1/PUSH-PULL.jpg"
 place:
@@ -34,5 +34,7 @@ Maize and sorghum farmers across East Africa face two quiet thieves: stemborer c
 **Who made it.** Developed at icipe in Kenya, with Prof. Zeyaur Khan long associated with the work, together with the farming communities who refined it in their own fields — not one inventor.
 
 **Used it? Tell us how it went** — what you planted, whether Striga and stemborer really fell, whether you could get Desmodium seed, what you’d change, and roughly where and when. We want the honest result, including what didn’t work. Your contact details stay private; we read and check every report before anything is published, and we’ll never publish a detail you’ve asked us to keep private.
+
+Spotted a mistake, or know of a source we missed? [Tell us](https://www.unamente.org/contact), and we will check it.
 
 *Sources: icipe’s Push-Pull programme ([push-pull.net](http://push-pull.net)) and its free Climate-Smart Push-Pull field manual ([technologytransfer.icipe.org](http://technologytransfer.icipe.org)).*

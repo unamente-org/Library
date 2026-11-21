@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-17. Source: /library/fog-nets-drinking-water-from-mist
+# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/fog-nets-drinking-water-from-mist
 id: "fog-nets-drinking-water-from-mist"
 url: "/library/fog-nets-drinking-water-from-mist/"
 title: "Fog Nets — Drinking Water from Mist"
@@ -13,7 +13,7 @@ setting: "Rural"
 entry_type: "Technical"
 safety_figures: true   # Verus, 20 November 2026
 published_on: "2026-09-20"   # Daniela, 17 November 2026: first published 20 September 2026. The live page read 8 October on the morning of 17 November, then 17 November after it was re-dated to show first on Squarespace.
-live_updated_on: "2026-11-17"
+live_updated_on: "2026-11-20"
 source_page: "https://www.unamente.org/library/fog-nets-drinking-water-from-mist"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1790005576830-E4TJ8F5VQ6SGE36RVWLO/fog_nets_1500x1500.jpg"
 place:
@@ -84,5 +84,7 @@ The lesson UnaMente draws from this: a technology can work exactly as designed a
 Fog collection in Chile was pioneered by physicist Carlos Espinosa Arancibia (1954, Antofagasta), who donated his patent to the Universidad Católica del Norte and, through it, to UNESCO for free worldwide use. The El Tofo–Chungungo work was carried out from 1980 by geographers Pilar Cereceda, Horacio Larraín and Nazareno Carvajal (Pontificia Universidad Católica de Chile), building on Espinosa’s freely-shared designs; the 1987 large-scale system was built with Robert Schemenauer (Environment Canada / FogQuest), CONAF and Canada’s IDRC. The core design remains free; the nonprofit FogQuest carries the work forward. Its full construction manual is sold rather than given away, though some of its guidance is free. Commercial engineered variants (such as the CloudFisher) carry separate licences.
 
 For build guidance and support, FogQuest ([fogquest.org](http://fogquest.org)) is the organisation to contact — their whole purpose is helping communities replicate fog collection.
+
+Spotted a mistake, or know of a source we missed? [Tell us](https://www.unamente.org/contact), and we will check it.
 
 Sources: Edwards, Cereceda and Schemenauer, "Community Involvement in the Fog-water Collection System for Chungungo, Chile", Conference on Fog and Fog Collection, St. John's, Canada, July 2001 — <https://www.fogquest.org/wp-content/uploads/2015/08/Conf_2001_Edwards_Community_Involvement_Chungungo.pdf> (archived: <https://web.archive.org/web/20260616032136/https://www.fogquest.org/wp-content/uploads/2015/08/Conf_2001_Edwards_Community_Involvement_Chungungo.pdf>) · de la Lastra, "Report on the Fog-Collecting Project in Chungungo: Assessment of the Feasibility of Assuring its Sustainability", for IDRC, 2002 — <https://es.ircwash.org/sites/default/files/Lastra-2002-Report.pdf> · Dale, "Collecting fog on El Tofo", IDRC — <https://idrc-crdi.ca/en/research-in-action/collecting-fog-el-tofo> (archived: <https://web.archive.org/web/20260116054709/https://idrc-crdi.ca/en/research-in-action/collecting-fog-el-tofo>) · FogQuest, "Chile El Tofo / Chungungo" — <https://fogquest.org/projects/past-projects/chile-el-tofo-chungungo/> (archived: <https://web.archive.org/web/20260310070508/https://fogquest.org/projects/past-projects/chile-el-tofo-chungungo/>) · Qadir, Jiménez, Farnum and Trautwein, "Research History and Functional Systems of Fog Water Harvesting", Frontiers in Water, 2021 — <https://doi.org/10.3389/frwa.2021.675269> (archived: <https://web.archive.org/web/20261116232920/https://www.frontiersin.org/journals/water/articles/10.3389/frwa.2021.675269/full>) · FAO, "Capturing fog to make water" — <https://www.fao.org/newsroom/story/capturing-fog-to-make-water/en> (archived: <https://web.archive.org/web/20261018041908/https://www.fao.org/newsroom/story/capturing-fog-to-make-water/en>) · FAO, "Atrapar la niebla para generar agua" (Spanish edition) — <https://www.fao.org/newsroom/story/capturing-fog-to-make-water/es> (archived: <https://web.archive.org/web/20261107185340/https://www.fao.org/newsroom/story/capturing-fog-to-make-water/es>)

@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-17. Source: /library/za-pits-bringing-dead-soil-back-to-life
+# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/za-pits-bringing-dead-soil-back-to-life
 id: "za-pits-bringing-dead-soil-back-to-life"
 url: "/library/za-pits-bringing-dead-soil-back-to-life/"
 title: "Zaï Pits — Bringing Dead Soil Back to Life"
@@ -13,7 +13,7 @@ setting: "Rural"
 entry_type: "Technical"
 safety_figures: false   # Verus, 20 November 2026
 published_on: "2026-09-21"
-live_updated_on: "2026-11-16"
+live_updated_on: "2026-11-20"
 source_page: "https://www.unamente.org/library/za-pits-bringing-dead-soil-back-to-life"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1790005552559-8J0I06UITCBDQLDSTS5C/zai_pits_1500x1500.jpg"
 place:
@@ -76,5 +76,7 @@ Dig pits 20–30 cm wide and 10–20 cm deep, spaced roughly 60–80 cm apart, i
 The termite effect is not a guess. Soil researchers working in Burkina Faso measured it directly in the nineteen nineties — they dug into crusted ground and recorded how much more water got through where termites had been at work. Others have since tested it and found the same thing. Their full write-ups are in the sources at the bottom of the entry, if you want to read them yourself.
 
 The yield figure is shown as a best case rather than something to expect, because the reports vary and we would rather you plan on the honest number.
+
+Spotted a mistake, or know of a source we missed? [Tell us](https://www.unamente.org/contact), and we will check it.
 
 Sources: Sidwaya, "Hommage à Yacouba Sawadogo: le « fou de la forêt de Gourga » s'en est allé", 3 December 2023 (French) — <https://www.sidwaya.info/hommage-a-yacouba-sawadogo-le-fou-de-la-foret-de-gourga-sen-est-alle/> (archived: <https://web.archive.org/web/20260719031225/https://www.sidwaya.info/hommage-a-yacouba-sawadogo-le-fou-de-la-foret-de-gourga-sen-est-alle/>) · Right Livelihood Foundation, Yacouba Sawadogo laureate page — <https://rightlivelihood.org/the-change-makers/find-a-laureate/yacouba-sawadogo/> (archived: <https://web.archive.org/web/20260707150825/https://rightlivelihood.org/the-change-makers/find-a-laureate/yacouba-sawadogo/>) · Mando, Stroosnijder and Brussaard, "Effects of termites on infiltration into crusted soil", Geoderma 74, 1996, pp. 107–113 — <https://doi.org/10.1016/S0016-7061(96)00058-4> · Kaiser, Lepage, Konaté and Linsenmair, "Ecosystem services of termites (Blattoidea : Termitoidae) in the traditional soil restoration and cropping system Zai in northern Burkina Faso", Agriculture, Ecosystems and Environment 236, 2017, pp. 198–211 — <https://www.documentation.ird.fr/hor/fdi:010068943> (archived: <https://web.archive.org/web/20190910105644/https://www.documentation.ird.fr/hor/fdi:010068943>) · Belemviré, Ouedraogo, Reij and Tappan, "History and impacts of dryland restoration in Yatenga, Burkina Faso", ETFRN News 60, 2020, pp. 51–58 — <https://www.unccd.int/sites/default/files/library/105_looseleaf_1-4-Belemvire.pdf> (archived: <https://web.archive.org/web/20261115220012/https://www.unccd.int/sites/default/files/library/105_looseleaf_1-4-Belemvire.pdf>)

@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-17. Source: /library/oga-sanitised-human-urine-as-fertilizer
+# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/oga-sanitised-human-urine-as-fertilizer
 id: "oga-sanitised-human-urine-as-fertilizer"
 url: "/library/oga-sanitised-human-urine-as-fertilizer/"
 title: "Oga — sanitised human urine as fertilizer"
@@ -13,7 +13,7 @@ setting: "Rural"
 entry_type: "Technical"
 safety_figures: true   # Verus, 20 November 2026
 published_on: "2026-11-17"
-live_updated_on: "2026-11-17"
+live_updated_on: "2026-11-20"
 source_page: "https://www.unamente.org/library/oga-sanitised-human-urine-as-fertilizer"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1794932841892-GJRGIFV3BB4GI99BARDG/OGA_2026-11-17.jpg"
 place:
@@ -96,6 +96,8 @@ The Niger protocol is tuned to pearl millet in Sahelian conditions. As far as we
 The practice is the work of women farmers in the Maradi and Tillabery regions of Niger, organised through FUMA Gaskiya (Fédération des Unions de producteurs du Maradi). It is owned by no one, patented by no one, and was documented rather than invented by the researchers who studied it: Hannatou O. Moussa (INRAN, Maradi), Charles I. Nwankwo, Ali M. Aminou (FUMA Gaskiya), David A. Stern, Bettina I. G. Haussmann and Ludger Herrmann.
 
 The published study is open access, and its datasets are publicly deposited. The two handling guides linked below do not state a licence, so UnaMente links to them rather than reproducing them — they remain their authors' work, and the authors deserve the visit.
+
+Spotted a mistake, or know of a source we missed? [Tell us](https://www.unamente.org/contact), and we will check it.
 
 ### Sources
 

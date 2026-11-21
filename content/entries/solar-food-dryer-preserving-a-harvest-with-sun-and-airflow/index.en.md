@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-17. Source: /library/solar-food-dryer-preserving-a-harvest-with-sun-and-airflow
+# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/solar-food-dryer-preserving-a-harvest-with-sun-and-airflow
 id: "solar-food-dryer-preserving-a-harvest-with-sun-and-airflow"
 url: "/library/solar-food-dryer-preserving-a-harvest-with-sun-and-airflow/"
 title: "Solar Food Dryer — Preserving a Harvest with Sun and Airflow"
@@ -13,7 +13,7 @@ setting: ""
 entry_type: "Technical"
 safety_figures: true   # Verus, 20 November 2026
 published_on: "2026-10-08"
-live_updated_on: "2026-10-23"
+live_updated_on: "2026-11-20"
 source_page: "https://www.unamente.org/library/solar-food-dryer-preserving-a-harvest-with-sun-and-airflow"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1791430700900-GCRB5YXH5S5X2ZDV7KHY/SOLAR+FOOD+DRYER.jpg"
 place:
@@ -34,5 +34,7 @@ A harvest comes in all at once and most of it rots within days unless it’s pre
 **Who made it.** No single inventor — an ancient practice engineered by many: the Brace Research Institute (Macdonald College, McGill University) for the low-cost cabinet dryer, the University of Hohenheim (Werner Mühlbauer, Axel Esper and colleagues) for the solar tunnel dryer, and FAO, Practical Action and countless local builders who adapted both.
 
 **Used it? Tell us how it went** — what you built it from, which crops you dried and how long they took, how your climate treated it, whether the dried food kept, what you’d change, and roughly where and when. We want the honest result, including what didn’t work. Your contact details stay private; we read and check every report before anything is published, and we’ll never publish a detail you’ve asked us to keep private.
+
+Spotted a mistake, or know of a source we missed? [Tell us](https://www.unamente.org/contact), and we will check it.
 
 *Sources: Practical Action’s solar-drying brief ([practicalaction.org](http://practicalaction.org)); the Brace Research Institute cabinet-dryer plans (McGill); the Hohenheim solar tunnel dryer manual (Solare Brücke); a Spanish-language field study from Ecuador (Macías-Ganchozo et al., Acta Agronómica, via [redalyc.org](http://redalyc.org)).*

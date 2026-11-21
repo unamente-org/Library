@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-17. Source: /library/vermifiltration-earthworms-that-clean-wastewater
+# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/vermifiltration-earthworms-that-clean-wastewater
 id: "vermifiltration-earthworms-that-clean-wastewater"
 url: "/library/vermifiltration-earthworms-that-clean-wastewater/"
 title: "Vermifiltration — Earthworms That Clean Wastewater"
@@ -13,9 +13,9 @@ setting: ""
 entry_type: "Technical"
 safety_figures: true   # Verus, 20 November 2026
 published_on: "2026-10-08"
-live_updated_on: "2026-11-17"
+live_updated_on: "2026-11-20"
 source_page: "https://www.unamente.org/library/vermifiltration-earthworms-that-clean-wastewater"
-image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1794932497776-W0LL2RTS5IFDJ5G0Y699/Vermifiltration_TreatedWater_2026-11-16.jpg"
+image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1795026025836-NU5YMXZWJ7AEKHY98GRB/Vermifiltration_TreatedWater_Graywater_2026-11-17.jpg"
 place:
   country: "not stated"
   region: "not stated"
@@ -42,5 +42,7 @@ Pass dirty water through a bed of worms and it comes out dramatically cleaner �
 **How it continues.** Dr. José Tohá Castellá (Universidad de Chile, 1992); spread internationally by Rajiv K. Sinha and colleagues from 2008. Maintained now by households (Tiger Toilets), NGOs (Oxfam), and commercial suppliers. Vermifilter toilets are designed to be low-maintenance — the worms largely sustain themselves if fed and kept in range — and thousands remain in use; independent long-term and large-scale data is still developing.
 
 **Built or used a worm filter or tiger toilet?** Tell us how it went — what you built it from, how it performed, whether it worked where you are, what you’d change, and roughly where and when. We want the honest result, including what didn’t work. Your contact details stay private; we read and check every report before anything is published, and we’ll never publish a detail you’ve asked us to keep private.
+
+Spotted a mistake, or know of a source we missed? [Tell us](https://www.unamente.org/contact), and we will check it.
 
 Sources: Wikipedia, “Vermifilter” (en.wikipedia.org/wiki/Vermifilter) · Sinha et al. (2008), Environment Systems and Decisions, doi.org/10.1007/s10669-008-9162-8 · Banerjee, Madhogaria, Saha, Kundu and Dhak, "Vermifiltration: an opportunity to improve wastewater treatment—a sustainable and natural approach", Discover Water 4:47, 2024 — <https://doi.org/10.1007/s43832-024-00101-0> (archived: <https://web.archive.org/web/20250607211201/https://link.springer.com/article/10.1007/s43832-024-00101-0>) · Mahmood and colleagues, "Natural Treatment Systems as Sustainable Ecotechnologies for the Developing Countries", BioMed Research International, 2013 (Table 2, earthworm temperature ranges) — <https://pmc.ncbi.nlm.nih.gov/articles/PMC3708409/> (archived: <https://web.archive.org/web/20250328030359/https://pmc.ncbi.nlm.nih.gov/articles/PMC3708409/>) · N. Lourenço and L. M. Nunes, "Is filter packing important in a small-scale vermifiltration process of urban wastewater?", International Journal of Environmental Science and Technology 14, pages 2411–2422 (2017) — <https://doi.org/10.1007/s13762-017-1323-1> (archived: <https://web.archive.org/web/20250803041541/https://link.springer.com/article/10.1007/s13762-017-1323-1> ) · abstract in the University of Algarve repository: <https://sapientia.ualg.pt/entities/publication/3b199736-d303-4b2c-b62a-8a786fdf8eac> (archived: <https://web.archive.org/web/20241113142055/https://sapientia.ualg.pt/entities/publication/3b199736-d303-4b2c-b62a-8a786fdf8eac> ) · [Vermifilter.com](http://Vermifilter.com) (build how-to).

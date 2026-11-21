@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-17. Source: /library/sodis-disinfecting-drinking-water-with-a-clear-bottle-and-sunshine
+# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/sodis-disinfecting-drinking-water-with-a-clear-bottle-and-sunshine
 id: "sodis-disinfecting-drinking-water-with-a-clear-bottle-and-sunshine"
 url: "/library/sodis-disinfecting-drinking-water-with-a-clear-bottle-and-sunshine/"
 title: "SODIS — Disinfecting Drinking Water with a Clear Bottle and Sunshine"
@@ -13,7 +13,7 @@ setting: ""
 entry_type: "Technical"
 safety_figures: true   # Verus, 20 November 2026
 published_on: "2026-10-20"
-live_updated_on: "2026-11-17"
+live_updated_on: "2026-11-20"
 source_page: "https://www.unamente.org/library/sodis-disinfecting-drinking-water-with-a-clear-bottle-and-sunshine"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1792622021245-4QC8G4510LFTVA1XQBGU/image_416d69b4+%281%29.jpg"
 place:
@@ -36,5 +36,7 @@ About the plastic bottle itself. Does sun on a plastic bottle put something into
 Who made it. Named together: Aftim Acra and colleagues at the American University of Beirut, who showed in the early 1980s that sunlight disinfects water; and Martin Wegelin and the Sandec group at Eawag, who turned that into the simple household SODIS method from 1991 and carried it to communities.
 
 Used SODIS — clear bottles in the sun? Tell us how it went — what you used it on, how it performed, whether it worked where you are, whether you kept it up day to day, what you’d change, and roughly where and when. We want the honest result, including what didn’t work. Your contact details stay private; we read and check every report before anything is published, and we’ll never publish a detail you’ve asked us to keep private.
+
+Spotted a mistake, or know of a source we missed? [Tell us](https://www.unamente.org/contact), and we will check it.
 
 Sources: Eawag/Sandec’s free SODIS guide and method pages (sodis.ch; eawag.ch), including the Spanish-language edition read in-language; the field-effectiveness trial — Mäusezahl et al., “Solar drinking water disinfection (SODIS) to reduce childhood diarrhoea in rural Bolivia,” PLoS Medicine (2009), doi.org/10.1371/journal.pmed.1000125; on the plastic itself — the phthalate/antimony migration measurements (Eawag; summarised at hip.fhi360.org) and the sunlight-driven microplastic-release study (RSC Soft Matter, 2025, doi.org/10.1039/d5sm00469a).

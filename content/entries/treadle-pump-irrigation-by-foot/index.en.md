@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-17. Source: /library/treadle-pump-irrigation-by-foot
+# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/treadle-pump-irrigation-by-foot
 id: "treadle-pump-irrigation-by-foot"
 url: "/library/treadle-pump-irrigation-by-foot/"
 title: "Treadle Pump — Irrigation by Foot"
@@ -13,7 +13,7 @@ setting: "Rural"
 entry_type: "Technical"
 safety_figures: false   # Verus, 20 November 2026
 published_on: "2026-09-21"
-live_updated_on: "2026-11-16"
+live_updated_on: "2026-11-20"
 source_page: "https://www.unamente.org/library/treadle-pump-irrigation-by-foot"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1790005599251-65TZA3JAHCOO1YB5RRNU/treadle_pump_1500x1500.jpg"
 place:
@@ -78,5 +78,7 @@ And its history carries the same lesson UnaMente keeps finding: the pump succeed
 Original design by Gunnar Barnes with the Rangpur Dinajpur Rural Service (RDRS), Bangladesh; scaled through the market-building work of Paul Polak and International Development Enterprises (iDE). The core design is unpatented and open.
 
 For the commercial-scale version, KickStart International makes the well-known MoneyMaker pump; the open DIY design is documented on Akvopedia.
+
+Spotted a mistake, or know of a source we missed? [Tell us](https://www.unamente.org/contact), and we will check it.
 
 Sources: Orr, Islam and Barnes, The Treadle Pump (Rangpur Dinajpur Rural Service, Dhaka, 1991; library catalogues give the subtitle in two forms) — <https://ircwash.org/node/34161> · Akvopedia, "Treadle pump" — <https://akvopedia.org/wiki/Treadle_pump> (archived: <https://web.archive.org/web/20240622152817/https://akvopedia.org/wiki/Treadle_pump>) · International Water Management Institute, Research Report 45 (treadle pump adoption and income) — <https://ageconsearch.umn.edu/record/44571/files/Report45.pdf> (archived: <https://web.archive.org/web/20261115220029/https://ageconsearch.umn.edu/record/44571/files/Report45.pdf>) · Post Carbon Institute, "The power of a radically affordable irrigation pump" (first published at National Geographic Newswatch, 18 April 2012) — <https://www.postcarbon.org/the-power-of-a-radically-affordable-irrigation-pump/> (archived: <https://web.archive.org/web/20260711233849/https://www.postcarbon.org/the-power-of-a-radically-affordable-irrigation-pump/>)

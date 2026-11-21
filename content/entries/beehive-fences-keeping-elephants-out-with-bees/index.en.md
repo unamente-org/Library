@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-17. Source: /library/beehive-fences-keeping-elephants-out-with-bees
+# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/beehive-fences-keeping-elephants-out-with-bees
 id: "beehive-fences-keeping-elephants-out-with-bees"
 url: "/library/beehive-fences-keeping-elephants-out-with-bees/"
 title: "Beehive Fences — Keeping Elephants Out with Bees"
@@ -13,7 +13,7 @@ setting: "Rural"
 entry_type: "Technical"
 safety_figures: false   # Verus, 20 November 2026
 published_on: "2026-09-21"
-live_updated_on: "2026-11-16"
+live_updated_on: "2026-11-20"
 source_page: "https://www.unamente.org/library/beehive-fences-keeping-elephants-out-with-bees"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1790005626000-2T1PF2X006FL3GB191Z7/beehive_fence_1500x1500.jpg"
 place:
@@ -82,5 +82,7 @@ One hard question, answered honestly: could all these honeybees crowd out native
 Developed by Dr. Lucy King, Elephants and Bees Project — a collaboration of Save the Elephants, the University of Oxford, and Disney's Animal Kingdom — built on the traditional knowledge of northern Kenyan pastoralists. The construction manual is published free.
 
 For training and the free manual, Save the Elephants ([savetheelephants.org](http://savetheelephants.org)) runs a Human-Elephant Coexistence Centre in Sagalla that trains communities and NGOs — the ideal front door for replication.
+
+Spotted a mistake, or know of a source we missed? [Tell us](https://www.unamente.org/contact), and we will check it.
 
 Sources: King, Tiller, Mwambingu, Serem and colleagues, "Impact of drought and development on the effectiveness of beehive fences as elephant deterrents over 9 years in Kenya", Conservation Science and Practice 6(11), 2024 — <https://doi.org/10.1111/csp2.13242> · King, "Beehive Fence Construction Manual", 4th edition, The Elephants and Bees Project, Save the Elephants, 2019 — <https://elephantsandbees.com/wp-content/uploads/2019/07/LKING-2019-Beehive-Fence-Construction-Manual-4th-edition.pdf> (archived: <https://web.archive.org/web/20241014112037/https://elephantsandbees.com/wp-content/uploads/2019/07/LKING-2019-Beehive-Fence-Construction-Manual-4th-edition.pdf>) · Save the Elephants, study summary — <https://savetheelephants.org/research/research-library/impact-of-drought-and-development-on-the-effectiveness-of-beehive-fences-as-elephant-deterrents-over-9-years-in-kenya> (archived: <https://web.archive.org/web/20260811202230/https://savetheelephants.org/research/research-library/impact-of-drought-and-development-on-the-effectiveness-of-beehive-fences-as-elephant-deterrents-over-9-years-in-kenya>)

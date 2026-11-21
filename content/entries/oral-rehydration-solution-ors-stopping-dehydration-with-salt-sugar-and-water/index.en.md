@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-17. Source: /library/oral-rehydration-solution-ors-stopping-dehydration-with-salt-sugar-and-water
+# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/oral-rehydration-solution-ors-stopping-dehydration-with-salt-sugar-and-water
 id: "oral-rehydration-solution-ors-stopping-dehydration-with-salt-sugar-and-water"
 url: "/library/oral-rehydration-solution-ors-stopping-dehydration-with-salt-sugar-and-water/"
 title: "Oral Rehydration Solution (ORS) — Stopping Dehydration with Salt, Sugar and Water"
@@ -13,9 +13,9 @@ setting: ""
 entry_type: "Technical"
 safety_figures: true   # Verus, 20 November 2026
 published_on: "2026-10-19"
-live_updated_on: "2026-11-17"
+live_updated_on: "2026-11-20"
 source_page: "https://www.unamente.org/library/oral-rehydration-solution-ors-stopping-dehydration-with-salt-sugar-and-water"
-image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1792621994620-G6MZZGA9KYHNUBD6AVPZ/image_42affb38+%281%29.jpg"
+image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1795025936073-QIN88TQZTUHNWHBDIDVG/ORS_2026-11-17.jpg"
 place:
   country: "not stated"
   region: "not stated"
@@ -34,5 +34,7 @@ What to expect — and what it does NOT do. Severe dehydration and shock need a 
 Who made it. A chain of people, not one genius: Robert K. Crane, who explained how glucose lets the gut absorb salt and water; David Nalin, Richard Cash, Norbert Hirschhorn and the Cholera Research Laboratory team in Dhaka, now icddr,b, who proved it clinically; and Dr Dilip Mahalanabis, whose use of a simple salt-sugar drink in the 1971 refugee camps cut cholera deaths from about 30% to under 4% where drips had run out.
 
 Used ORS for a child or yourself — a sachet, or mixed at home? Tell us how it went — whether you had a sachet or made it, whether it kept the person hydrated, whether you needed to get to a clinic anyway, what you’d change, and roughly where and when. We want the honest result, including what didn’t work. Your contact details stay private; we read and check every report before anything is published, and we’ll never publish a detail you’ve asked us to keep private.
+
+Spotted a mistake, or know of a source we missed? [Tell us](https://www.unamente.org/contact), and we will check it.
 
 Sources: WHO’s diarrhoeal-disease fact sheet and the WHO/UNICEF Oral Rehydration Salts formula and clinical guidance (who.int); the Rehydration Project home-ORS recipe and the “no saltier than tears” check (rehydrate.org); the U.S. CDC’s guidance on managing acute gastroenteritis in children (cdc.gov); the 1971 case-fatality drop (about 30% → 3.6%) and the lives-saved estimates from Our World in Data (ourworldindata.org); history from icddr,b (icddrb.org).

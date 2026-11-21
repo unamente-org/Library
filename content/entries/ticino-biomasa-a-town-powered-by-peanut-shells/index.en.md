@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-17. Source: /library/ticino-biomasa-a-town-powered-by-peanut-shells
+# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/ticino-biomasa-a-town-powered-by-peanut-shells
 id: "ticino-biomasa-a-town-powered-by-peanut-shells"
 url: "/library/ticino-biomasa-a-town-powered-by-peanut-shells/"
 title: "Ticino Biomasa — A Town Powered by Peanut Shells"
@@ -13,7 +13,7 @@ setting: ""
 entry_type: "Social Enterprise"
 safety_figures: false   # Verus, 20 November 2026
 published_on: "2026-10-08"
-live_updated_on: "2026-11-17"
+live_updated_on: "2026-11-20"
 source_page: "https://www.unamente.org/library/ticino-biomasa-a-town-powered-by-peanut-shells"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1791430847294-PVPC4PYXUFWTOXDWGJCS/TICINO+BIOMASA.jpg"
 place:
@@ -34,5 +34,7 @@ Ticino is a small town in Argentina’s peanut country, and peanut processing le
 **Who made it.** Generación Ticino Biomasa, part of the peanut company Lorenzati, Ruetsch y Cía, with Fabio Bruschini as president.
 
 **Seen a plant like this — a local crop residue turned into power?** Tell us how it went — what residue, how steady the supply was, how reliable the power proved, what you’d change, and roughly where and when. We want the honest result, including what didn’t work. Your contact details stay private; we read and check every report before anything is published, and we’ll never publish a detail you’ve asked us to keep private.
+
+Spotted a mistake, or know of a source we missed? [Tell us](https://www.unamente.org/contact), and we will check it.
 
 Sources: Origlia, "Con la cáscara de maní, por segunda vez un pueblo cordobés logró salvarse del apagón", La Nación, 4 March 2023 (Spanish) — <https://www.lanacion.com.ar/economia/campo/ticino-pueblo-cordobes-se-salvo-del-apagon-nid2259006> (archived: <https://web.archive.org/web/20251016194655/https://www.lanacion.com.ar/economia/campo/ticino-pueblo-cordobes-se-salvo-del-apagon-nid2259006>) · "Ticino, el pueblo que se ilumina con cáscara de maní", Editores, October 2025 (Spanish) — <https://www.editores-srl.com.ar/sites/default/files/berizzo_20251012_generacion_de_energia_electrica_a_partir_de_la_biomasa.pdf> (archived: <https://web.archive.org/web/20261115220047/https://www.editores-srl.com.ar/sites/default/files/berizzo_20251012_generacion_de_energia_electrica_a_partir_de_la_biomasa.pdf>) · Vía País, on how Ticino generates power from peanut shell (Spanish) — <https://viapais.com.ar/cordoba/como-es-ticino-el-pueblo-que-genera-energia-con-cascara-de-mani-y-no-sufrio-los-dos-grandes-apagones-del-ultimo-tiempo/> (archived: <https://web.archive.org/web/20250929194304/https://viapais.com.ar/cordoba/como-es-ticino-el-pueblo-que-genera-energia-con-cascara-de-mani-y-no-sufrio-los-dos-grandes-apagones-del-ultimo-tiempo/>)

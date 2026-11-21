@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-17. Source: /library/tusafishe-low-cost-water-filters-for-schools-uganda
+# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/tusafishe-low-cost-water-filters-for-schools-uganda
 id: "tusafishe-low-cost-water-filters-for-schools-uganda"
 url: "/library/tusafishe-low-cost-water-filters-for-schools-uganda/"
 title: "Tusafishe — Low-Cost Water Filters for Schools (Uganda)"
@@ -13,7 +13,7 @@ setting: ""
 entry_type: "Social Enterprise"
 safety_figures: true   # Verus, 20 November 2026
 published_on: "2026-10-08"
-live_updated_on: "2026-10-21"
+live_updated_on: "2026-11-20"
 source_page: "https://www.unamente.org/library/tusafishe-low-cost-water-filters-for-schools-uganda"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1791425252539-S95W7I4FD1H6RSWMHN8B/Tusafishe.jpg"
 place:
@@ -40,5 +40,7 @@ Where it has been used. Uganda — Tusafishe’s filters are installed in dozens
 How it continues. Founded by Saudah Birungi, Uganda. Maintained now by Tusafishe (manufacture, install, service) and trained local women and community members; schools own the installed systems. The deployments are recent and often grant-funded; the honest open question is whether schools keep the systems running once a funded installation is over. Independent long-term follow-up data is not yet available.
 
 Used a Tusafishe system, or run one at your school? Tell us how it went — how it performed, whether it was still running a year on, whether the water stayed clean, what you’d change, and roughly where and when. We want the honest result, including what didn’t work. Your contact details stay private; we read and check every report before anything is published, and we’ll never publish a detail you’ve asked us to keep private.
+
+Spotted a mistake, or know of a source we missed? [Tell us](https://www.unamente.org/contact), and we will check it.
 
 Sources: SEED enterprise profile (seed.uno); the 2025 schools programme, reported via allAfrica (allafrica.com); the Bayer Social Innovation Award (bayer.com); tusafishe.org; national water-access context: Uganda Ministry WASH Adaptation Plan. Reach figures on these sources are the organisation’s own or single-report and are not independently verified.

@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-17. Source: /library/biochar-charcoal-that-rebuilds-soil
+# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/biochar-charcoal-that-rebuilds-soil
 id: "biochar-charcoal-that-rebuilds-soil"
 url: "/library/biochar-charcoal-that-rebuilds-soil/"
 title: "Biochar — Charcoal That Rebuilds Soil"
@@ -13,7 +13,7 @@ setting: ""
 entry_type: "Technical"
 safety_figures: true   # Verus, 20 November 2026
 published_on: "2026-10-08"
-live_updated_on: "2026-10-23"
+live_updated_on: "2026-11-20"
 source_page: "https://www.unamente.org/library/biochar-charcoal-that-rebuilds-soil"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1791425091222-G7QS8TYO0N1UKFNOLXUV/Biochar.jpg"
 place:
@@ -42,5 +42,7 @@ Make charcoal from plant waste and work it into the soil — a very old idea wit
 **How it continues.** Ancestrally, the Indigenous peoples of the Amazon Basin, who created terra preta — revived and formalised as “biochar” by modern soil science, which builds on their knowledge. Maintained now by smallholders, NGOs, researchers, and biochar networks and companies. Terra preta is the ultimate continuity case — it has persisted for centuries with no outside support, because char is extremely stable in soil. Where modern biochar lapses, it is usually because the labour-for-benefit maths doesn’t favour it in a given soil, not because the char stops working.
 
 **Made and used biochar?** Tell us how it went — what you built it from, how it performed, whether it worked where you are, what you’d change, and roughly where and when. We want the honest result, including what didn’t work. Your contact details stay private; we read and check every report before anything is published, and we’ll never publish a detail you’ve asked us to keep private.
+
+Spotted a mistake, or know of a source we missed? [Tell us](https://www.unamente.org/contact), and we will check it.
 
 *Sources: Jeffery et al. (2017), “Biochar boosts tropical but not temperate crop yields,” Environmental Research Letters, doi.org/10.1088/1748-9326/aa67bd · International Biochar Initiative ([biochar-international.org](http://biochar-international.org)) · the Ithaka Institute Kon-Tiki method ([ithaka-institut.org](http://ithaka-institut.org)) · FAO (production) · terra-preta archaeology (origin).*

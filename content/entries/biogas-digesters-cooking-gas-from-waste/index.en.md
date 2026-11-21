@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-17. Source: /library/biogas-digesters-cooking-gas-from-waste
+# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/biogas-digesters-cooking-gas-from-waste
 id: "biogas-digesters-cooking-gas-from-waste"
 url: "/library/biogas-digesters-cooking-gas-from-waste/"
 title: "Biogas Digesters — Cooking Gas from Waste"
@@ -13,7 +13,7 @@ setting: ""
 entry_type: "Technical"
 safety_figures: true   # Verus, 20 November 2026
 published_on: "2026-10-08"
-live_updated_on: "2026-11-17"
+live_updated_on: "2026-11-20"
 source_page: "https://www.unamente.org/library/biogas-digesters-cooking-gas-from-waste"
 image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1791424254397-2WPBHDIB0QA11EYQ3Q8R/Biogas+digesters.jpg"
 place:
@@ -42,5 +42,7 @@ Turn a settlement’s own waste into clean cooking fuel — with no electricity 
 **How it continues.** The technique is ancient; the community toilet-linked model was scaled by Sulabh (India, from 1970) and by Umande Trust with government and Athi Water in Nairobi. In Kibera it is run on-site and funded by user fees, with the biogas offsetting running costs; Sulabh’s plants are maintained pay-per-use. Kibera’s centres are recent (2023 onward), so there is no long-term track record yet. The wider lesson from Nepal is clear: biogas lives or dies on maintenance and feedstock, not on the build.
 
 **Built or run a biodigester?** Tell us how it went — what you built it from, how it performed, whether it worked where you are, what you’d change, and roughly where and when. We want the honest result, including what didn’t work. Your contact details stay private; we read and check every report before anything is published, and we’ll never publish a detail you’ve asked us to keep private.
+
+Spotted a mistake, or know of a source we missed? [Tell us](https://www.unamente.org/contact), and we will check it.
 
 *Sources: FAO (1996), Biogas Technology: A Training Manual for Extension, prepared in Nepal by Consolidated Management Services Nepal — <https://www.fao.org/4/ae897e/ae897e00.htm> · Sunil Prasad Lohani, Poushan Shrestha, Marc Jeuland and Daniel Kammen, "Sustainability and contribution of household biogas plants to energy transition in Nepal", Scientific Reports 15, 37928 (2025) — <https://doi.org/10.1038/s41598-025-24615-2> · Kibera bio-centres: AFD, "Toilets are Producing Energy in East Africa's Largest Informal Settlement" — <https://www.afd.fr/en/actualites/toilets-are-producing-energy-east-africas-largest-informal-settlement> · and Umande Trust · Sulabh International ([sulabhinternational.org](http://sulabhinternational.org)) · Green Empowerment and fixed-dome build manuals ([greenempowerment.org](http://greenempowerment.org)).*
