@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{- $entries := where site.RegularPages "Section" "entries" -}}
+{{- $kinds := dict "not-yet-tried-there" "Not yet tried there" "still-unanswered" "Still unanswered" -}}
+<article class="entry cam-question">
+  {{ if ne .Params.status "published" }}<p class="testnote">Draft question: not checked, not live.</p>{{ end }}
+  {{ partial "translation-notice.html" . }}
+  <p class="kicker"><a href="{{ .CurrentSection.RelPermalink }}">Calling All Minds</a> · {{ index $kinds .Params.kind }} · {{ title .Params.question_status }}</p>
+  <h1>{{ .Title }}</h1>
+  <p class="about">About: {{ range $i, $id := .Params.entries }}{{ with index (where $entries "Params.id" $id) 0 }}{{ if $i }}, {{ end }}<a href="{{ .RelPermalink }}">{{ .Title }}</a> ({{ index .Params.trust 0 }}){{ end }}{{ end }}</p>
+  {{ .Content }}
+  <section class="searched">
+    <h2>Who searched</h2>
+    <ul>{{ range .Params.searched }}<li>{{ .by }}, {{ .date }} — {{ delimit .languages ", " }}</li>{{ end }}</ul>
+    <p>"We found no record" only means we did not find it. If you know of work we missed, in any language, tell us.</p>
+  </section>
+  {{ with .Params.clinician_review }}<p>Reviewed by a clinician: {{ .by }}, {{ .date }}.</p>{{ end }}
+  {{ with .Params.answered_by }}<section class="credits"><h2>Answered by</h2><ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul></section>{{ end }}
+</article>
+{{ end }}

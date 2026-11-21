@@ -25,6 +25,36 @@
 {{ end }}
 {{- /* Unpublished entries never go live by accident: outside the test build, any entry whose status is not
      "published" must also say build: {render: never, list: never}, or the build stops. */ -}}
-{{ if and (eq .Kind "page") (eq .Section "entries") (not site.Params.testBuild) (ne .Params.status "published") }}
+{{ if and (not site.Params.testBuild) (ne .Params.status "published") (or (and (eq .Kind "page") (in (slice "entries" "calling-all-minds") .Section)) (and (eq .Kind "section") (eq .Section "calling-all-minds"))) }}
   {{ errorf "Unpublished entry %q (status %q) would get a public page. Add  build: {render: never, list: never}  to its header, or set its status to published once it has passed the gates." .File.Path .Params.status }}
+{{ end }}
+{{- /* Calling All Minds rules (proposal 20b, Daniela 20 November 2026). Each one stops the build with a message. */ -}}
+{{ if and (eq .Kind "page") (eq .Section "calling-all-minds") }}
+  {{ $q := . }}
+  {{ if not (in (slice "not-yet-tried-there" "still-unanswered") .Params.kind) }}
+    {{ errorf "Calling All Minds %q: kind must be not-yet-tried-there or still-unanswered." .File.Path }}
+  {{ end }}
+  {{ if not (in (slice "open" "testing" "answered") .Params.question_status) }}
+    {{ errorf "Calling All Minds %q: question_status must be open, testing or answered." .File.Path }}
+  {{ end }}
+  {{ $searched := where (.Params.searched | default slice) "by" "!=" "" }}
+  {{ if not $searched }}
+    {{ errorf "Calling All Minds %q: say who searched, when and in which languages (searched:). We never say nobody has tried it." .File.Path }}
+  {{ end }}
+  {{ if not .Params.entries }}
+    {{ errorf "Calling All Minds %q: list the library entries it is about (entries:)." .File.Path }}
+  {{ end }}
+  {{ range .Params.entries }}
+    {{ $e := where (where site.RegularPages "Section" "entries") "Params.id" . }}
+    {{ if not $e }}
+      {{ errorf "Calling All Minds %q: no library entry with id %q." $q.File.Path . }}
+    {{ else }}{{ $e = index $e 0 }}
+      {{ if in ($e.Params.lane | default slice) "Preserved Knowledge" }}
+        {{ errorf "Calling All Minds %q is about %q, which is custodians' knowledge (Lane 2). Never invite others to try it elsewhere; document a parallel tradition as its own entry instead." $q.File.Path $e.Title }}
+      {{ end }}
+      {{ if and (in ($e.Params.category | default slice) "Health") (not $q.Params.clinician_review.by) }}
+        {{ errorf "Calling All Minds %q is about %q, a Health entry: it needs clinician_review (who, when) before it can be built." $q.File.Path $e.Title }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
 {{ end }}

@@ -1,0 +1,26 @@
+---
+# One open question = one file: content/calling-all-minds/<short-name>.en.md
+# Alba writes it from Verus's check; Umbral publishes it. The build stops if a required field is missing or breaks a rule.
+title: ""                 # the question, in one plain sentence
+status: draft             # draft until it passes the gates, then published
+kind: ""                  # "not-yet-tried-there" or "still-unanswered" (Daniela, 20 November: both kinds)
+entries: []               # ids of the library entries it is about, e.g. ["za-pits-bringing-dead-soil-back-to-life"]
+question_status: open     # open, testing, or answered
+searched:                 # who looked for an answer, when, in which languages. Required: "we found no record" needs this.
+  - by: ""
+    date: ""              # YYYY-MM-DD
+    languages: []
+clinician_review:         # required when any linked entry is in the Health category; leave out otherwise
+  by: ""
+  date: ""
+answered_by: []           # names credited when answered, whether the method worked or not
+---
+## What we know
+
+## What we could not find
+
+## What limits it for real
+
+## What would settle it
+
+## How to take part

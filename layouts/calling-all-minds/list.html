@@ -1,0 +1,45 @@
+{{ define "main" }}
+{{- /* Calling All Minds: the list of open questions, with the same filter buttons as the library. */ -}}
+{{- $qs := .RegularPages -}}
+{{- if not site.Params.testBuild }}{{ $qs = where $qs "Params.status" "published" }}{{ end -}}
+{{- $entries := where site.RegularPages "Section" "entries" -}}
+{{- $kinds := dict "not-yet-tried-there" "Not yet tried there" "still-unanswered" "Still unanswered" -}}
+<article class="cam">
+  {{ if eq .Params.status "draft" }}<p class="testnote">Draft frame. The page text comes from Alba once Daniela has seen it; nothing here is live.</p>{{ end }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{ if $qs }}
+  <section class="finder" aria-label="Find a question">
+    <label for="q">Search the questions</label>
+    <input id="q" type="search" autocomplete="off" placeholder="For example: dry season">
+    <div class="filters">
+      <div class="fgroup" role="group" aria-label="Kind"><span class="flabel">Kind</span>
+        {{- range $k, $v := $kinds }}<button type="button" class="fchip" data-filter="kind" data-value="{{ $k }}" aria-pressed="false">{{ $v }}</button>{{ end }}
+      </div>
+      {{- $cats := slice }}{{ range $qs }}{{ range .Params.entries }}{{ with index (where $entries "Params.id" .) 0 }}{{ $cats = $cats | append .Params.category }}{{ end }}{{ end }}{{ end }}
+      <div class="fgroup" role="group" aria-label="Category"><span class="flabel">Category</span>
+        {{- range ($cats | uniq | sort) }}<button type="button" class="fchip" data-filter="category" data-value="{{ . }}" aria-pressed="false"{{ with index hugo.Data.labels.category . }} data-tip="{{ . }}"{{ end }}>{{ . }}</button>{{ end }}
+      </div>
+      <div class="fgroup" role="group" aria-label="Status"><span class="flabel">Status</span>
+        {{- range (slice "open" "testing" "answered") }}<button type="button" class="fchip" data-filter="qstatus" data-value="{{ . }}" aria-pressed="false">{{ title . }}</button>{{ end }}
+      </div>
+      <button type="button" class="clear" id="clearAll" hidden>Clear all</button>
+    </div>
+    <p class="count" id="count" data-noun="questions" aria-live="polite"></p>
+  </section>
+  <ul class="cards" id="cards">
+    {{- range $qs.ByTitle }}
+    {{- $c := slice }}{{ $names := slice }}{{ range .Params.entries }}{{ with index (where $entries "Params.id" .) 0 }}{{ $c = $c | append .Params.category }}{{ $names = $names | append .Title }}{{ end }}{{ end }}
+    <li class="card" data-kind="{{ .Params.kind }}" data-category="{{ delimit ($c | uniq) "|" }}" data-qstatus="{{ .Params.question_status }}" data-text="{{ lower (printf "%s %s" .Title (delimit $names " ")) }}">
+      <a href="{{ .RelPermalink }}">
+        <h2>{{ .Title }}</h2>
+        <p class="summary">{{ index $kinds .Params.kind }} · {{ title .Params.question_status }}{{ with $names }} · About: {{ delimit . ", " }}{{ end }}</p>
+      </a>
+    </li>
+    {{- end }}
+  </ul>
+  {{ else }}
+  <p>No questions yet.</p>
+  {{ end }}
+</article>
+{{ end }}

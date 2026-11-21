@@ -30,7 +30,7 @@
       c.hidden = !ok;
       if (ok) shown++;
     });
-    count.textContent = shown + " of " + cards.length + " entries";
+    count.textContent = shown + " of " + cards.length + " " + (count.dataset.noun || "entries");
     if (clear) clear.hidden = !(any || q.value);
   }
   chips.forEach(function (b) {

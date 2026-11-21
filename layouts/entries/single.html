@@ -38,6 +38,9 @@
   </section>
   {{ end }}
 
+  {{- /* Calling All Minds questions about this entry, if any. */ -}}
+  {{ partial "open-questions.html" . }}
+
   {{- /* Spec section 10: sources, each with live and archived links where held. */ -}}
   {{ partial "sources.html" . }}
 </article>

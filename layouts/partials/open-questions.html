@@ -1,0 +1,11 @@
+{{- /* On an entry page: the Calling All Minds questions about it, found from each question's own list of entries,
+     so entries need no new field. Only published questions show, except in the test build. */ -}}
+{{- $id := .Params.id -}}
+{{- $qs := slice -}}
+{{- with site.GetPage "/calling-all-minds" }}{{ range .RegularPages }}{{ if and (in .Params.entries $id) (or site.Params.testBuild (eq .Params.status "published")) }}{{ $qs = $qs | append . }}{{ end }}{{ end }}{{ end -}}
+{{- with $qs }}
+<section class="open-questions">
+  <h2>Open questions</h2>
+  <ul>{{ range . }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}</ul>
+</section>
+{{- end }}
