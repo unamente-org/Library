@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/ticino-biomasa-a-town-powered-by-peanut-shells
+# Copied unchanged from the live Squarespace entry on 2026-11-22. Source: /library/ticino-biomasa-a-town-powered-by-peanut-shells
 id: "ticino-biomasa-a-town-powered-by-peanut-shells"
 url: "/library/ticino-biomasa-a-town-powered-by-peanut-shells/"
 title: "Ticino Biomasa — A Town Powered by Peanut Shells"
@@ -13,9 +13,9 @@ setting: ""
 entry_type: "Social Enterprise"
 safety_figures: false   # Verus, 20 November 2026
 published_on: "2026-10-08"
-live_updated_on: "2026-11-20"
+live_updated_on: "2026-11-21"
 source_page: "https://www.unamente.org/library/ticino-biomasa-a-town-powered-by-peanut-shells"
-image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1791430847294-PVPC4PYXUFWTOXDWGJCS/TICINO+BIOMASA.jpg"
+image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1795283159207-V2Q8VNZ2ERHF82TCWX5L/TICINO_BIOMASA_2026-11-19.jpg"
 place:
   country: "not stated"
   region: "not stated"

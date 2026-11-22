@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/za-pits-bringing-dead-soil-back-to-life
+# Copied unchanged from the live Squarespace entry on 2026-11-22. Source: /library/za-pits-bringing-dead-soil-back-to-life
 id: "za-pits-bringing-dead-soil-back-to-life"
 url: "/library/za-pits-bringing-dead-soil-back-to-life/"
 title: "Zaï Pits — Bringing Dead Soil Back to Life"

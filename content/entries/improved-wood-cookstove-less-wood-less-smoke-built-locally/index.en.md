@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/improved-wood-cookstove-less-wood-less-smoke-built-locally
+# Copied unchanged from the live Squarespace entry on 2026-11-22. Source: /library/improved-wood-cookstove-less-wood-less-smoke-built-locally
 id: "improved-wood-cookstove-less-wood-less-smoke-built-locally"
 url: "/library/improved-wood-cookstove-less-wood-less-smoke-built-locally/"
 title: "Improved Wood Cookstove — Less Wood, Less Smoke, Built Locally"
@@ -13,9 +13,9 @@ setting: ""
 entry_type: "Technical"
 safety_figures: true   # Verus, 20 November 2026
 published_on: "2026-10-08"
-live_updated_on: "2026-11-20"
+live_updated_on: "2026-11-21"
 source_page: "https://www.unamente.org/library/improved-wood-cookstove-less-wood-less-smoke-built-locally"
-image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1791430140187-8MJBRXAAQ31CP55WQSN1/IMPROVED+WOOD+COOKSTOVE.jpg"
+image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1795283107542-GR1BGDKLJAUW8AT6C1ZB/IMPROVED_WOOD_COOKSTOVE_2026-11-19.jpg"
 place:
   country: "not stated"
   region: "not stated"

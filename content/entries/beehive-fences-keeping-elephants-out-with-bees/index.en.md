@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/beehive-fences-keeping-elephants-out-with-bees
+# Copied unchanged from the live Squarespace entry on 2026-11-22. Source: /library/beehive-fences-keeping-elephants-out-with-bees
 id: "beehive-fences-keeping-elephants-out-with-bees"
 url: "/library/beehive-fences-keeping-elephants-out-with-bees/"
 title: "Beehive Fences — Keeping Elephants Out with Bees"

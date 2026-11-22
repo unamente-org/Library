@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/sodis-disinfecting-drinking-water-with-a-clear-bottle-and-sunshine
+# Copied unchanged from the live Squarespace entry on 2026-11-22. Source: /library/sodis-disinfecting-drinking-water-with-a-clear-bottle-and-sunshine
 id: "sodis-disinfecting-drinking-water-with-a-clear-bottle-and-sunshine"
 url: "/library/sodis-disinfecting-drinking-water-with-a-clear-bottle-and-sunshine/"
 title: "SODIS — Disinfecting Drinking Water with a Clear Bottle and Sunshine"

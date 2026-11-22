@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/zeer-pot-a-fridge-that-runs-on-nothing
+# Copied unchanged from the live Squarespace entry on 2026-11-22. Source: /library/zeer-pot-a-fridge-that-runs-on-nothing
 id: "zeer-pot-a-fridge-that-runs-on-nothing"
 url: "/library/zeer-pot-a-fridge-that-runs-on-nothing/"
 title: "Zeer Pot — A Fridge That Runs on Nothing"

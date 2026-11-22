@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/sand-dams-banking-a-seasons-water-inside-the-sand
+# Copied unchanged from the live Squarespace entry on 2026-11-22. Source: /library/sand-dams-banking-a-seasons-water-inside-the-sand
 id: "sand-dams-banking-a-seasons-water-inside-the-sand"
 url: "/library/sand-dams-banking-a-seasons-water-inside-the-sand/"
 title: "Sand Dams — Banking a Season’s Water Inside the Sand"

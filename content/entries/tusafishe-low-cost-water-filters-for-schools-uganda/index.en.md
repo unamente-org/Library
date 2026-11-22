@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/tusafishe-low-cost-water-filters-for-schools-uganda
+# Copied unchanged from the live Squarespace entry on 2026-11-22. Source: /library/tusafishe-low-cost-water-filters-for-schools-uganda
 id: "tusafishe-low-cost-water-filters-for-schools-uganda"
 url: "/library/tusafishe-low-cost-water-filters-for-schools-uganda/"
 title: "Tusafishe — Low-Cost Water Filters for Schools (Uganda)"

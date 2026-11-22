@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/biogas-digesters-cooking-gas-from-waste
+# Copied unchanged from the live Squarespace entry on 2026-11-22. Source: /library/biogas-digesters-cooking-gas-from-waste
 id: "biogas-digesters-cooking-gas-from-waste"
 url: "/library/biogas-digesters-cooking-gas-from-waste/"
 title: "Biogas Digesters — Cooking Gas from Waste"

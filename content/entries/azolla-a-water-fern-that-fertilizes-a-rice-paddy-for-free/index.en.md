@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/azolla-a-water-fern-that-fertilizes-a-rice-paddy-for-free
+# Copied unchanged from the live Squarespace entry on 2026-11-22. Source: /library/azolla-a-water-fern-that-fertilizes-a-rice-paddy-for-free
 id: "azolla-a-water-fern-that-fertilizes-a-rice-paddy-for-free"
 url: "/library/azolla-a-water-fern-that-fertilizes-a-rice-paddy-for-free/"
 title: "Azolla: A Water Fern That Feeds a Rice Paddy With No Fertilizer Bill"
@@ -13,9 +13,9 @@ setting: ""
 entry_type: "Technical"
 safety_figures: true   # Verus, 20 November 2026
 published_on: "2026-10-08"
-live_updated_on: "2026-11-20"
+live_updated_on: "2026-11-21"
 source_page: "https://www.unamente.org/library/azolla-a-water-fern-that-fertilizes-a-rice-paddy-for-free"
-image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1791428682222-VXVU9A4YU7TXHNAC8NT1/AZOLLA.jpg"
+image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1795283039539-S30VEND0T223VKUEH6KW/AZOLLA_2026-11-19.jpg"
 place:
   country: "not stated"
   region: "not stated"

@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/oga-sanitised-human-urine-as-fertilizer
+# Copied unchanged from the live Squarespace entry on 2026-11-22. Source: /library/oga-sanitised-human-urine-as-fertilizer
 id: "oga-sanitised-human-urine-as-fertilizer"
 url: "/library/oga-sanitised-human-urine-as-fertilizer/"
 title: "Oga — sanitised human urine as fertilizer"

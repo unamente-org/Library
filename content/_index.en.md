@@ -1,6 +1,6 @@
 ---
 title: "UnaMente Library"
+# Welcome line: the live library page's own search description, word for word (unamente.org/library, read 22 November 2026).
+# Alba may replace it with new wording through the usual gates.
 ---
-
-<!-- Placeholder welcome line for the test build. The real wording is Alba's. -->
-Test build of the UnaMente library. The entries are copied unchanged from the live library on unamente.org, which remains the public version.
+Browse community solutions for water, food, energy, soil, health, shelter and living with wildlife. Each solution says how it works and when it does not work.

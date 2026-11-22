@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/seismic-reinforced-adobe-making-earthen-houses-survive-an-earthquake
+# Copied unchanged from the live Squarespace entry on 2026-11-22. Source: /library/seismic-reinforced-adobe-making-earthen-houses-survive-an-earthquake
 id: "seismic-reinforced-adobe-making-earthen-houses-survive-an-earthquake"
 url: "/library/seismic-reinforced-adobe-making-earthen-houses-survive-an-earthquake/"
 title: "Seismic-Reinforced Adobe — Making Earthen Houses Survive an Earthquake"
@@ -13,9 +13,9 @@ setting: ""
 entry_type: "Technical (Life-safety)"
 safety_figures: true   # Verus, 20 November 2026
 published_on: "2026-10-08"
-live_updated_on: "2026-11-20"
+live_updated_on: "2026-11-21"
 source_page: "https://www.unamente.org/library/seismic-reinforced-adobe-making-earthen-houses-survive-an-earthquake"
-image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1791429760056-0GSBV6OZ725B0X7PONT8/SEISMIC-REINFORCED+ADOBE.jpg"
+image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1795283067950-WBA57E4EOSPJXYH4OXTL/SEISMIC_ADOBE_2026-11-19.jpg"
 place:
   country: "not stated"
   region: "not stated"

@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/vermifiltration-earthworms-that-clean-wastewater
+# Copied unchanged from the live Squarespace entry on 2026-11-22. Source: /library/vermifiltration-earthworms-that-clean-wastewater
 id: "vermifiltration-earthworms-that-clean-wastewater"
 url: "/library/vermifiltration-earthworms-that-clean-wastewater/"
 title: "Vermifiltration — Earthworms That Clean Wastewater"

@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/biochar-charcoal-that-rebuilds-soil
+# Copied unchanged from the live Squarespace entry on 2026-11-22. Source: /library/biochar-charcoal-that-rebuilds-soil
 id: "biochar-charcoal-that-rebuilds-soil"
 url: "/library/biochar-charcoal-that-rebuilds-soil/"
 title: "Biochar — Charcoal That Rebuilds Soil"

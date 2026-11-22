@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/fog-nets-drinking-water-from-mist
+# Copied unchanged from the live Squarespace entry on 2026-11-22. Source: /library/fog-nets-drinking-water-from-mist
 id: "fog-nets-drinking-water-from-mist"
 url: "/library/fog-nets-drinking-water-from-mist/"
 title: "Fog Nets — Drinking Water from Mist"

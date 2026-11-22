@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/biosand-filter-cleaner-drinking-water-from-sand-gravel-and-a-living-layer
+# Copied unchanged from the live Squarespace entry on 2026-11-22. Source: /library/biosand-filter-cleaner-drinking-water-from-sand-gravel-and-a-living-layer
 id: "biosand-filter-cleaner-drinking-water-from-sand-gravel-and-a-living-layer"
 url: "/library/biosand-filter-cleaner-drinking-water-from-sand-gravel-and-a-living-layer/"
 title: "Biosand Filter: Cleaner Drinking Water From Sand, Gravel and a Living Layer"

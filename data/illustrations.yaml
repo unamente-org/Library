@@ -51,34 +51,34 @@ oral-rehydration-solution-ors-stopping-dehydration-with-salt-sugar-and-water:
 
 ticino-biomasa-a-town-powered-by-peanut-shells:
   file: "ticino-biomasa-a-town-powered-by-peanut-shells.jpg"
-  original_file: "TICINO BIOMASA.jpg"
+  card_file: "cards/ticino-biomasa-a-town-powered-by-peanut-shells.jpg"   # TICINO_BIOMASA_card_2026-11-19.jpg, passed by Verus 19 November
+  original_file: "TICINO_BIOMASA_2026-11-19.jpg"
   ai_generated: true
-  status: due-to-change
-  status_note: "purple-flower edit coming from Lente"
+  status: current   # flower-free version live on unamente.org since 22 November 2026 (read in the live feed)
   alt: "A cutaway power plant: peanut shells are fed by conveyor into a furnace, the steam turns a turbine and generator, and power lines carry electricity to nearby houses."
 
 solar-food-dryer-preserving-a-harvest-with-sun-and-airflow:
   file: "solar-food-dryer-preserving-a-harvest-with-sun-and-airflow.jpg"
-  original_file: "SOLAR FOOD DRYER.jpg"
+  card_file: "cards/solar-food-dryer-preserving-a-harvest-with-sun-and-airflow.jpg"   # SOLAR_FOOD_DRYER_card_2026-11-19.jpg, passed by Verus 19 November
+  original_file: "SOLAR_FOOD_DRYER_2026-11-19.jpg"
   ai_generated: true
-  status: due-to-change
-  status_note: "purple-flower edit coming from Lente"
+  status: current   # flower-free version live on unamente.org since 22 November 2026 (read in the live feed)
   alt: "A sun-heated collector box beside a dryer cabinet with stacked trays of sliced fruit and vegetables; arrows show warm air rising through the trays and out of a vent at the top."
 
 improved-wood-cookstove-less-wood-less-smoke-built-locally:
   file: "improved-wood-cookstove-less-wood-less-smoke-built-locally.jpg"
-  original_file: "IMPROVED WOOD COOKSTOVE.jpg"
+  card_file: "cards/improved-wood-cookstove-less-wood-less-smoke-built-locally.jpg"   # IMPROVED_WOOD_COOKSTOVE_card_2026-11-19.jpg, passed by Verus 19 November
+  original_file: "IMPROVED_WOOD_COOKSTOVE_2026-11-19.jpg"
   ai_generated: true
-  status: due-to-change
-  status_note: "purple-flower edit coming from Lente"
+  status: current   # flower-free version live on unamente.org since 22 November 2026 (read in the live feed)
   alt: "Cutaway of a brick cookstove with an insulated combustion chamber: sticks are fed into the fire, a pot sits on top, and arrows show hot gases rising to the pot and smoke leaving through a chimney."
 
 seismic-reinforced-adobe-making-earthen-houses-survive-an-earthquake:
   file: "seismic-reinforced-adobe-making-earthen-houses-survive-an-earthquake.jpg"
-  original_file: "SEISMIC-REINFORCED ADOBE.jpg"
+  card_file: "cards/seismic-reinforced-adobe-making-earthen-houses-survive-an-earthquake.jpg"   # SEISMIC_ADOBE_card_2026-11-19.jpg, passed by Verus 19 November
+  original_file: "SEISMIC_ADOBE_2026-11-19.jpg"
   ai_generated: true
-  status: due-to-change
-  status_note: "purple-flower edit coming from Lente"
+  status: current   # flower-free version live on unamente.org since 22 November 2026 (read in the live feed)
   alt: "An adobe brick wall on a raised base, wrapped on both faces in mesh tied through the wall and topped with a bond beam, with arrows showing the wall held together against shaking."
 
 sand-dams-banking-a-seasons-water-inside-the-sand:
@@ -91,10 +91,10 @@ sand-dams-banking-a-seasons-water-inside-the-sand:
 
 azolla-a-water-fern-that-fertilizes-a-rice-paddy-for-free:
   file: "azolla-a-water-fern-that-fertilizes-a-rice-paddy-for-free.jpg"
-  original_file: "AZOLLA.jpg"
+  card_file: "cards/azolla-a-water-fern-that-fertilizes-a-rice-paddy-for-free.jpg"   # AZOLLA_card_2026-11-19.jpg, passed by Verus 19 November
+  original_file: "AZOLLA_2026-11-19.jpg"
   ai_generated: true
-  status: due-to-change
-  status_note: "purple-flower edit coming from Lente"
+  status: current   # flower-free version live on unamente.org since 22 November 2026 (read in the live feed)
   alt: "Cutaway of a flooded rice paddy covered in a floating mat of small azolla ferns, with a close-up circle showing the fern and its roots in the water, and ducks swimming among the rice."
 
 push-pull-companion-planting-that-beats-two-pests-at-once:
@@ -178,7 +178,6 @@ za-pits-bringing-dead-soil-back-to-life:
   alt: "Cross-section of a zaï pit dug in hardened, crusted soil: rainwater collects in the pit around a seedling growing in manure or compost, the dug soil forms a ridge downslope, and termite tunnels break up the soil; an inset shows staggered rows of pits across a slope."
 
 # Card pictures passed by Verus on 19 November 2026 but not yet in use are in assets/illustrations/pending/cards/:
-#   the five flower-free cards (Azolla, Seismic Adobe, Cookstove, Solar Dryer, Ticino) wait until their new square pictures are live on unamente.org;
 #   FMNR and Qochas cards wait for their pages.
 # Passed by Verus on 17 November 2026, waiting for their pages to be published; files in assets/illustrations/pending/.
 # FMNR_2026-11-17.jpg (FMNR, Niger) and QOCHAS_2026-11-17.jpg (Qochas). Add an entry above when the page goes live.

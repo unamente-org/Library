@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/oyster-mushrooms-on-bagasse-food-from-a-waste
+# Copied unchanged from the live Squarespace entry on 2026-11-22. Source: /library/oyster-mushrooms-on-bagasse-food-from-a-waste
 id: "oyster-mushrooms-on-bagasse-food-from-a-waste"
 url: "/library/oyster-mushrooms-on-bagasse-food-from-a-waste/"
 title: "Oyster Mushrooms on Bagasse — Food from a Waste"

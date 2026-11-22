@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/treadle-pump-irrigation-by-foot
+# Copied unchanged from the live Squarespace entry on 2026-11-22. Source: /library/treadle-pump-irrigation-by-foot
 id: "treadle-pump-irrigation-by-foot"
 url: "/library/treadle-pump-irrigation-by-foot/"
 title: "Treadle Pump — Irrigation by Foot"

@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/solar-food-dryer-preserving-a-harvest-with-sun-and-airflow
+# Copied unchanged from the live Squarespace entry on 2026-11-22. Source: /library/solar-food-dryer-preserving-a-harvest-with-sun-and-airflow
 id: "solar-food-dryer-preserving-a-harvest-with-sun-and-airflow"
 url: "/library/solar-food-dryer-preserving-a-harvest-with-sun-and-airflow/"
 title: "Solar Food Dryer — Preserving a Harvest with Sun and Airflow"
@@ -13,9 +13,9 @@ setting: ""
 entry_type: "Technical"
 safety_figures: true   # Verus, 20 November 2026
 published_on: "2026-10-08"
-live_updated_on: "2026-11-20"
+live_updated_on: "2026-11-21"
 source_page: "https://www.unamente.org/library/solar-food-dryer-preserving-a-harvest-with-sun-and-airflow"
-image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1791430700900-GCRB5YXH5S5X2ZDV7KHY/SOLAR+FOOD+DRYER.jpg"
+image_live: "https://images.squarespace-cdn.com/content/v1/6a4b0fb8c22bbc0ca4119515/1795283130820-XFD15QDBOGWRGQ01FDLP/SOLAR_FOOD_DRYER_2026-11-19.jpg"
 place:
   country: "not stated"
   region: "not stated"

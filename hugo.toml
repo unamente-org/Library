@@ -10,7 +10,7 @@ disableKinds = ["taxonomy", "term"]
 
 # Search engines must not index the test build.
 [params]
-  testBuild = true
+  testBuild = false   # switched off for go-live, 22 November 2026 (Daniela's go-ahead, 09:59). Set back to true to undo.
   # The rest of the site stays on Squarespace; links to it from the library use this address.
   mainSite = "https://www.unamente.org"
   # Entries always shown first in the library list, by id, in this order (Daniela, 17 November 2026).

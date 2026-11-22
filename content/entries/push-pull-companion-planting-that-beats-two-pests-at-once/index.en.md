@@ -1,5 +1,5 @@
 ---
-# Copied unchanged from the live Squarespace entry on 2026-11-21. Source: /library/push-pull-companion-planting-that-beats-two-pests-at-once
+# Copied unchanged from the live Squarespace entry on 2026-11-22. Source: /library/push-pull-companion-planting-that-beats-two-pests-at-once
 id: "push-pull-companion-planting-that-beats-two-pests-at-once"
 url: "/library/push-pull-companion-planting-that-beats-two-pests-at-once/"
 title: "Push-Pull — Companion Planting That Beats Two Pests at Once"
