@@ -71,3 +71,7 @@ a{color:var(--accent)}
 .hero figcaption{font-size:.8rem;color:#666;margin-top:4px}
 
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* Long web addresses in Sources lines and reference lists may break anywhere, so an entry never runs wider than a phone (Umbral, 22 November 2026: 12 of 21 pages overflowed at 375 px). */
+.entry{overflow-wrap:anywhere;min-width:0}
+.entry img{max-width:100%;height:auto}
