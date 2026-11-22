@@ -58,3 +58,18 @@
     {{ end }}
   {{ end }}
 {{ end }}
+{{- /* Lane 2 (Preserved Knowledge) protocol, 15 November 2026. A published Lane 2 entry stops the build unless it meets these. */ -}}
+{{ if and (eq .Kind "page") (eq .Section "entries") (eq .Params.status "published") (in (.Params.lane | default slice) "Preserved Knowledge") }}
+  {{ if not (in (slice "custodians' own published material" "confirmed by the custodians") .Params.basis) }}
+    {{ errorf "Lane 2 entry %q: basis must be \"custodians' own published material\" or \"confirmed by the custodians\". Held entries are never published." .File.Path }}
+  {{ end }}
+  {{ if or (not .Params.custodian) (not (in (slice "Strong" "Moderate" "Limited") .Params.custodian_voice)) }}
+    {{ errorf "Lane 2 entry %q: the custodian header needs custodian and custodian_voice (Strong, Moderate or Limited)." .File.Path }}
+  {{ end }}
+  {{ with .Params.licence }}
+    {{ errorf "Lane 2 entry %q has a licence line. Custodians' knowledge is not ours to license; remove it." $.File.Path }}
+  {{ end }}
+  {{ if not (strings.Contains .RawContent "take it down") }}
+    {{ errorf "Lane 2 entry %q: the standing invitation to the custodians (protocol section 6, \"... or to ask us to take it down\") is missing." .File.Path }}
+  {{ end }}
+{{ end }}

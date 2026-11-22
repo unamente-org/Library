@@ -41,8 +41,13 @@ credits: []
 #    date: ""
 #    verified_by: ""     # helper and date, e.g. "Verus, 2026-11-16"
 
-# ---- Lane 2 only (B6) ----
-# basis: one of the three values in UnaMente_Lane2_PreservedKnowledge_Template_and_Protocol_2026-11-15
+# ---- Lane 2 only (B6), per UnaMente_Lane2_PreservedKnowledge_Template_and_Protocol_2026-11-15 ----
+# A Lane 2 entry has lane: ["Preserved Knowledge"], no licence, and the custodian header below.
+custodian: ""           # the custodian people or community; custodian-led organisations only, never individuals' private details
+knowledge: ""           # the nature of the knowledge, in a few words
+custodian_voice: ""     # Strong, Moderate or Limited
+# basis: exactly one of "custodians' own published material", "confirmed by the custodians",
+#        or "held, outsiders' accounts only" (never published)
 basis: ""
 custodian_contact: []   # shown to readers as "Custodian contact": dated approaches and replies
 #  - date: ""
