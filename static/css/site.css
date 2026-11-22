@@ -1,9 +1,19 @@
+/* Fonts of the main site (www.unamente.org, read 22 November 2026): Libre Baskerville for headings, Almarai for text.
+   Served from the library itself, not from Google, so readers' browsers contact no one else. Both SIL Open Font License; licences in /fonts/. */
+@font-face{font-family:"Libre Baskerville";font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/libre-baskerville-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Libre Baskerville";font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/libre-baskerville-latin-ext-400-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1E00-1E9F,U+1EF2-1EFF,U+20A0-20AB,U+20AD-20C0,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Libre Baskerville";font-style:normal;font-weight:700;font-display:swap;src:url(../fonts/libre-baskerville-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:"Libre Baskerville";font-style:normal;font-weight:700;font-display:swap;src:url(../fonts/libre-baskerville-latin-ext-700-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+1E00-1E9F,U+1EF2-1EFF,U+20A0-20AB,U+20AD-20C0,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Almarai";font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/almarai-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Almarai";font-style:normal;font-weight:700;font-display:swap;src:url(../fonts/almarai-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:"Almarai";font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/almarai-arabic-400-normal.woff2) format("woff2");unicode-range:U+0600-06FF,U+0750-077F,U+FB50-FDFF,U+FE70-FEFC}
+@font-face{font-family:"Almarai";font-style:normal;font-weight:700;font-display:swap;src:url(../fonts/almarai-arabic-700-normal.woff2) format("woff2");unicode-range:U+0600-06FF,U+0750-077F,U+FB50-FDFF,U+FE70-FEFC}
 /* UnaMente Library — small, system fonts only, light page weight. */
-:root{--bg:#f3f5f1;--fg:#17211c;--muted:#5c6660;--faint:#8a938c;--line:#d9ddd3;--accent:#1b6a52;--accent-soft:#e2ede8;--card:#fff;--surface-2:#eceee7;--warn:#a8702a;--strong:#1b6a52;--moderate:#a8702a;--limited:#6b7280;--shadow:0 1px 2px rgba(23,33,28,.06),0 2px 10px rgba(23,33,28,.05);--serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif}
-@media (prefers-color-scheme:dark){:root{--bg:#121712;--fg:#e8ede7;--muted:#9aa49c;--faint:#6f7a72;--line:#2c362e;--accent:#58b894;--accent-soft:#1d2a24;--card:#1a211b;--surface-2:#212a22;--warn:#d79a55;--strong:#58b894;--moderate:#d79a55;--limited:#9aa0a8;--shadow:0 1px 2px rgba(0,0,0,.4),0 2px 12px rgba(0,0,0,.3)}}
+:root{--bg:#EBEDEB;--heading:#3A5649;--fg:#17211c;--muted:#5c6660;--faint:#8a938c;--line:#d9ddd3;--accent:#3A5649;--accent-soft:#e2ede8;--card:#fff;--surface-2:#eceee7;--warn:#a8702a;--strong:#1b6a52;--moderate:#a8702a;--limited:#6b7280;--shadow:0 1px 2px rgba(23,33,28,.06),0 2px 10px rgba(23,33,28,.05);--serif:"Libre Baskerville",Georgia,"Times New Roman",serif;--sans:"Almarai",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+@media (prefers-color-scheme:dark){:root{--bg:#121712;--fg:#e8ede7;--muted:#9aa49c;--faint:#6f7a72;--line:#2c362e;--accent:#58b894;--heading:#9fd3bd;--accent-soft:#1d2a24;--card:#1a211b;--surface-2:#212a22;--warn:#d79a55;--strong:#58b894;--moderate:#d79a55;--limited:#9aa0a8;--shadow:0 1px 2px rgba(0,0,0,.4),0 2px 12px rgba(0,0,0,.3)}}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
-.wrap{max-width:960px;margin:0 auto;padding:0 16px}
+body{margin:0;background:var(--bg);color:var(--fg);font:18px/1.6 var(--sans)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
 a{color:var(--accent)}
 .testbar{background:var(--warn);color:#fff;text-align:center;padding:6px;font-size:.9rem}
 .site-header{display:flex;flex-wrap:wrap;align-items:center;gap:12px;padding-top:20px;padding-bottom:12px;border-bottom:1px solid var(--line)}
@@ -75,3 +85,19 @@ a{color:var(--accent)}
 /* Long web addresses in Sources lines and reference lists may break anywhere, so an entry never runs wider than a phone (Umbral, 22 November 2026: 12 of 21 pages overflowed at 375 px). */
 .entry{overflow-wrap:anywhere;min-width:0}
 .entry img{max-width:100%;height:auto}
+
+/* Main-site look (Daniela, 22 November 2026): its menu, headings in Libre Baskerville and its dark green, a wider page and larger text. */
+h1,h2,h3,.card h2,.entry h1{font-family:var(--serif);font-weight:400;color:var(--heading);letter-spacing:-.01em}
+.entry h1{font-size:clamp(1.9rem,4.2vw,2.8rem);line-height:1.15}
+.entry h2{font-size:clamp(1.35rem,2.6vw,1.75rem);line-height:1.25;margin-top:1.6em}
+.cam h1,.intro h1{font-size:clamp(1.9rem,4.2vw,2.8rem)}
+.card h2{font-size:1.3rem;line-height:1.3}
+.card .summary{font-size:1rem}
+.site-header{align-items:center;gap:14px 28px;padding-top:24px;padding-bottom:18px}
+.mainmenu{display:flex;flex-wrap:wrap;align-items:center;gap:6px 22px;margin-left:auto;font-family:var(--sans);font-size:16px}
+.mainmenu a{color:var(--fg);text-decoration:none;padding:4px 0}
+.mainmenu a:hover,.mainmenu a[aria-current]{text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:1px}
+.mainmenu a.donate{background:var(--heading);color:#fff;border-radius:300px;padding:12px 26px;text-decoration:none;margin-left:6px}
+.mainmenu a.donate:hover{opacity:.9}
+@media (prefers-color-scheme:dark){.mainmenu a.donate{color:#0c130f}}
+@media (max-width:760px){.mainmenu{margin-left:0;width:100%;gap:4px 16px;font-size:15px}.mainmenu a.donate{padding:8px 18px;margin-left:0}}
