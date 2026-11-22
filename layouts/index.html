@@ -1,4 +1,6 @@
 {{ define "main" }}
+{{- /* Main heading for search engines and screen readers; the logo is the visible title (Ducky, 22 November 2026). */ -}}
+<h1 class="sr-only">{{ .Title }}</h1>
 <section class="intro">
   {{ .Content }}
 </section>
