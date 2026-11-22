@@ -99,16 +99,16 @@ azolla-a-water-fern-that-fertilizes-a-rice-paddy-for-free:
 
 push-pull-companion-planting-that-beats-two-pests-at-once:
   file: "push-pull-companion-planting-that-beats-two-pests-at-once.jpg"
-  card_file: "cards/push-pull-companion-planting-that-beats-two-pests-at-once.jpg"   # PUSH_PULL_card_2026-11-19.jpg, passed by Verus 19 November
-  original_file: "PUSH-PULL.jpg"
+  card_file: "cards/push-pull-companion-planting-that-beats-two-pests-at-once.jpg"   # PUSH_PULL_card_2026-11-22.jpg, star-free, passed by Verus 22 November
+  original_file: "PUSH_PULL_2026-11-22.jpg"   # star removed; passed by Verus 22 November 2026, 11:22 (handoff 1051). Replaces PUSH-PULL.jpg.
   ai_generated: true
   status: current
   alt: "A plot seen from above: rows of maize interplanted with a low leafy legume, surrounded by a border of tall grass, with small moths drawn to the border and away from the crop."
 
 tusafishe-low-cost-water-filters-for-schools-uganda:
   file: "tusafishe-low-cost-water-filters-for-schools-uganda.jpg"
-  card_file: "cards/tusafishe-low-cost-water-filters-for-schools-uganda.jpg"   # TUSAFISHE_card_2026-11-19.jpg, passed by Verus 19 November
-  original_file: "Tusafishe.jpg"
+  card_file: "cards/tusafishe-low-cost-water-filters-for-schools-uganda.jpg"   # TUSAFISHE_card_2026-11-22.jpg, star-free, passed by Verus 22 November
+  original_file: "TUSAFISHE_2026-11-22.jpg"   # star removed; passed by Verus 22 November 2026, 11:22 (handoff 1051). Replaces Tusafishe.jpg.
   ai_generated: true
   status: current
   alt: "A stacked bucket water filter in cutaway: water poured in at the top passes down through layers of gravel, sand and charcoal into a clean-water chamber with a tap; moringa leaves and seeds beside it."
@@ -171,8 +171,8 @@ beehive-fences-keeping-elephants-out-with-bees:
 
 za-pits-bringing-dead-soil-back-to-life:
   file: "za-pits-bringing-dead-soil-back-to-life.jpg"
-  card_file: "cards/za-pits-bringing-dead-soil-back-to-life.jpg"   # ZAI_PITS_card_2026-11-19.jpg, passed by Verus 19 November
-  original_file: "zai_pits_1500x1500.jpg"
+  card_file: "cards/za-pits-bringing-dead-soil-back-to-life.jpg"   # ZAI_PITS_card_2026-11-22.jpg, star-free, passed by Verus 22 November
+  original_file: "ZAI_PITS_2026-11-22.jpg"   # star removed; passed by Verus 22 November 2026, 11:22 (handoff 1051). Replaces zai_pits_1500x1500.jpg. Superseded by ZAI_PITS_2026-11-22b (two wrong-way arrows removed, passed by Verus 22 November 11:44) once Lente files it.
   ai_generated: true
   status: current
   alt: "Cross-section of a zaï pit dug in hardened, crusted soil: rainwater collects in the pit around a seedling growing in manure or compost, the dug soil forms a ridge downslope, and termite tunnels break up the soil; an inset shows staggered rows of pits across a slope."
