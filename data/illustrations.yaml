@@ -171,8 +171,8 @@ beehive-fences-keeping-elephants-out-with-bees:
 
 za-pits-bringing-dead-soil-back-to-life:
   file: "za-pits-bringing-dead-soil-back-to-life.jpg"
-  card_file: "cards/za-pits-bringing-dead-soil-back-to-life.jpg"   # ZAI_PITS_card_2026-11-22b.jpg (wrong-way arrows removed), passed by Verus 22 November 11:44; swapped in 22 November 15:40
-  original_file: "ZAI_PITS_2026-11-22.jpg"   # star removed; passed by Verus 22 November 2026, 11:22 (handoff 1051). Replaces zai_pits_1500x1500.jpg. To be replaced by ZAI_PITS_2026-11-22b once Lente fixes a cream block painted over the bottom-left of the soil panel (Cimiento, 22 November 15:40); its card is already the b card.
+  card_file: "cards/za-pits-bringing-dead-soil-back-to-life.jpg"   # ZAI_PITS_card_2026-11-22b.jpg (wrong-way arrows removed), passed by Verus 22 November 11:44; swapped in 22 November 15:29
+  original_file: "ZAI_PITS_2026-11-22.jpg"   # star removed; passed by Verus 22 November 2026, 11:22 (handoff 1051). Replaces zai_pits_1500x1500.jpg. To be replaced by ZAI_PITS_2026-11-22b once Lente fixes a cream block painted over the bottom-left of the soil panel (Cimiento, 22 November 15:29); its card is already the b card.
   ai_generated: true
   status: current
   alt: "Cross-section of a zaï pit dug in hardened, crusted soil: rainwater collects in the pit around a seedling growing in manure or compost, the dug soil forms a ridge downslope, and termite tunnels break up the soil; an inset shows staggered rows of pits across a slope."
