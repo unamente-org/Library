@@ -3,7 +3,7 @@
 # "Human-Wildlife Coexistence" uses the demo's "Human-wildlife" text; the live category name is longer.
 lane:
   Solutions: "A build-it-yourself solution with real, free instructions. Owned by no one."
-  Preserved Knowledge: "Traditional knowledge owned by its custodians — documented with respect, never a copy-paste blueprint."
+  Preserved Knowledge: "Living knowledge that belongs to the people who hold it. We describe it with respect, and never as a blueprint to copy."   # Alba 22 November, passed by Verus 15:11
   Story: "An inspiring project or person, sometimes patented or commercial. We share the story and are clear which is which."
 trust:
   Strong: "Checked by several people who tested it themselves, working separately and getting the same result."
@@ -18,3 +18,17 @@ category:
   Waste: "Turning waste into something useful, safely."
   Shelter: "Safe, affordable housing."
   Human-Wildlife Coexistence: "Living alongside wild animals without losing crops or safety."
+# Preserved Knowledge (Lane 2) labels: Alba's wording (claude/UnaMente_Library_Labels_PreservedKnowledge_2026-11-22),
+# passed by Verus 22 November 15:11 with two edits (Limited; Confirmed by the custodians), which are applied here.
+# These groups show in "What the labels mean" only when a Preserved Knowledge entry is listed.
+marker:
+  Custodian-owned: "This knowledge belongs to its custodians. It is not ours to license, and we do not offer it for anyone to copy."
+custodian_voice:
+  Strong: "Written mainly from what the custodians themselves have published, or have told us."
+  Moderate: "Written partly from the custodians' own words and partly from what others have written about them."
+  Limited: "Rests on the custodians' own published words, but only a small part of the entry comes from them directly."
+basis:
+  Custodians' own published material: "Written from what the custodians, or an organization they lead, chose to publish themselves."
+  Confirmed by the custodians: "The custodians have told us directly that they are content for us to document it."
+notes:
+  custodian_voice: "Custodian voice says how directly a Preserved Knowledge entry rests on its custodians' own words. It is not a rating of whether the practice works."

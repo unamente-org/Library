@@ -84,6 +84,9 @@ a{color:var(--accent)}
 .card.lane2 a{border-left-color:var(--l2);background:linear-gradient(var(--l2-soft),var(--l2-soft)) top/100% 4px no-repeat,var(--card)}
 .b.lane.lane2{color:var(--l2);border-color:var(--l2-border);background:var(--l2-soft)}
 .owned{display:inline-block;font-size:.72rem;font-weight:600;letter-spacing:.03em;color:var(--l2);border:1px solid var(--l2-border);background:var(--l2-soft);border-radius:6px;padding:2px 8px}
+.l2band{display:block;margin:-15px -16px 2px;padding:7px 16px;background:var(--l2-soft);border-bottom:1px solid var(--l2-border);border-radius:11px 11px 0 0;color:var(--l2);font-size:.8rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.b.voice{color:var(--l2);border-color:var(--l2-border);background:var(--l2-soft)}
+.defs .gnote{font-style:italic;color:var(--muted);margin:-2px 0 4px}
 .entry.lane2 h1{border-bottom:3px solid var(--l2);padding-bottom:6px}
 .custodian{border:1px solid var(--l2-border);border-left:4px solid var(--l2);background:var(--l2-soft);border-radius:10px;padding:12px 14px;margin:14px 0}
 .custodian table{border-collapse:collapse;width:100%}

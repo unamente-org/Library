@@ -69,7 +69,10 @@
   {{ with .Params.licence }}
     {{ errorf "Lane 2 entry %q has a licence line. Custodians' knowledge is not ours to license; remove it." $.File.Path }}
   {{ end }}
-  {{ if not (strings.Contains .RawContent "take it down") }}
-    {{ errorf "Lane 2 entry %q: the standing invitation to the custodians (protocol section 6, \"... or to ask us to take it down\") is missing." .File.Path }}
+  {{ if not (and (strings.Contains .RawContent "take it down") (strings.Contains .RawContent "act on what you tell us")) }}
+    {{ errorf "Lane 2 entry %q: the standing invitation to the custodians (protocol section 6) must contain both commitments, \"take it down\" and \"act on what you tell us\"." .File.Path }}
+  {{ end }}
+  {{ with .Params.trust }}
+    {{ errorf "Lane 2 entry %q has a trust value. Preserved Knowledge has no trust tier; use custodian_voice instead, and remove the trust line." $.File.Path }}
   {{ end }}
 {{ end }}

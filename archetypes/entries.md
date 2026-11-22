@@ -14,12 +14,12 @@ status: draft
 # ---- Spec section 1: header / at-a-glance (UnaMente_Entry_Template_Spec) ----
 lane: []                # e.g. ["Lane 1 — Solutions"]
 track: ""               # 1 (buildable) or 2 (knowledge)
-category: []
+category: []            # Preserved Knowledge (Lane 2) entries have none (Verus, 22 November 15:11)
 origin: ""              # free text, as on the entry
 maturity: ""            # Idea / Tested / Proven / Scaled, as written on the entry
 setting: ""             # e.g. Rural, as in the live "Setting:" tag
 entry_type: ""          # e.g. Technical, as in the live "Type:" tag ("type" is reserved by Hugo)
-trust: []               # Strong / Moderate / Limited
+trust: []               # Strong / Moderate / Limited. Not for Lane 2: it uses custodian_voice, and a trust value stops the build
 licence: ""
 entry_date: ""          # YYYY-MM-DD
 documented_by: ""
