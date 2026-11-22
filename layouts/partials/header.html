@@ -7,6 +7,18 @@
       <img src="{{ "brand/unamente-logo-light.svg" | relURL }}" alt="UnaMente" width="340" height="80">
     </picture>
   </a>
+  {{- /* The main site's menu, the same six links and Donate button as www.unamente.org (read 22 November 2026),
+       so readers can get back to the rest of the site. "The Library" is this site. */ -}}
+  {{- $m := site.Params.mainSite }}
+  <nav class="mainmenu" aria-label="Main menu">
+    <a href="{{ $m }}/">Home</a>
+    <a href="{{ "/" | relLangURL }}" aria-current="page">The Library</a>
+    <a href="{{ $m }}/how-it-works">How It Works</a>
+    <a href="{{ $m }}/about">About</a>
+    <a href="{{ $m }}/get-involved">Get Involved</a>
+    <a href="{{ $m }}/contact">Contact</a>
+    <a class="donate" href="{{ $m }}/donate">Donate</a>
+  </nav>
   <nav class="langs" aria-label="Language">
     {{- if .IsTranslated }}
       {{- range .AllTranslations }}
