@@ -115,16 +115,16 @@ tusafishe-low-cost-water-filters-for-schools-uganda:
 
 biochar-charcoal-that-rebuilds-soil:
   file: "biochar-charcoal-that-rebuilds-soil.jpg"
-  card_file: "cards/biochar-charcoal-that-rebuilds-soil.jpg"   # BIOCHAR_card_2026-11-19.jpg, passed by Verus 19 November
-  original_file: "Biochar.jpg"
+  card_file: "cards/biochar-charcoal-that-rebuilds-soil.jpg"   # BIOCHAR_card_2026-11-21.jpg, star-free, passed by Verus 21 November
+  original_file: "BIOCHAR_2026-11-21.jpg"   # star removed; passed by Verus 21 November 2026 (handoff 1133). Replaces Biochar.jpg
   ai_generated: true
   status: current
   alt: "A cone-shaped open kiln dug into the ground, with plant waste turning into black charcoal under a flame, above a cross-section of dark, charcoal-enriched soil."
 
 oyster-mushrooms-on-bagasse-food-from-a-waste:
   file: "oyster-mushrooms-on-bagasse-food-from-a-waste.jpg"
-  card_file: "cards/oyster-mushrooms-on-bagasse-food-from-a-waste.jpg"   # OYSTER_MUSHROOMS_card_2026-11-19.jpg, passed by Verus 19 November
-  original_file: "Oyster mushrooms.jpg"
+  card_file: "cards/oyster-mushrooms-on-bagasse-food-from-a-waste.jpg"   # OYSTER_MUSHROOMS_card_2026-11-21.jpg, star-free, passed by Verus 21 November
+  original_file: "OYSTER_MUSHROOMS_2026-11-21.jpg"   # star removed; passed by Verus 21 November 2026 (handoff 1133). Replaces Oyster mushrooms.jpg
   ai_generated: true
   status: current
   alt: "A hanging bag of packed sugarcane waste with clusters of oyster mushrooms growing out of its sides, in a shaded growing room with more bags behind."
@@ -179,6 +179,12 @@ za-pits-bringing-dead-soil-back-to-life:
 
 # Card pictures passed by Verus on 19 November 2026 but not yet in use are in assets/illustrations/pending/cards/:
 #   FMNR and Qochas cards wait for their pages.
+# Also passed and waiting for their pages, in assets/illustrations/pending/ (added 22 November 2026, Puente's 1125 handoff):
+#   DEEP_BED_FARMING_2026-11-19b.jpg (Verus 19 November, 15:06; no card yet passed),
+#   SPATE_IRRIGATION_2026-11-17b.jpg + card (Verus 17 November, 14:50; card 19 November),
+#   PLINTHS_2026-11-17.jpg + card (Verus 17 November, 12:05; card 19 November),
+#   CHANGU_CHANGU_MOTO_2026-11-19b.jpg (Verus 19 November, passed provisionally; no card yet),
+#   FANYA_JUU_2026-11-21.jpg + card (Verus 21 November, 11:33, PROVISIONAL: the ditch water may need toning down at the entry's gate).
 # Passed by Verus on 17 November 2026, waiting for their pages to be published; files in assets/illustrations/pending/.
 # FMNR_2026-11-17.jpg (FMNR, Niger) and QOCHAS_2026-11-17.jpg (Qochas). Add an entry above when the page goes live.
 # Alt text from Lente (19 November), to use then:
