@@ -83,13 +83,17 @@ for f in sorted(src.glob("*.json")):
     ]
     out = repo / "content" / "entries" / slug; out.mkdir(parents=True, exist_ok=True)
     # Header lines set by hand are kept on a re-sync, never overwritten by the live values:
-    # safety_figures (Verus sets it), and any published_on that carries a "#" note (a date
-    # Daniela gave, e.g. Fog Nets). Everything else comes fresh from the live page.
+    # safety_figures (Verus sets it), keywords (search words Alba and Verus add), and any
+    # published_on that carries a "#" note (a date Daniela gave, e.g. Fog Nets).
+    # Everything else comes fresh from the live page.
     old = out / "index.en.md"
     if old.exists():
         prev = old.read_text(encoding="utf-8").split("\n---\n", 1)[0].splitlines()
         sf = [l for l in prev if l.startswith("safety_figures:")]
         po = [l for l in prev if l.startswith("published_on:") and "#" in l]
+        kw = [l for l in prev if l.startswith("keywords:")]
+        if kw:
+            front.insert(front.index(next(l for l in front if l.startswith("entry_type:"))) + 1, kw[0])
         if sf:
             front.insert(front.index(next(l for l in front if l.startswith("entry_type:"))) + 1, sf[0])
         if po:
