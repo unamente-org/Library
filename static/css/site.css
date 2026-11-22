@@ -84,3 +84,5 @@ a{color:var(--accent)}
 /* Long web addresses in Sources lines and reference lists may break anywhere, so an entry never runs wider than a phone (Umbral, 22 November 2026: 12 of 21 pages overflowed at 375 px). */
 .entry{overflow-wrap:anywhere;min-width:0}
 .entry img{max-width:100%;height:auto}
+
+.cam-pic{max-width:600px}
