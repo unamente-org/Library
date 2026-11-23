@@ -53,7 +53,8 @@ place_note: ""          # optional: a full place sentence, shown as "Place" in t
 #        "others' published accounts" (Verus, 23 November 2026; the entry's text must say "not from the custodians themselves"
 #        or "mostly from what others have published", or the build stops), or "held, outsiders' accounts only" (never published)
 basis: ""
-basis_note: ""          # optional: the bold sentence that follows Basis in the custodians box, e.g. who the entry was written from
+basis_note: ""
+related: []             # optional: ids of companion entries, shown at the end as "Related entries", each a separate practice (never one practice)          # optional: the bold sentence that follows Basis in the custodians box, e.g. who the entry was written from
 custodian_contact: []   # shown to readers as "Custodian contact": dated approaches and replies
 #  - date: ""
 #    note: ""

@@ -42,6 +42,15 @@
 
   {{- /* Spec sections 2 to 9 are the body, in the spec's order and under the spec's own headings. */ -}}
   {{ .Content }}
+  {{- /* Related entries (Verus 0945, 23 November 2026): companion traditions, linked but never presented as one practice. Ids in related:. */ -}}
+  {{- $rel := slice }}{{ range (.Params.related | default slice) }}{{ with where (where site.RegularPages "Section" "entries") "Params.id" . }}{{ with index . 0 }}{{ if or site.Params.testBuild (eq .Params.status "published") }}{{ $rel = $rel | append . }}{{ end }}{{ end }}{{ end }}{{ end }}
+  {{- with $rel }}
+  <section class="related" aria-label="Related entries">
+    <h2>Related entries</h2>
+    <p>Each is a separate practice, held by its own people.</p>
+    <ul>{{ range . }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}</ul>
+  </section>
+  {{- end }}
 
   {{- /* B6: Lane 2 record of approaches to the custodians. */ -}}
   {{ with .Params.custodian_contact }}
