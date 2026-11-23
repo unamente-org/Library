@@ -3,7 +3,7 @@
 id: "tusafishe-low-cost-water-filters-for-schools-uganda"
 url: "/library/tusafishe-low-cost-water-filters-for-schools-uganda/"
 title: "Tusafishe — Low-Cost Water Filters for Schools (Uganda)"
-summary: "Tusafishe makes low-cost water filters so Ugandan schools get safe water without boiling it over firewood — an honest story, with the reach figures left unverified until the organisation confirms them."
+summary: "Tusafishe makes low-cost water filters so Ugandan schools get safe water without boiling it over firewood — an honest story, with the reach figures left unverified until the organization confirms them."
 status: published
 lane: ["Story"]
 category: ["Water", "Health"]

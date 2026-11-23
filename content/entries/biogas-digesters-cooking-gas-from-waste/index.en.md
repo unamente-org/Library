@@ -3,7 +3,7 @@
 id: "biogas-digesters-cooking-gas-from-waste"
 url: "/library/biogas-digesters-cooking-gas-from-waste/"
 title: "Biogas Digesters — Cooking Gas from Waste"
-summary: "Household biogas digesters that turn manure and waste into cooking gas and fertiliser — how to build and run one, and why warmth and upkeep decide it."
+summary: "Household biogas digesters that turn manure and waste into cooking gas and fertilizer — how to build and run one, and why warmth and upkeep decide it."
 status: published
 lane: ["Solutions"]
 category: ["Energy"]

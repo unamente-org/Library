@@ -3,7 +3,7 @@
 id: "azolla-a-water-fern-that-fertilizes-a-rice-paddy-for-free"
 url: "/library/azolla-a-water-fern-that-fertilizes-a-rice-paddy-for-free/"
 title: "Azolla: A Water Fern That Feeds a Rice Paddy With No Fertilizer Bill"
-summary: "Azolla, a nitrogen-fixing water fern used as free fertiliser and animal feed in rice paddies — how to grow it, and the warmth and water it needs."
+summary: "Azolla, a nitrogen-fixing water fern grown as fertilizer and animal feed in rice paddies — how to grow it, and the warmth and water it needs."
 status: published
 lane: ["Solutions"]
 category: ["Food"]
