@@ -52,8 +52,10 @@
       {{ if in ($e.Params.lane | default slice) "Preserved Knowledge" }}
         {{ errorf "Calling All Minds %q is about %q, which is custodians' knowledge (Lane 2). Never invite others to try it elsewhere; document a parallel tradition as its own entry instead." $q.File.Path $e.Title }}
       {{ end }}
-      {{ if and (in ($e.Params.category | default slice) "Health") (not $q.Params.clinician_review.by) }}
-        {{ errorf "Calling All Minds %q is about %q, a Health entry: it needs clinician_review (who, when) before it can be built." $q.File.Path $e.Title }}
+      {{- /* A Health question needs a clinician's review, or a recorded ruling by Verus that none is needed (Verus ruled so for the biosand rainy-season question, 22 November 2026 16:17). */ -}}
+      {{ $cr := $q.Params.clinician_review | default dict }}
+      {{ if and (in ($e.Params.category | default slice) "Health") (not $cr.by) (not (and $cr.not_needed $cr.ruled_by $cr.date)) }}
+        {{ errorf "Calling All Minds %q is about %q, a Health entry: it needs clinician_review (by, date), or not_needed with ruled_by and date." $q.File.Path $e.Title }}
       {{ end }}
     {{ end }}
   {{ end }}
