@@ -7,6 +7,19 @@
   <h1>{{ .Title }}</h1>
   {{- with index hugo.Data.illustrations "preserved-knowledge" }}{{ $d := . }}{{ with resources.Get (printf "illustrations/%s" $d.card_file) }}{{ $img := .Resize "960x q80" }}<figure class="hero l2hero"><img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $d.alt }}">{{ if $d.ai_generated }}<figcaption>Illustration (AI-generated)</figcaption>{{ end }}</figure>{{ end }}{{ end }}
   {{ .Content }}
+  {{- /* What the labels mean, for this section's own labels. The Solutions & Stories page no longer lists Lane 2 entries, so its legend no longer shows these (23 November 2026). */ -}}
+  {{- $L := hugo.Data.labels }}
+  <details class="legend">
+    <summary>What the labels mean</summary>
+    <div class="defs">
+      {{- range (slice (slice "custodian_voice" "Custodian voice (in place of Trust)") (slice "basis" "Basis")) }}{{ $g := index . 0 }}
+      <div class="ghead">{{ index . 1 }}</div>
+      {{- with index $L.notes $g }}<div class="gnote">{{ . }}</div>{{ end }}
+      {{- $vals := index $L $g }}{{ $keys := index ($L.order | default dict) $g }}{{ if not $keys }}{{ $keys = slice }}{{ range $k, $_ := $vals }}{{ $keys = $keys | append $k }}{{ end }}{{ end }}
+      {{- range $k := $keys }}<div><b>{{ $k }}</b> — {{ index $vals $k }}</div>{{ end }}
+      {{- end }}
+    </div>
+  </details>
   <ul class="cards" id="cards">
     {{- range $entries.ByTitle }}
     <li class="card lane2">

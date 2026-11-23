@@ -30,7 +30,8 @@
       {{- range $groups }}{{ $g := index . 0 }}{{ if or $hasL2 (in (slice "lane" "category" "trust") $g) }}
       <div class="ghead">{{ index . 1 }}</div>
       {{- with index $L.notes $g }}<div class="gnote">{{ . }}</div>{{ end }}
-      {{- range $k, $v := index $L $g }}{{ if or $hasL2 (ne $k "Preserved Knowledge") }}<div><b>{{ $k }}</b> — {{ $v }}</div>{{ end }}{{ end }}
+      {{- $vals := index $L $g }}{{ $keys := index ($L.order | default dict) $g }}{{ if not $keys }}{{ $keys = slice }}{{ range $k, $_ := $vals }}{{ $keys = $keys | append $k }}{{ end }}{{ end }}
+      {{- range $k := $keys }}{{ if or $hasL2 (ne $k "Preserved Knowledge") }}<div><b>{{ $k }}</b> — {{ index $vals $k }}</div>{{ end }}{{ end }}
       {{- end }}{{ end }}
     </div>
   </details>

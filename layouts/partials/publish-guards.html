@@ -62,11 +62,15 @@
 {{ end }}
 {{- /* Lane 2 (Preserved Knowledge) protocol, 15 November 2026. A published Lane 2 entry stops the build unless it meets these. */ -}}
 {{ if and (eq .Kind "page") (eq .Section "entries") (eq .Params.status "published") (in (.Params.lane | default slice) "Preserved Knowledge") }}
-  {{ if not (in (slice "custodians' own published material" "confirmed by the custodians") .Params.basis) }}
-    {{ errorf "Lane 2 entry %q: basis must be \"custodians' own published material\" or \"confirmed by the custodians\". Held entries are never published." .File.Path }}
+  {{ if not (in (slice "custodians' own published material" "confirmed by the custodians" "others' published accounts") .Params.basis) }}
+    {{ errorf "Lane 2 entry %q: basis must be \"custodians' own published material\", \"confirmed by the custodians\" or \"others' published accounts\". Held entries are never published." .File.Path }}
   {{ end }}
-  {{ if or (not .Params.custodian) (not (in (slice "Strong" "Moderate" "Limited") .Params.custodian_voice)) }}
-    {{ errorf "Lane 2 entry %q: the custodian header needs custodian and custodian_voice (Strong, Moderate or Limited)." .File.Path }}
+  {{- /* Others' published accounts (Verus, 23 November 2026, handoff 0945): only when the entry itself says so in words. */ -}}
+  {{ if and (eq .Params.basis "others' published accounts") (not (or (strings.Contains .RawContent "not from the custodians themselves") (strings.Contains .RawContent "mostly from what others have published"))) }}
+    {{ errorf "Lane 2 entry %q: basis \"others' published accounts\" needs the entry's text to say so, with \"not from the custodians themselves\" or \"mostly from what others have published\"." .File.Path }}
+  {{ end }}
+  {{ if or (not .Params.custodian) (not (in (slice "Strong" "Moderate" "Limited" "Not yet heard") .Params.custodian_voice)) }}
+    {{ errorf "Lane 2 entry %q: the custodian header needs custodian and custodian_voice (Strong, Moderate, Limited or Not yet heard)." .File.Path }}
   {{ end }}
   {{ with .Params.licence }}
     {{ errorf "Lane 2 entry %q has a licence line. Custodians' knowledge is not ours to license; remove it." $.File.Path }}

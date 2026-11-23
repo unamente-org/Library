@@ -46,12 +46,14 @@ credits: []
 # A Lane 2 entry has lane: ["Preserved Knowledge"], no licence, and the custodian header below.
 custodian: ""           # the custodian people or community; custodian-led organisations only, never individuals' private details
 knowledge: ""           # the nature of the knowledge, in a few words
-custodian_voice: ""     # Strong, Moderate or Limited
+custodian_voice: ""     # Strong, Moderate, Limited or Not yet heard (Not yet heard: written entirely from others' accounts; Verus, 23 November 2026)
 place_note: ""          # optional: a full place sentence, shown as "Place" in the custodians box in place of region and country
 # A longer custodians section, when the box is not enough: a heading exactly "## Custodians" in the entry text. The box then links to it.
 # basis: exactly one of "custodians' own published material", "confirmed by the custodians",
-#        or "held, outsiders' accounts only" (never published)
+#        "others' published accounts" (Verus, 23 November 2026; the entry's text must say "not from the custodians themselves"
+#        or "mostly from what others have published", or the build stops), or "held, outsiders' accounts only" (never published)
 basis: ""
+basis_note: ""          # optional: the bold sentence that follows Basis in the custodians box, e.g. who the entry was written from
 custodian_contact: []   # shown to readers as "Custodian contact": dated approaches and replies
 #  - date: ""
 #    note: ""

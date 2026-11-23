@@ -27,8 +27,13 @@ custodian_voice:
   Strong: "Written mainly from what the custodians themselves have published, or have told us."
   Moderate: "Written partly from the custodians' own words and partly from what others have written about them."
   Limited: "Rests on the custodians' own published words, but only a small part of the entry comes from them directly."
+  Not yet heard: "Written entirely from what others have published. The custodians' own words are not in this entry yet."   # Verus, 23 November 2026 (handoff 0945)
 basis:
   Custodians' own published material: "Written from what the custodians, or an organization they lead, chose to publish themselves."
   Confirmed by the custodians: "The custodians have told us directly that they are content for us to document it."
+  Others' published accounts: "Written from what researchers, reporters or others have published about this knowledge, not from the custodians themselves. The entry says so, and our invitation to the custodians stands."   # Verus, 23 November 2026 (handoff 0945), under Daniela's rule of 17 November
 notes:
   custodian_voice: "Custodian voice says how directly a Preserved Knowledge entry rests on its custodians' own words. It is not a rating of whether the practice works."
+# Order the legend shows these groups in, strongest first (otherwise the legend is alphabetical).
+order:
+  custodian_voice: ["Strong", "Moderate", "Limited", "Not yet heard"]
