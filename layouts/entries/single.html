@@ -21,7 +21,7 @@
       {{ with .Params.knowledge }}<tr><th>The knowledge</th><td>{{ . }}</td></tr>{{ end }}
       {{ with .Params.custodian_voice }}<tr><th>Custodian voice</th><td>{{ . }}</td></tr>{{ end }}
       {{ with .Params.basis }}<tr><th>Basis</th><td>{{ . }}</td></tr>{{ end }}
-      {{ with .Params.entry_date }}<tr><th>Entry date</th><td>{{ . }}</td></tr>{{ end }}
+      {{ with .Params.entry_date }}<tr><th>Entry date</th><td>{{ (time .).Format "2 January 2006" }}</td></tr>{{ end }}
       {{ with .Params.documented_by }}<tr><th>Documented by</th><td>{{ . }}</td></tr>{{ end }}
     </table>
     {{- /* Optional longer section (Daniela, 22 November 2026): when the custodians need more than the box holds, the entry text has a "## Custodians" heading and the box links to it. */ -}}
