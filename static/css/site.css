@@ -93,6 +93,7 @@ a{color:var(--accent)}
 .custodian table{border-collapse:collapse;width:100%}
 .custodian th{text-align:left;vertical-align:top;font-weight:600;padding:4px 12px 4px 0;white-space:nowrap;width:1%}
 .custodian td{padding:4px 0}
+.custodian .more{margin:8px 0 0;font-size:.9rem}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 
 /* Long web addresses in Sources lines and reference lists may break anywhere, so an entry never runs wider than a phone (Umbral, 22 November 2026: 12 of 21 pages overflowed at 375 px). */
