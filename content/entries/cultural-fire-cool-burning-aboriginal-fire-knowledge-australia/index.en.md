@@ -1,5 +1,6 @@
 ---
 # Published by Umbral from claude/UnaMente_Entry_CoolBurning_Lane2_DRAFT_2026-11-22c (Alba), passed by Verus 22 November 2026 16:16
+# 22 November 2026, Cimiento, on Daniela's decision (16:35): the body's repeated "### Custodians" section is removed; its three fuller lines are moved word for word into custodian, place_note and knowledge.
 # (handoff 2026-11-22_1616). Header fields from the draft's "set in the editor" block, laid out per Cimiento's 16:28 note.
 id: "cultural-fire-cool-burning-aboriginal-fire-knowledge-australia"
 url: "/library/cultural-fire-cool-burning-aboriginal-fire-knowledge-australia/"
@@ -9,9 +10,10 @@ notice: "Aboriginal and Torres Strait Islander readers are advised that this pag
 status: published
 lane: ["Preserved Knowledge"]
 category: []
-custodian: "Aboriginal Traditional Owner communities, through Living Knowledge Network (called Firesticks until 24 June 2026)"
-knowledge: "Cultural Fire (cultural burning, cool burning)"
+custodian: "Aboriginal Traditional Owner communities across Australia, working together through **Living Knowledge Network**, which was called Firesticks until 24 June 2026. The knowledge was passed to **Victor Steffensen**, a Tagalaka man and the network's founder, by **Kuku Thaypan Elders Dr. Musgrave and Dr. George** in Cape York, Queensland."
+knowledge: "Cultural Fire, also called cultural burning or cool burning: a living practice of caring for Country, and for people, with fire."
 custodian_voice: "Moderate"
+place_note: "rooted in Kuku Thaypan Country, Cape York, Queensland. The registrar of Indigenous corporations recorded members in the five eastern states and territories in 2022; the organization's earlier Firesticks site said it had worked with more than 35 communities in Australia and abroad."
 basis: "custodians' own published material"
 entry_date: "2026-11-22"
 documented_by: "UnaMente"
@@ -24,16 +26,6 @@ credits: []
 safety_figures: true
 sources: []   # the entry's Sources list is in the body
 ---
-### Custodians
-
-**Custodians:** Aboriginal Traditional Owner communities across Australia, working together through **Living Knowledge Network**, which was called Firesticks until 24 June 2026. The knowledge was passed to **Victor Steffensen**, a Tagalaka man and the network's founder, by **Kuku Thaypan Elders Dr. Musgrave and Dr. George** in Cape York, Queensland.\
-**Place:** rooted in Kuku Thaypan Country, Cape York, Queensland. The registrar of Indigenous corporations recorded members in the five eastern states and territories in 2022; the organization's earlier Firesticks site said it had worked with more than 35 communities in Australia and abroad.\
-**The knowledge:** Cultural Fire, also called cultural burning or cool burning: a living practice of caring for Country, and for people, with fire.\
-**Custodian voice:** Moderate\
-**Basis:** custodians' own published material\
-**Custodian-owned.** This knowledge belongs to the people who hold it. It is not ours to license.\
-**Entry date:** 22 November 2026 · **Documented by:** UnaMente
-
 ### The story
 
 In Cape York, Kuku Thaypan Elders Dr. Musgrave and Dr. George led the revival of their fire practices and passed their knowledge to Victor Steffensen. He has spent decades encouraging the revival of cultural burning and has run workshops all around the country. The registrar's profile quotes the way it spreads: "community mentoring community."
