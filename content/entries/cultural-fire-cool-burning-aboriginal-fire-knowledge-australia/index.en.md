@@ -16,6 +16,7 @@ knowledge: "Cultural Fire, also called cultural burning or cool burning: a livin
 custodian_voice: "Moderate"
 place_note: "Rooted in Kuku Thaypan Country, Cape York, Queensland. The registrar of Indigenous corporations recorded members in the five eastern states and territories in 2022; the organization's earlier Firesticks site said it had worked with more than 35 communities in Australia and abroad."
 basis: "custodians' own published material"
+related: ["kainai-fire-guardians-blood-tribe-kainai-nation-alberta-canada"]   # 23 November 2026, Umbral, per Cimiento 11:14 and Alba 1111: companion fire tradition, never one practice
 entry_date: "2026-11-22"
 documented_by: "UnaMente"
 published_on: "2026-11-22"
