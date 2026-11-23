@@ -116,3 +116,9 @@ h1,h2,h3,.card h2,.entry h1{font-family:var(--serif);font-weight:400;color:var(-
 .mainmenu a.donate:hover{opacity:.9}
 @media (prefers-color-scheme:dark){.mainmenu a.donate{color:#0c130f}}
 @media (max-width:760px){.mainmenu{margin-left:0;width:100%;gap:4px 16px;font-size:15px}.mainmenu a.donate{padding:8px 18px;margin-left:0}}
+
+/* The library's own sections, a second row under the main menu (Daniela, 22 November 2026). */
+.sections{flex-basis:100%;display:flex;flex-wrap:wrap;gap:6px 26px;border-top:1px solid var(--line);padding-top:12px;font-family:var(--serif);font-size:1.05rem}
+.sections a{color:var(--heading);text-decoration:none}
+.sections a.pk{color:var(--l2)}
+.sections a:hover,.sections a[aria-current]{text-decoration:underline;text-underline-offset:4px}
