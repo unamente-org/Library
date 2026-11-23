@@ -1,0 +1,24 @@
+{{ define "main" }}
+{{- /* The Preserved Knowledge page: its one picture (the open pod), Alba's words, then every Preserved Knowledge entry. */ -}}
+{{- $entries := where (where site.RegularPages "Section" "entries") "Params.lane" "intersect" (slice "Preserved Knowledge") -}}
+{{- if not site.Params.testBuild }}{{ $entries = where $entries "Params.status" "published" }}{{ end -}}
+<article class="lane2page">
+  {{ if ne .Params.status "published" }}<p class="testnote">Draft page: not live. The words above the list come from Alba once Verus has checked them.</p>{{ end }}
+  <h1>{{ .Title }}</h1>
+  {{- with index hugo.Data.illustrations "preserved-knowledge" }}{{ $d := . }}{{ with resources.Get (printf "illustrations/%s" $d.card_file) }}{{ $img := .Resize "960x q80" }}<figure class="hero l2hero"><img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $d.alt }}"></figure>{{ end }}{{ end }}
+  {{ .Content }}
+  <ul class="cards" id="cards">
+    {{- range $entries.ByTitle }}
+    <li class="card lane2">
+      <a href="{{ .RelPermalink }}">
+        <span class="l2band">Preserved Knowledge · Custodian-owned</span>
+        <h2>{{ .Title }}</h2>
+        {{ partial "badges.html" . }}
+        {{ with .Params.summary }}<p class="summary">{{ . }}</p>{{ end }}
+        <span class="openlink">Open the full entry →</span>
+      </a>
+    </li>
+    {{- end }}
+  </ul>
+</article>
+{{ end }}

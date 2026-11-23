@@ -190,3 +190,13 @@ za-pits-bringing-dead-soil-back-to-life:
 # Alt text from Lente (19 November), to use then:
 #   FMNR: "A tree regrowing from an old cut stump with a wide spreading root system below ground, its new stems pruned to a few strong ones, standing in a field of crops beside a mature tree."
 #   Qochas: "A small pond in a natural hollow in high Andean grassland, held back on its lower side by a low, grass-covered earth bank, with snow-dusted mountains in the distance."
+
+# The Preserved Knowledge page's own picture (Daniela picked option B, the open pod, 22 November 14:41; passed by Verus 14:36).
+# On the lane page only, never on an entry or card: a Preserved Knowledge entry shows a picture only when its custodians give one (Verus 14:47, Daniela 14:46).
+preserved-knowledge:
+  file: "preserved-knowledge.jpg"
+  card_file: "cards/preserved-knowledge.jpg"   # PRESERVED_KNOWLEDGE_card_2026-11-22.jpg; the wide version is used at the top of the page
+  original_file: "PRESERVED_KNOWLEDGE_2026-11-22.jpg"
+  ai_generated: true
+  status: current
+  alt: "An open seed pod holding three seeds; a fourth seed beside it has sprouted."

@@ -122,3 +122,4 @@ h1,h2,h3,.card h2,.entry h1{font-family:var(--serif);font-weight:400;color:var(-
 .sections a{color:var(--heading);text-decoration:none}
 .sections a.pk{color:var(--l2)}
 .sections a:hover,.sections a[aria-current]{text-decoration:underline;text-underline-offset:4px}
+.l2hero{max-width:720px;margin:8px 0 18px}
