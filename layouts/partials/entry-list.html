@@ -1,6 +1,8 @@
 {{- /* Filterable list of entries. Filtering runs in the reader's browser, so it works offline once the page has loaded. */ -}}
 {{- /* Only published entries are listed, except in the test build, where everything shows with its status. */ -}}
 {{- $entries := .RegularPages -}}
+{{- /* Preserved Knowledge entries have their own section page, so this list shows Solutions and Stories (Daniela, 23 November 2026). */ -}}
+{{- $entries = complement (where $entries "Params.lane" "intersect" (slice "Preserved Knowledge")) $entries -}}
 {{- if not site.Params.testBuild }}{{ $entries = where $entries "Params.status" "published" }}{{ end -}}
 <section class="finder" aria-label="Find an innovation">
   <label for="q">Search by problem or name</label>

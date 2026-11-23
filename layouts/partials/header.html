@@ -21,10 +21,13 @@
   </nav>
   {{- /* The library's own sections, a second row under the main menu, as in the mock-up Daniela approved (22 November 2026).
        Preserved Knowledge opens the library filtered to that lane until its own page exists. */ -}}
+  {{- $pk := or (eq .Section "preserved-knowledge") (and (eq .Section "entries") (in (.Params.lane | default slice) "Preserved Knowledge")) }}
+  {{- $cam := eq .Section "calling-all-minds" }}
+  {{- $ss := or .IsHome (and (eq .Section "entries") (not $pk)) }}
   <nav class="sections" aria-label="Library sections">
-    <a href="{{ "/" | relURL }}?lane=Solutions&amp;lane=Story">Solutions &amp; Stories</a>
-    <a href="{{ "/preserved-knowledge/" | relURL }}" class="pk"{{ if eq .Section "preserved-knowledge" }} aria-current="page"{{ end }}>Preserved Knowledge</a>
-    <a href="{{ "/calling-all-minds/" | relURL }}"{{ if eq .Section "calling-all-minds" }} aria-current="page"{{ end }}>Calling All Minds</a>
+    <a href="{{ "/" | relURL }}"{{ if $ss }} aria-current="page"{{ end }}>Solutions &amp; Stories</a>
+    <a href="{{ "/preserved-knowledge/" | relURL }}" class="pk"{{ if $pk }} aria-current="page"{{ end }}>Preserved Knowledge</a>
+    <a href="{{ "/calling-all-minds/" | relURL }}"{{ if $cam }} aria-current="page"{{ end }}>Calling All Minds</a>
   </nav>
   <nav class="langs" aria-label="Language">
     {{- if .IsTranslated }}
