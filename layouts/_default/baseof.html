@@ -10,6 +10,7 @@
 <link rel="alternate" hreflang="{{ .Language.Locale }}" href="{{ .Permalink }}">
 {{- end }}
 <link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
+{{- partial "analytics.html" . }}
 <link rel="icon" href="{{ "brand/favicon.svg" | relURL }}" type="image/svg+xml">
 </head>
 <body>
@@ -22,5 +23,6 @@
 {{ block "main" . }}{{ end }}
 </main>
 {{ partial "footer.html" . }}
+{{ partial "visit-notice.html" . }}
 </body>
 </html>

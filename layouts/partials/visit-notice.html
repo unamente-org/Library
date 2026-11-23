@@ -1,0 +1,12 @@
+{{- /* Notice that visits are counted, Verus's pre-passed wording (handoff 2026-11-23_0907, section 2), shown on the same day as the Google tag (Daniela's yes, 23 November 2026). "OK" hides it in this browser only. */ -}}
+{{- if site.Params.visitNotice }}
+<div class="visit-notice" id="visit-notice" role="region" aria-label="Visit counting">
+  <p>We count visits to this site with Google Analytics, which uses cookies. We show no ads here and we don't sell your data. Read more on our <a href="https://www.unamente.org/privacy">Privacy page</a>.</p>
+  <button type="button" id="visit-notice-ok">OK</button>
+</div>
+<script>
+(function(){var n=document.getElementById('visit-notice'),k='unamente-visit-notice-ok';
+try{if(localStorage.getItem(k)){n.hidden=true;return}}catch(e){}
+document.getElementById('visit-notice-ok').addEventListener('click',function(){n.hidden=true;try{localStorage.setItem(k,'1')}catch(e){}});})();
+</script>
+{{- end }}

@@ -10,6 +10,8 @@ disableKinds = ["taxonomy", "term"]
 
 # Search engines must not index the test build.
 [params]
+  visitNotice = true   # the "We count visits" notice (Daniela's yes to Google Analytics, 23 November 2026)
+  analyticsID = ""     # set to "G-TFJ8G2FMVF" only after the privacy page's with-tag library section is live (Verus, handoff 2026-11-23_0907)
   testBuild = false   # switched off for go-live, 22 November 2026 (Daniela's go-ahead, 09:59). Set back to true to undo.
   # The rest of the site stays on Squarespace; links to it from the library use this address.
   mainSite = "https://www.unamente.org"
