@@ -6,11 +6,13 @@
   {{ partial "translation-notice.html" . }}
   <p class="kicker"><a href="{{ .CurrentSection.RelPermalink }}">Calling All Minds</a> · {{ index $kinds .Params.kind }} · {{ title .Params.question_status }}</p>
   <h1>{{ .Title }}</h1>
+  {{- /* The entry's own picture, smaller, reused (Daniela, 22 November 2026). */ -}}
+  {{- with index .Params.entries 0 }}{{ with index hugo.Data.illustrations . }}{{ $d := . }}{{ with resources.Get (printf "illustrations/%s" ($d.card_file | default $d.file)) }}{{ $img := .Resize "600x q80" }}<figure class="hero cam-pic"><img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $d.alt }}" loading="lazy">{{ if $d.ai_generated }}<figcaption>Illustration (AI-generated), from the entry</figcaption>{{ end }}</figure>{{ end }}{{ end }}{{ end }}
   <p class="about">About: {{ range $i, $id := .Params.entries }}{{ with index (where $entries "Params.id" $id) 0 }}{{ if $i }}, {{ end }}<a href="{{ .RelPermalink }}">{{ .Title }}</a> ({{ index .Params.trust 0 }}){{ end }}{{ end }}</p>
   {{ .Content }}
   <section class="searched">
     <h2>Who searched</h2>
-    <ul>{{ range .Params.searched }}<li>{{ .by }}, {{ .date }} — {{ delimit .languages ", " }}</li>{{ end }}</ul>
+    <ul>{{ range .Params.searched }}<li>{{ .by }}, {{ (time .date).Format "2 January 2006" }} — {{ delimit .languages ", " }}</li>{{ end }}</ul>
     <p>"We found no record" only means we did not find it. If you know of work we missed, in any language, tell us.</p>
   </section>
   {{ with .Params.clinician_review }}{{ with .by }}<p>Reviewed by a clinician: {{ . }}, {{ $.Params.clinician_review.date }}.</p>{{ end }}{{ end }}

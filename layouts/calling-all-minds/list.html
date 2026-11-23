@@ -32,6 +32,8 @@
     {{- $c := slice }}{{ $names := slice }}{{ range .Params.entries }}{{ with index (where $entries "Params.id" .) 0 }}{{ $c = $c | append .Params.category }}{{ $names = $names | append .Title }}{{ end }}{{ end }}
     <li class="card" data-kind="{{ .Params.kind }}" data-category="{{ delimit ($c | uniq) "|" }}" data-qstatus="{{ .Params.question_status }}" data-text="{{ lower (printf "%s %s" .Title (delimit $names " ")) }}">
       <a href="{{ .RelPermalink }}">
+        {{- /* The picture of the first entry the question is about: reused, never a new drawing (Daniela, 22 November 2026). */ -}}
+        {{- with index .Params.entries 0 }}{{ with index hugo.Data.illustrations . }}{{ $d := . }}{{ with resources.Get (printf "illustrations/%s" ($d.card_file | default $d.file)) }}{{ $s := .Resize "400x q75" }}{{ $l := .Resize "800x q75" }}<img class="thumb" src="{{ $s.RelPermalink }}" srcset="{{ $s.RelPermalink }} 400w, {{ $l.RelPermalink }} 800w" sizes="(max-width: 520px) 92vw, 340px" width="{{ $s.Width }}" height="{{ $s.Height }}" alt="{{ $d.alt }}" loading="lazy">{{ end }}{{ end }}{{ end }}
         <h2>{{ .Title }}</h2>
         <p class="summary">{{ index $kinds .Params.kind }} · {{ title .Params.question_status }}{{ with $names }} · About: {{ delimit . ", " }}{{ end }}</p>
       </a>

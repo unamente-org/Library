@@ -13,7 +13,8 @@ searched:                 # who looked for an answer, when, in which languages. 
 clinician_review:         # required when any linked entry is in the Health category; leave out otherwise
   by: ""
   date: ""
-# or, when Verus has ruled that no clinician review is needed (nothing is shown to readers):
+# or, when Verus has ruled that no clinician review is needed (nothing is shown to readers). Only for a question that reports
+# what a study counted; a question that gives a dose, a treatment or advice on an illness always needs a clinician (Verus, 17:02):
 #  not_needed: true
 #  ruled_by: "Verus"
 #  date: "YYYY-MM-DD"
