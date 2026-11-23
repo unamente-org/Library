@@ -1,5 +1,6 @@
 ---
 # Published by Umbral from claude/UnaMente_Entry_CoolBurning_Lane2_DRAFT_2026-11-22c (Alba), passed by Verus 22 November 2026 16:16
+# 22 November 2026, Cimiento, per Verus 1702: capital R in place_note; the house foot line added before Sources, word for word as on the other 21 entries.
 # 22 November 2026, Cimiento, on Daniela's decision (16:35): the body's repeated "### Custodians" section is removed; its three fuller lines are moved word for word into custodian, place_note and knowledge.
 # (handoff 2026-11-22_1616). Header fields from the draft's "set in the editor" block, laid out per Cimiento's 16:28 note.
 id: "cultural-fire-cool-burning-aboriginal-fire-knowledge-australia"
@@ -13,7 +14,7 @@ category: []
 custodian: "Aboriginal Traditional Owner communities across Australia, working together through **Living Knowledge Network**, which was called Firesticks until 24 June 2026. The knowledge was passed to **Victor Steffensen**, a Tagalaka man and the network's founder, by **Kuku Thaypan Elders Dr. Musgrave and Dr. George** in Cape York, Queensland."
 knowledge: "Cultural Fire, also called cultural burning or cool burning: a living practice of caring for Country, and for people, with fire."
 custodian_voice: "Moderate"
-place_note: "rooted in Kuku Thaypan Country, Cape York, Queensland. The registrar of Indigenous corporations recorded members in the five eastern states and territories in 2022; the organization's earlier Firesticks site said it had worked with more than 35 communities in Australia and abroad."
+place_note: "Rooted in Kuku Thaypan Country, Cape York, Queensland. The registrar of Indigenous corporations recorded members in the five eastern states and territories in 2022; the organization's earlier Firesticks site said it had worked with more than 35 communities in Australia and abroad."
 basis: "custodians' own published material"
 entry_date: "2026-11-22"
 documented_by: "UnaMente"
@@ -63,6 +64,8 @@ This knowledge is held by Aboriginal Traditional Owner communities. The custodia
 This entry was written from Living Knowledge Network's own pages, from pages of its earlier Firesticks site, from its 2020 submission to the New South Wales bushfire inquiry, from the words of Victor Steffensen, Peter Townsend and Oliver Costello as published by the network and the National Indigenous Times, and from the registrar of Indigenous corporations' profile of Firesticks. It is not an endorsement of UnaMente by Living Knowledge Network or anyone else.
 
 This entry was written from what the custodians of this knowledge have themselves made public. If you are one of them, we would like to hear from you: to tell us whether you are content for us to document it, to add to it, to correct it, or to ask us to take it down. We will act on what you tell us. Write to us at [info@unamente.org](mailto:info@unamente.org).
+
+Spotted a mistake, or know of a source we missed? [Tell us](https://www.unamente.org/contact), and we will check it.
 
 ### Sources
 
