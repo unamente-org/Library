@@ -23,7 +23,7 @@
        Preserved Knowledge opens the library filtered to that lane until its own page exists. */ -}}
   <nav class="sections" aria-label="Library sections">
     <a href="{{ "/" | relURL }}?lane=Solutions&amp;lane=Story">Solutions &amp; Stories</a>
-    <a href="{{ "/" | relURL }}?lane=Preserved+Knowledge" class="pk">Preserved Knowledge</a>
+    <a href="{{ "/preserved-knowledge/" | relURL }}" class="pk"{{ if eq .Section "preserved-knowledge" }} aria-current="page"{{ end }}>Preserved Knowledge</a>
     <a href="{{ "/calling-all-minds/" | relURL }}"{{ if eq .Section "calling-all-minds" }} aria-current="page"{{ end }}>Calling All Minds</a>
   </nav>
   <nav class="langs" aria-label="Language">
