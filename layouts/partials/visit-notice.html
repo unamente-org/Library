@@ -7,6 +7,9 @@
 <script>
 (function(){var n=document.getElementById('visit-notice'),k='unamente-visit-notice-ok';
 try{if(localStorage.getItem(k)){n.hidden=true;return}}catch(e){}
-document.getElementById('visit-notice-ok').addEventListener('click',function(){n.hidden=true;try{localStorage.setItem(k,'1')}catch(e){}});})();
+/* keep the footer clear of the bar while it shows */
+function pad(){document.body.style.paddingBottom=n.hidden?'':n.offsetHeight+'px'}
+pad();window.addEventListener('resize',pad);
+document.getElementById('visit-notice-ok').addEventListener('click',function(){n.hidden=true;pad();try{localStorage.setItem(k,'1')}catch(e){}});})();
 </script>
 {{- end }}
