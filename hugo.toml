@@ -60,3 +60,7 @@ disableKinds = ["taxonomy", "term"]
     publishResources = false
   [cascade.target]
     path = "{/entries/**,/library/**}"
+
+# The build may read Cloudflare's branch name, so the Google tag goes only on the live library (main), never on the preview (scaffold). 23 November 2026.
+[security.funcs]
+  getenv = ['^HUGO_', '^CI$', '^CF_PAGES_BRANCH$']
