@@ -2,6 +2,7 @@
 # Published by Umbral from claude/UnaMente_Entry_Amunas_Huamantanga_Lane2_DRAFT_2026-11-23d (Alba), passed by Verus 23 November 2026 (09:45 on b; 10:02 on c, seven edits in d)
 # (handoffs 2026-11-23_0945, 2026-11-23_1002 and 2026-11-23_1111). Custodians box laid out per Cimiento's 11:14 reply: Custodians -> custodian,
 # Place -> place_note, The knowledge -> knowledge, the bold Basis sentence -> basis_note. No custodian contact link: none found.
+# 23 November 2026, Umbral, on Verus 11:23: first letter of custodian, place_note and knowledge capitalized (header values; no new file).
 id: "amunas-mamanteo-huamantanga-peru"
 url: "/library/amunas-mamanteo-huamantanga-peru/"
 title: "Amunas (Mamanteo): Huamantanga, Peru"
@@ -9,10 +10,10 @@ summary: "The mamanteo, or amunas, of Huamantanga in Peru's Andes: ancient canal
 status: published
 lane: ["Preserved Knowledge"]
 category: []
-custodian: "the agropastoral community of **Huamantanga**, in the province of Canta, Lima region, Peru, and its *comuneros*, who keep the canals working."
-knowledge: "*mamanteo*, also called *amunas*: canals that lead rainy-season water onto rocky hillsides, where it sinks in and comes out again at springs in the dry season."
+custodian: "The agropastoral community of **Huamantanga**, in the province of Canta, Lima region, Peru, and its *comuneros*, who keep the canals working."
+knowledge: "*Mamanteo*, also called *amunas*: canals that lead rainy-season water onto rocky hillsides, where it sinks in and comes out again at springs in the dry season."
 custodian_voice: "Limited"
-place_note: "the upper Chillón river basin, one of the sources of Lima's water. The system is built at about 3 300 meters above sea level; the canals take water at about 3 800 meters."
+place_note: "The upper Chillón river basin, one of the sources of Lima's water. The system is built at about 3 300 meters above sea level; the canals take water at about 3 800 meters."
 basis: "others' published accounts"
 basis_note: "This entry is written mostly from what outside researchers have published, not from the community itself. One source comes from Huamantanga's own district: a 2012 report in which the mayor writes for the district and an NGO's author reports what local authorities and comuneros told him."
 entry_date: "2026-11-23"

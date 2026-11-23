@@ -2,6 +2,7 @@
 # Published by Umbral from claude/UnaMente_Entry_CrianzaDelAgua_Quispillaccta_Lane2_DRAFT_2026-11-23b (Alba), passed by Verus 23 November 2026 09:45
 # (handoffs 2026-11-23_0945 and 2026-11-23_1111). Custodians box laid out per Cimiento's 11:14 reply: Custodians -> custodian, Place -> place_note,
 # The knowledge -> knowledge. related: none yet (Qochas waits until it is in the library).
+# 23 November 2026, Umbral, on Verus 11:23: first letter of custodian, place_note and knowledge capitalized (header values; no new file).
 id: "crianza-del-agua-raising-water-quispillaccta-ayacucho-peru"
 url: "/library/crianza-del-agua-raising-water-quispillaccta-ayacucho-peru/"
 title: "Crianza del Agua (Raising Water): Quispillaccta, Ayacucho, Peru"
@@ -9,10 +10,10 @@ summary: "Crianza del agua, raising water, as the Quispillaccta community and th
 status: published
 lane: ["Preserved Knowledge"]
 category: []
-custodian: "the Indigenous community of Quispillaccta, in the district of Chuschi, Ayacucho, Peru, working through the **Asociación Bartolomé Aripaylla (ABA)**, which describes itself as \"one more strand in the fabric\" of the community."
-knowledge: "*crianza del agua*, raising water: sowing rainwater in the high ground so that it can be harvested lower down, in springs, wetlands and streams."
+custodian: "The Indigenous community of Quispillaccta, in the district of Chuschi, Ayacucho, Peru, working through the **Asociación Bartolomé Aripaylla (ABA)**, which describes itself as \"one more strand in the fabric\" of the community."
+knowledge: "*Crianza del agua*, raising water: sowing rainwater in the high ground so that it can be harvested lower down, in springs, wetlands and streams."
 custodian_voice: "Strong"
-place_note: "the community's lands in the Andes, from about 2 200 to over 5 100 meters above sea level, in the upper basins of the Pampas and Cachi rivers."
+place_note: "The community's lands in the Andes, from about 2 200 to over 5 100 meters above sea level, in the upper basins of the Pampas and Cachi rivers."
 basis: "custodians' own published material"
 entry_date: "2026-11-23"
 documented_by: "UnaMente"

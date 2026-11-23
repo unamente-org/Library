@@ -1,8 +1,9 @@
 ---
-# Published by Umbral from claude/UnaMente_Entry_KainaiFireGuardians_Lane2_DRAFT_2026-11-23b (Alba), passed by Verus 23 November 2026 09:45
+# Published by Umbral from claude/UnaMente_Entry_KainaiFireGuardians_Lane2_DRAFT_2026-11-23d (Alba): b, passed by Verus 23 November 2026 09:45, plus the source 2 credit line (Verus 11:23)
 # (handoffs 2026-11-23_0945 and 2026-11-23_1111). Revision c is still with Verus; if he passes it, its d replaces this file.
 # Custodians box laid out per Cimiento's 11:14 reply: Custodians -> custodian, Place -> place_note, The knowledge -> knowledge,
 # the bold Basis sentence -> basis_note. related: Cultural Fire, as a companion fire tradition (Cimiento 11:14; Alba 1111), never one practice.
+# 23 November 2026, Umbral, on Verus 11:23: first letter of custodian and place_note capitalized (knowledge already was; header values, no new file).
 id: "kainai-fire-guardians-blood-tribe-kainai-nation-alberta-canada"
 url: "/library/kainai-fire-guardians-blood-tribe-kainai-nation-alberta-canada/"
 title: "Kainai Fire Guardians: Blood Tribe (Kainai Nation), Alberta, Canada"
@@ -10,10 +11,10 @@ summary: "The Kainai Fire Guardians of the Blood Tribe in Alberta: Blackfoot cul
 status: published
 lane: ["Preserved Knowledge"]
 category: []
-custodian: "the **Blood Tribe (Kainai Nation)**, part of the Blackfoot Confederacy, through its Land Management department and its Fire Guardians."
+custodian: "The **Blood Tribe (Kainai Nation)**, part of the Blackfoot Confederacy, through its Land Management department and its Fire Guardians."
 knowledge: "Blackfoot cultural fire: using fire to care for the land, now being brought back after decades without it."
 custodian_voice: "Moderate"
-place_note: "the Blood Reserve near Standoff in southern Alberta, and the Blood Tribe Timber Limits beside Waterton Lakes National Park."
+place_note: "The Blood Reserve near Standoff in southern Alberta, and the Blood Tribe Timber Limits beside Waterton Lakes National Park."
 basis: "others' published accounts"
 basis_note: "Most of this entry is written from a report by a Kainai journalist in The Narwhal, in which Kainai people speak for themselves, and from what government partners have published."
 related: ["cultural-fire-cool-burning-aboriginal-fire-knowledge-australia"]
@@ -75,7 +76,7 @@ Spotted a mistake, or know of a source we missed? [Tell us](https://www.unamente
 ### Sources
 
 1. Blood Tribe (Kainai), "Reigniting Cultural Burning with the Blood Tribe Fire Guardians, Indigenous Leadership Initiative", posted by Blood Tribe Land Management, 12 August 2025 (the Nation's own notice of the program; the week-long training): <https://bloodtribe.org/alvin-first-rider-featured-in-promotional-video-for-the-blood-tribe-fire-guardian-program/> (archived: <https://web.archive.org/web/20261123173708/https://bloodtribe.org/alvin-first-rider-featured-in-promotional-video-for-the-blood-tribe-fire-guardian-program/>)
-2. Joy SpearChief-Morris, photographs by Gavin John, "Kainai Nation ignites the first Indigenous fire guardians program in Canada", The Narwhal, 12 June 2025 (the training and first burn; the Elders; the words of Alvin First Rider, Nathan Provost, Sheldon Brewer, Waterton's fire management officer and Amy Cardinal Christianson): <https://thenarwhal.ca/kainai-fire-guardians/> (archived: <https://web.archive.org/web/20261123173806/https://thenarwhal.ca/kainai-fire-guardians/>)
+2. Joy SpearChief-Morris, with reporting and photographs by Gavin John, "Kainai Nation ignites the first Indigenous fire guardians program in Canada", The Narwhal, 12 June 2025 (the training and first burn; the Elders; the words of Alvin First Rider, Nathan Provost, Sheldon Brewer, Waterton's fire management officer and Amy Cardinal Christianson): <https://thenarwhal.ca/kainai-fire-guardians/> (archived: <https://web.archive.org/web/20261123173806/https://thenarwhal.ca/kainai-fire-guardians/>)
 3. Parks Canada, "Indigenous fire stewardship" (cultural burning and prescribed fire; the 2022 burns with Kainai): <https://parks.canada.ca/nature/science/conservation/feu-fire/autochtones-indigenous> (archived: <https://web.archive.org/web/20261012164103/https://parks.canada.ca/nature/science/conservation/feu-fire/autochtones-indigenous>)
 4. Government of Canada, Open Government grants record, Natural Resources Canada, "Blood Tribe Fire Guardianship: Reigniting Kinship Relationships" (recipient, amount, dates, program): <https://search.open.canada.ca/grants/record/nrcan-rncan,115-2024-2025-Q4-16715,current> (archived: <https://web.archive.org/web/20260831103247/https://search.open.canada.ca/grants/record/nrcan-rncan,115-2024-2025-Q4-16715,current>)
 
