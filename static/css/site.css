@@ -124,4 +124,6 @@ h1,h2,h3,.card h2,.entry h1{font-family:var(--serif);font-weight:400;color:var(-
 .sections a:hover,.sections a[aria-current]{text-decoration:underline;text-underline-offset:4px}
 /* The pod picture shown as a short wide band: the empty cream above and below is trimmed on screen, not in the file, and the caption printed in the file is replaced by the one under the picture (Daniela, 22 November 17:36). */
 .l2hero{max-width:820px;margin:8px 0 18px}
-.l2hero img{aspect-ratio:3.6/1;object-fit:cover;object-position:50% 53%;border-radius:10px;background:#f8f3ea}
+.l2hero img{aspect-ratio:3.6/1;object-fit:cover;object-position:50% 53%;mix-blend-mode:darken}
+/* "darken" turns the picture's light cream into the page colour and leaves the drawing as it is (Daniela, 17:39). In dark mode it would darken the drawing too, so there the picture keeps its own background. */
+@media (prefers-color-scheme:dark){.l2hero img{mix-blend-mode:normal;border-radius:10px}}
