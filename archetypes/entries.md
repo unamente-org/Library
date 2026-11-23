@@ -47,6 +47,8 @@ credits: []
 custodian: ""           # the custodian people or community; custodian-led organisations only, never individuals' private details
 knowledge: ""           # the nature of the knowledge, in a few words
 custodian_voice: ""     # Strong, Moderate or Limited
+place_note: ""          # optional: a full place sentence, shown as "Place" in the custodians box in place of region and country
+# A longer custodians section, when the box is not enough: a heading exactly "## Custodians" in the entry text. The box then links to it.
 # basis: exactly one of "custodians' own published material", "confirmed by the custodians",
 #        or "held, outsiders' accounts only" (never published)
 basis: ""
