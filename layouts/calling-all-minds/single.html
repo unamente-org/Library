@@ -4,7 +4,7 @@
 <article class="entry cam-question">
   {{ if ne .Params.status "published" }}<p class="testnote">Draft question: not checked, not live.</p>{{ end }}
   {{ partial "translation-notice.html" . }}
-  <p class="kicker"><a href="{{ .CurrentSection.RelPermalink }}">Calling All Minds</a> · {{ index $kinds .Params.kind }} · {{ title .Params.question_status }}</p>
+  <p class="kicker"><a href="{{ .CurrentSection.RelPermalink }}">Calling All Minds</a> · {{ index $kinds .Params.kind }} · {{ title .Params.question_status }}{{ with .Params.fields_of_study }} · Field of study: {{ delimit . ", " }}{{ end }}</p>
   <h1>{{ .Title }}</h1>
   {{- /* The entry's own picture, smaller, reused (Daniela, 22 November 2026). */ -}}
   {{- with index .Params.entries 0 }}{{ with index hugo.Data.illustrations . }}{{ $d := . }}{{ with resources.Get (printf "illustrations/%s" ($d.card_file | default $d.file)) }}{{ $img := .Resize "600x q80" }}<figure class="hero cam-pic"><img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $d.alt }}" loading="lazy">{{ if $d.ai_generated }}<figcaption>Illustration (AI-generated), from the entry</figcaption>{{ end }}</figure>{{ end }}{{ end }}{{ end }}

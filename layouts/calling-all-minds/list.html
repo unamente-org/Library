@@ -20,6 +20,13 @@
       <div class="fgroup" role="group" aria-label="Category"><span class="flabel">Category</span>
         {{- range ($cats | uniq | sort) }}<button type="button" class="fchip" data-filter="category" data-value="{{ . }}" aria-pressed="false"{{ with index hugo.Data.labels.category . }} data-tip="{{ . }}"{{ end }}>{{ . }}</button>{{ end }}
       </div>
+      {{- /* Field of study, for thesis students (Alba, 21 November 2026). Shown only once a question has one. */ -}}
+      {{- $fields := slice }}{{ range $qs }}{{ range .Params.fields_of_study }}{{ $fields = $fields | append . }}{{ end }}{{ end }}
+      {{- with $fields }}
+      <div class="fgroup" role="group" aria-label="Field of study"><span class="flabel">Field of study</span>
+        {{- range (. | uniq | sort) }}<button type="button" class="fchip" data-filter="field" data-value="{{ . }}" aria-pressed="false">{{ strings.FirstUpper . }}</button>{{ end }}
+      </div>
+      {{- end }}
       <div class="fgroup" role="group" aria-label="Status"><span class="flabel">Status</span>
         {{- range (slice "open" "testing" "answered") }}<button type="button" class="fchip" data-filter="qstatus" data-value="{{ . }}" aria-pressed="false">{{ title . }}</button>{{ end }}
       </div>
@@ -30,12 +37,12 @@
   <ul class="cards" id="cards">
     {{- range $qs.ByTitle }}
     {{- $c := slice }}{{ $names := slice }}{{ range .Params.entries }}{{ with index (where $entries "Params.id" .) 0 }}{{ $c = $c | append .Params.category }}{{ $names = $names | append .Title }}{{ end }}{{ end }}
-    <li class="card" data-kind="{{ .Params.kind }}" data-category="{{ delimit ($c | uniq) "|" }}" data-qstatus="{{ .Params.question_status }}" data-text="{{ lower (printf "%s %s" .Title (delimit $names " ")) }}">
+    <li class="card" data-kind="{{ .Params.kind }}" data-category="{{ delimit ($c | uniq) "|" }}" data-qstatus="{{ .Params.question_status }}" data-field="{{ delimit (.Params.fields_of_study | default slice) "|" }}" data-text="{{ lower (printf "%s %s %s" .Title (delimit $names " ") (delimit (.Params.fields_of_study | default slice) " ")) }}">
       <a href="{{ .RelPermalink }}">
         {{- /* The picture of the first entry the question is about: reused, never a new drawing (Daniela, 22 November 2026). */ -}}
         {{- with index .Params.entries 0 }}{{ with index hugo.Data.illustrations . }}{{ $d := . }}{{ with resources.Get (printf "illustrations/%s" ($d.card_file | default $d.file)) }}{{ $s := .Resize "400x q75" }}{{ $l := .Resize "800x q75" }}<img class="thumb" src="{{ $s.RelPermalink }}" srcset="{{ $s.RelPermalink }} 400w, {{ $l.RelPermalink }} 800w" sizes="(max-width: 520px) 92vw, 340px" width="{{ $s.Width }}" height="{{ $s.Height }}" alt="{{ $d.alt }}" loading="lazy">{{ end }}{{ end }}{{ end }}
         <h2>{{ .Title }}</h2>
-        <p class="summary">{{ index $kinds .Params.kind }} · {{ title .Params.question_status }}{{ with $names }} · About: {{ delimit . ", " }}{{ end }}</p>
+        <p class="summary">{{ index $kinds .Params.kind }} · {{ title .Params.question_status }}{{ with $names }} · About: {{ delimit . ", " }}{{ end }}{{ with .Params.fields_of_study }} · For: {{ strings.FirstUpper (delimit . ", ") }}{{ end }}</p>
       </a>
     </li>
     {{- end }}

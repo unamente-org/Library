@@ -6,6 +6,7 @@ status: draft             # draft until it passes the gates, then published
 kind: ""                  # "not-yet-tried-there" or "still-unanswered" (Daniela, 20 November: both kinds)
 entries: []               # ids of the library entries it is about, e.g. ["za-pits-bringing-dead-soil-back-to-life"]
 question_status: open     # open, testing, or answered
+fields_of_study: []       # optional: who could take it on, e.g. ["Soil science", "Water engineering", "Public health", "Economics"]. One or more; shown on the page and as a filter (Alba, 21 November 2026). Lower case, spelled the same way every time; the page capitalizes the first letter.
 searched:                 # who looked for an answer, when, in which languages. Required: "we found no record" needs this.
   - by: ""
     date: ""              # YYYY-MM-DD
