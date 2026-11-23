@@ -2,6 +2,8 @@
 {{- $unverified := eq .Params.status "unverified-submission" -}}
 {{- $l2 := in (.Params.lane | default slice) "Preserved Knowledge" -}}
 <article class="entry{{ if $l2 }} lane2{{ end }}">
+  {{- /* A notice that must come before anything else, e.g. "Aboriginal and Torres Strait Islander readers are advised that this page contains the names of people who have died." (Verus, 22 November 15:11) */ -}}
+  {{ with .Params.notice }}<p class="topnotice" role="note">{{ . }}</p>{{ end }}
   {{ if .Params.test }}<p class="testnote">This is a test entry with placeholder text. It is not a real innovation.</p>{{ end }}
   {{ if $unverified }}<p class="testnote">Unverified submission. UnaMente has not yet checked this against sources, so it carries no trust rating.</p>{{ end }}
   {{ partial "translation-notice.html" . }}

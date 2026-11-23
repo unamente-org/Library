@@ -5,6 +5,7 @@ id: ""
 url: ""                 # public address, e.g. /library/zeer-pot-a-fridge-that-runs-on-nothing/
 title: ""
 summary: ""
+notice: ""              # optional; shown first, above the title. E.g. the notice about names of people who have died
 
 # ---- Publication status (B2), separate from the trust tier ----
 # draft | in-review | published | unverified-submission
