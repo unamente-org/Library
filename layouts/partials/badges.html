@@ -3,8 +3,11 @@
 {{- $p := .Params -}}
 {{- $L := hugo.Data.labels -}}
 <div class="badges">
-  {{- if ne $p.status "unverified-submission" }}{{ range $p.trust }}<span class="b tier tier-{{ lower . }}" data-tip="Trust: {{ . }}. {{ index $L.trust . }}" tabindex="0">{{ . }}</span>{{ end }}{{ end }}
-  {{- range $p.lane }}<span class="b lane" data-tip="{{ index $L.lane . }}" tabindex="0">{{ . }}</span>{{ end }}
+  {{- $l2 := in ($p.lane | default slice) "Preserved Knowledge" }}
+  {{- /* Lane 2 has no trust tier: it shows Custodian voice instead (Verus, 22 November 12:10). */ -}}
+  {{- if $l2 }}{{ with $p.custodian_voice }}<span class="b voice" data-tip="{{ index $L.notes "custodian_voice" }} {{ . }}: {{ index $L.custodian_voice . }}" tabindex="0">Custodian voice: {{ . }}</span>{{ end }}{{ end }}
+  {{- if and (not $l2) (ne $p.status "unverified-submission") }}{{ range $p.trust }}<span class="b tier tier-{{ lower . }}" data-tip="Trust: {{ . }}. {{ index $L.trust . }}" tabindex="0">{{ . }}</span>{{ end }}{{ end }}
+  {{- range $p.lane }}<span class="b lane{{ if eq . "Preserved Knowledge" }} lane2{{ end }}" data-tip="{{ index $L.lane . }}" tabindex="0">{{ . }}</span>{{ end }}
   {{- range $p.category }}<span class="b cat" data-tip="{{ index $L.category . }}" tabindex="0">{{ . }}</span>{{ end }}
   {{- with $p.maturity }}<span class="b" data-tip="Maturity" tabindex="0">{{ . }}</span>{{ end }}
   {{- with $p.setting }}<span class="b" data-tip="Setting" tabindex="0">{{ . }}</span>{{ end }}

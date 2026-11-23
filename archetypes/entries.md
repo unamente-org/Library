@@ -5,6 +5,7 @@ id: ""
 url: ""                 # public address, e.g. /library/zeer-pot-a-fridge-that-runs-on-nothing/
 title: ""
 summary: ""
+notice: ""              # optional; shown first, above the title. E.g. the notice about names of people who have died
 
 # ---- Publication status (B2), separate from the trust tier ----
 # draft | in-review | published | unverified-submission
@@ -14,12 +15,12 @@ status: draft
 # ---- Spec section 1: header / at-a-glance (UnaMente_Entry_Template_Spec) ----
 lane: []                # e.g. ["Lane 1 — Solutions"]
 track: ""               # 1 (buildable) or 2 (knowledge)
-category: []
+category: []            # Preserved Knowledge (Lane 2) entries have none (Verus, 22 November 15:11)
 origin: ""              # free text, as on the entry
 maturity: ""            # Idea / Tested / Proven / Scaled, as written on the entry
 setting: ""             # e.g. Rural, as in the live "Setting:" tag
 entry_type: ""          # e.g. Technical, as in the live "Type:" tag ("type" is reserved by Hugo)
-trust: []               # Strong / Moderate / Limited
+trust: []               # Strong / Moderate / Limited. Not for Lane 2: it uses custodian_voice, and a trust value stops the build
 licence: ""
 entry_date: ""          # YYYY-MM-DD
 documented_by: ""
@@ -41,8 +42,13 @@ credits: []
 #    date: ""
 #    verified_by: ""     # helper and date, e.g. "Verus, 2026-11-16"
 
-# ---- Lane 2 only (B6) ----
-# basis: one of the three values in UnaMente_Lane2_PreservedKnowledge_Template_and_Protocol_2026-11-15
+# ---- Lane 2 only (B6), per UnaMente_Lane2_PreservedKnowledge_Template_and_Protocol_2026-11-15 ----
+# A Lane 2 entry has lane: ["Preserved Knowledge"], no licence, and the custodian header below.
+custodian: ""           # the custodian people or community; custodian-led organisations only, never individuals' private details
+knowledge: ""           # the nature of the knowledge, in a few words
+custodian_voice: ""     # Strong, Moderate or Limited
+# basis: exactly one of "custodians' own published material", "confirmed by the custodians",
+#        or "held, outsiders' accounts only" (never published)
 basis: ""
 custodian_contact: []   # shown to readers as "Custodian contact": dated approaches and replies
 #  - date: ""

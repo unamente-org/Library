@@ -1,6 +1,9 @@
 {{ define "main" }}
 {{- $unverified := eq .Params.status "unverified-submission" -}}
-<article class="entry">
+{{- $l2 := in (.Params.lane | default slice) "Preserved Knowledge" -}}
+<article class="entry{{ if $l2 }} lane2{{ end }}">
+  {{- /* A notice that must come before anything else, e.g. "Aboriginal and Torres Strait Islander readers are advised that this page contains the names of people who have died." (Verus, 22 November 15:11) */ -}}
+  {{ with .Params.notice }}<p class="topnotice" role="note">{{ . }}</p>{{ end }}
   {{ if .Params.test }}<p class="testnote">This is a test entry with placeholder text. It is not a real innovation.</p>{{ end }}
   {{ if $unverified }}<p class="testnote">Unverified submission. UnaMente has not yet checked this against sources, so it carries no trust rating.</p>{{ end }}
   {{ partial "translation-notice.html" . }}
@@ -8,6 +11,21 @@
   {{- with index hugo.Data.illustrations .Params.id }}{{ $d := . }}{{ with resources.Get (printf "illustrations/%s" $d.file) }}{{ $img := .Resize "750x q80" }}<figure class="hero"><img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $d.alt }}" loading="lazy">{{ if $d.ai_generated }}<figcaption>Illustration (AI-generated)</figcaption>{{ end }}</figure>{{ end }}{{ end }}
 
   {{ partial "badges.html" . }}
+  {{- /* Lane 2 protocol, section 1: the custodian header, with the custodian-owned marker in place of a licence. */ -}}
+  {{ if $l2 }}
+  <section class="custodian" aria-label="Custodian header">
+    <p><span class="owned">Custodian-owned</span> This knowledge belongs to the people who hold it. It is not ours to license.</p>
+    <table>
+      {{ with .Params.custodian }}<tr><th>Custodians</th><td>{{ . | markdownify }}</td></tr>{{ end }}
+      {{ with .Params.place }}{{ if or (ne .region "not stated") (ne .country "not stated") }}<tr><th>Place</th><td>{{ with .region }}{{ if ne . "not stated" }}{{ . }}{{ end }}{{ end }}{{ if and (ne .region "not stated") (ne .country "not stated") }}, {{ end }}{{ with .country }}{{ if ne . "not stated" }}{{ . }}{{ end }}{{ end }}</td></tr>{{ end }}{{ end }}
+      {{ with .Params.knowledge }}<tr><th>The knowledge</th><td>{{ . }}</td></tr>{{ end }}
+      {{ with .Params.custodian_voice }}<tr><th>Custodian voice</th><td>{{ . }}</td></tr>{{ end }}
+      {{ with .Params.basis }}<tr><th>Basis</th><td>{{ . }}</td></tr>{{ end }}
+      {{ with .Params.entry_date }}<tr><th>Entry date</th><td>{{ . }}</td></tr>{{ end }}
+      {{ with .Params.documented_by }}<tr><th>Documented by</th><td>{{ . }}</td></tr>{{ end }}
+    </table>
+  </section>
+  {{ else }}
   {{- /* Spec section 1, the rest of the header: shown only when the entry has these fields. */ -}}
   {{ if or .Params.origin .Params.licence .Params.entry_date .Params.documented_by .Params.basis }}
   <table class="glance">
@@ -17,6 +35,7 @@
     {{ with .Params.documented_by }}<tr><th>Documented by</th><td>{{ . }}</td></tr>{{ end }}
     {{ with .Params.basis }}<tr><th>Basis</th><td>{{ . }}</td></tr>{{ end }}
   </table>
+  {{ end }}
   {{ end }}
 
   {{- /* Spec sections 2 to 9 are the body, in the spec's order and under the spec's own headings. */ -}}

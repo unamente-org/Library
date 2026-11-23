@@ -23,10 +23,13 @@
   <details class="legend">
     <summary>What the labels mean</summary>
     <div class="defs">
-      {{- range $group, $defs := hugo.Data.labels }}
-      <div class="ghead">{{ index (dict "lane" "Lanes" "trust" "Trust" "category" "Categories") $group }}</div>
-      {{- range $k, $v := $defs }}<div><b>{{ $k }}</b> — {{ $v }}</div>{{ end }}
-      {{- end }}
+      {{- $hasL2 := false }}{{ range $entries }}{{ if in (.Params.lane | default slice) "Preserved Knowledge" }}{{ $hasL2 = true }}{{ end }}{{ end }}
+      {{- $groups := slice (slice "lane" "Lanes") (slice "category" "Categories") (slice "trust" "Trust") (slice "marker" "Preserved Knowledge marker") (slice "custodian_voice" "Custodian voice (Preserved Knowledge only, in place of Trust)") (slice "basis" "Basis (Preserved Knowledge only)") }}
+      {{- range $groups }}{{ $g := index . 0 }}{{ if or $hasL2 (in (slice "lane" "category" "trust") $g) }}
+      <div class="ghead">{{ index . 1 }}</div>
+      {{- with index $L.notes $g }}<div class="gnote">{{ . }}</div>{{ end }}
+      {{- range $k, $v := index $L $g }}{{ if or $hasL2 (ne $k "Preserved Knowledge") }}<div><b>{{ $k }}</b> — {{ $v }}</div>{{ end }}{{ end }}
+      {{- end }}{{ end }}
     </div>
   </details>
   <p class="count" id="count" aria-live="polite"></p>
@@ -36,9 +39,11 @@
   {{- $pinned := slice }}{{ range (site.Params.pinFirst | default slice) }}{{ with where $entries "Params.id" . }}{{ $pinned = $pinned | append (index . 0) }}{{ end }}{{ end }}
   {{- $rest := slice }}{{ range $entries.ByTitle }}{{ if not (in $pinned .) }}{{ $rest = $rest | append . }}{{ end }}{{ end }}
   {{- range ($pinned | append $rest) }}
-  {{- $tier := lower (index (.Params.trust | default (slice "none")) 0) }}
-  <li class="card tier-{{ if eq .Params.status "unverified-submission" }}none{{ else }}{{ $tier }}{{ end }}" data-lane="{{ delimit (.Params.lane | default slice) "|" }}" data-category="{{ delimit (.Params.category | default slice) "|" }}" data-trust="{{ delimit (.Params.trust | default slice) "|" }}" data-text="{{ lower (printf "%s %s %s %s %s" .Title (.Params.summary | default "") (.Params.problem | default "") (delimit (.Params.keywords | default slice) " ") (delimit (.Params.category | default slice) " ")) }}">
+  {{- $tier := lower (index (.Params.trust | default (slice "none")) 0) }}{{ if in (.Params.lane | default slice) "Preserved Knowledge" }}{{ $tier = "none" }}{{ end }}
+  <li class="card tier-{{ if eq .Params.status "unverified-submission" }}none{{ else }}{{ $tier }}{{ end }}{{ if in (.Params.lane | default slice) "Preserved Knowledge" }} lane2{{ end }}" data-lane="{{ delimit (.Params.lane | default slice) "|" }}" data-category="{{ delimit (.Params.category | default slice) "|" }}" data-trust="{{ delimit (.Params.trust | default slice) "|" }}" data-text="{{ lower (printf "%s %s %s %s %s" .Title (.Params.summary | default "") (.Params.problem | default "") (delimit (.Params.keywords | default slice) " ") (delimit (.Params.category | default slice) " ")) }}">
     <a href="{{ .RelPermalink }}">
+      {{- /* Lane 2: a band no Solutions card has, so it reads as different even in gray (Verus, 22 November 12:10). */ -}}
+      {{ if in (.Params.lane | default slice) "Preserved Knowledge" }}<span class="l2band">Preserved Knowledge · Custodian-owned</span>{{ end }}
       {{- /* Card picture: sized for the card (Ducky's page-speed advice), lazy-loaded, with explicit size. */ -}}
       {{- with index hugo.Data.illustrations .Params.id }}{{ $d := . }}{{ with resources.Get (printf "illustrations/%s" ($d.card_file | default $d.file)) }}{{ $s := .Resize "400x q75" }}{{ $l := .Resize "800x q75" }}<img class="thumb" src="{{ $s.RelPermalink }}" srcset="{{ $s.RelPermalink }} 400w, {{ $l.RelPermalink }} 800w" sizes="(max-width: 520px) 92vw, 340px" width="{{ $s.Width }}" height="{{ $s.Height }}" alt="{{ $d.alt }}" loading="lazy">{{ end }}{{ end }}
       <h2>{{ .Title }}</h2>
