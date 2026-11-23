@@ -13,6 +13,10 @@ searched:                 # who looked for an answer, when, in which languages. 
 clinician_review:         # required when any linked entry is in the Health category; leave out otherwise
   by: ""
   date: ""
+# or, when Verus has ruled that no clinician review is needed (nothing is shown to readers):
+#  not_needed: true
+#  ruled_by: "Verus"
+#  date: "YYYY-MM-DD"
 answered_by: []           # names credited when answered, whether the method worked or not
 ---
 ## What we know

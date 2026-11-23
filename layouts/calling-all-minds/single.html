@@ -15,7 +15,7 @@
     <ul>{{ range .Params.searched }}<li>{{ .by }}, {{ .date }} — {{ delimit .languages ", " }}</li>{{ end }}</ul>
     <p>"We found no record" only means we did not find it. If you know of work we missed, in any language, tell us.</p>
   </section>
-  {{ with .Params.clinician_review }}<p>Reviewed by a clinician: {{ .by }}, {{ .date }}.</p>{{ end }}
+  {{ with .Params.clinician_review }}{{ with .by }}<p>Reviewed by a clinician: {{ . }}, {{ $.Params.clinician_review.date }}.</p>{{ end }}{{ end }}
   {{ with .Params.answered_by }}<section class="credits"><h2>Answered by</h2><ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul></section>{{ end }}
 </article>
 {{ end }}
