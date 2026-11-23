@@ -139,11 +139,11 @@ vermifiltration-earthworms-that-clean-wastewater:
 
 biogas-digesters-cooking-gas-from-waste:
   file: "biogas-digesters-cooking-gas-from-waste.jpg"
-  card_file: "cards/biogas-digesters-cooking-gas-from-waste.jpg"   # BIOGAS_card_2026-11-19.jpg, passed by Verus 19 November
-  original_file: "Biogas digesters.jpg"
+  card_file: "cards/biogas-digesters-cooking-gas-from-waste.jpg"   # BIOGAS_card_2026-11-22c.jpg, passed by Verus 22 November 19:18
+  original_file: "BIOGAS_2026-11-22c.jpg"   # passed by Verus 22 November 14:36 and, with the dashed line removed, 19:18 (Lente handoff 1916). Replaces "Biogas digesters.jpg".
   ai_generated: true
   status: current
-  alt: "Cutaway of an underground dome digester: waste goes in through an inlet pipe, gas collects in the dome and is piped to a kitchen burner, and digested slurry flows out to a vegetable garden."
+  alt: "Cutaway of a brick fixed-dome biogas digester: dung and vegetable scraps go into an inlet tank, gas collects under the dome and is piped to a single burner in a small building, and digested slurry rises into an outlet tank and flows out to a vegetable garden."   # Cimiento 22 November 15:32, from the picture; no "household" (Verus 14:36)
 
 zeer-pot-a-fridge-that-runs-on-nothing:
   file: "zeer-pot-a-fridge-that-runs-on-nothing.jpg"
