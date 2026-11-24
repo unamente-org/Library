@@ -1,6 +1,6 @@
 ---
-# Published by Umbral from claude/UnaMente_Entry_KainaiFireGuardians_Lane2_DRAFT_2026-11-23d (Alba): b, passed by Verus 23 November 2026 09:45, plus the source 2 credit line (Verus 11:23)
-# (handoffs 2026-11-23_0945 and 2026-11-23_1111). Revision c is still with Verus; if he passes it, its d replaces this file.
+# Published by Umbral from claude/UnaMente_Entry_KainaiFireGuardians_Lane2_DRAFT_2026-11-24f (Alba): d plus the film additions (Verus 24 November 07:40) and source 5 without the podcast words (Verus 07:57)
+# (handoffs 2026-11-23_0945 and 2026-11-23_1111). Revision c's film additions are now in, through e and f (24 November).
 # Custodians box laid out per Cimiento's 11:14 reply: Custodians -> custodian, Place -> place_note, The knowledge -> knowledge,
 # the bold Basis sentence -> basis_note. related: Cultural Fire, as a companion fire tradition (Cimiento 11:14; Alba 1111), never one practice.
 # 23 November 2026, Umbral, on Verus 11:23: first letter of custodian and place_note capitalized (knowledge already was; header values, no new file).
@@ -41,13 +41,15 @@ In early May 2025, in Standoff, the Kainai fire department, the Fire Guardians, 
 
 For First Rider, bringing fire back is part of a larger restoration of the land. "The goal is to rematriate our connection with fire along with our bison," he told The Narwhal, describing fire's return alongside the return of bison and beaver. He rejects the old idea that these lands were wild and untended: his people managed them, he says, and that is what they are bringing back.
 
+In a film shared by the Indigenous Leadership Initiative, "Reignition: Bringing Good Fire Back to the Land," First Rider speaks for himself. "We're getting fire back on the landscape and getting our Guardians trained," he says. "This year, we burnt on our main reserve, right in the town of Standoff. It was really successful. Really clean burn." And on why: "We're burning to help the plants, to help habitat, to attract bison and grazers for hunting. This is the goal to have a grassland that's healthy. Reigniting that relationship, it's healing the land, and it's healing our peoples."
+
 Provost wants the program to teach the community, give young people a role, and show that fire is not simply destructive.
 
 First Rider also teaches with a Blackfoot story about Napi and the Sun's fire. As The Narwhal reports it, he uses the story to show fire's power and the need to follow protocol. The story is his people's to tell; the article carries it as he told it.
 
 ### How it works, and how the community keeps it alive
 
-**It begins with ceremony.** The first burn opened with an offering and a prayer led by Elders, before anyone lit a fire.
+**It begins with ceremony.** The first burn opened with an offering and a prayer led by Elders, before anyone lit a fire. The Indigenous Leadership Initiative's short film of the training, which the Blood Tribe shared on its own site, shows the classroom teaching, the planning before the burn, the burn itself, and an Elder singing a prayer.
 
 **Old ways are being remembered.** First Rider told The Narwhal that fire keepers once carried hot coals in bison horns. The first fire was set with dried cattails.
 
@@ -67,7 +69,7 @@ First Rider also teaches with a Blackfoot story about Napi and the Sun's fire. A
 
 This knowledge is held by the Blood Tribe (Kainai Nation). The department to turn to is **Blood Tribe Land Management**, through [its page on the Blood Tribe's own site](https://bloodtribe.org/land-management/). We name no private individuals' contact details.
 
-This entry was written mostly from The Narwhal's report by Joy SpearChief-Morris, a member of Kainai Nation, in which Kainai people speak in their own words; from a notice on the Blood Tribe's own site; from Parks Canada's account of its work with Kainai; and from the Government of Canada's record of the grant. It is not an endorsement of UnaMente by the Blood Tribe or anyone else.
+This entry was written mostly from The Narwhal's report by Joy SpearChief-Morris, a member of Kainai Nation, in which Kainai people speak in their own words; from Alvin First Rider's words in a film shared by the Indigenous Leadership Initiative; from a notice on the Blood Tribe's own site; from Parks Canada's account of its work with Kainai; and from the Government of Canada's record of the grant. It is not an endorsement of UnaMente by the Blood Tribe or anyone else.
 
 This entry was written mostly from what others have published about this knowledge, with the people who hold it quoted in their own words. If you are one of them, we would like to hear from you: to tell us whether you are content for us to document it, to add to it, to correct it, or to ask us to take it down. We will act on what you tell us. Write to us at [info@unamente.org](mailto:info@unamente.org).
 
@@ -79,5 +81,7 @@ Spotted a mistake, or know of a source we missed? [Tell us](https://www.unamente
 2. Joy SpearChief-Morris, with reporting and photographs by Gavin John, "Kainai Nation ignites the first Indigenous fire guardians program in Canada", The Narwhal, 12 June 2025 (the training and first burn; the Elders; the words of Alvin First Rider, Nathan Provost, Sheldon Brewer, Waterton's fire management officer and Amy Cardinal Christianson): <https://thenarwhal.ca/kainai-fire-guardians/> (archived: <https://web.archive.org/web/20261123173806/https://thenarwhal.ca/kainai-fire-guardians/>)
 3. Parks Canada, "Indigenous fire stewardship" (cultural burning and prescribed fire; the 2022 burns with Kainai): <https://parks.canada.ca/nature/science/conservation/feu-fire/autochtones-indigenous> (archived: <https://web.archive.org/web/20261012164103/https://parks.canada.ca/nature/science/conservation/feu-fire/autochtones-indigenous>)
 4. Government of Canada, Open Government grants record, Natural Resources Canada, "Blood Tribe Fire Guardianship: Reigniting Kinship Relationships" (recipient, amount, dates, program): <https://search.open.canada.ca/grants/record/nrcan-rncan,115-2024-2025-Q4-16715,current> (archived: <https://web.archive.org/web/20260831103247/https://search.open.canada.ca/grants/record/nrcan-rncan,115-2024-2025-Q4-16715,current>)
+5. "REIGNITION: Bringing Good Fire Back to the Land", film posted by the Indigenous Leadership Initiative (video; Alvin First Rider's own words, from about 7 minutes 50 seconds): <https://www.youtube.com/watch?v=g8jVZuVbACU> (video; no archived copy)
+6. Indigenous Leadership Initiative, "Reigniting Cultural Burning with the Blood Tribe Fire Guardians" (video of the training, shared on the Blood Tribe's own site): <https://www.youtube.com/watch?v=en5O7RW3qt0> (video; no archived copy)
 
 *UnaMente — Minds everywhere, solutions for everyone.*
