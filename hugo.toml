@@ -51,8 +51,16 @@ disableKinds = ["taxonomy", "term"]
   isPlainText = true
   notAlternative = true
 
+# The whole library as one data file, so anyone can take every entry out in a usable form (design 012 point 6;
+# Verus's question, 23 November 2026, handoff 1329). Served at /library.json.
+[outputFormats.libraryjson]
+  mediaType = "application/json"
+  baseName = "library"
+  isPlainText = true
+  notAlternative = true
+
 [outputs]
-  home = ["html", "redirects"]
+  home = ["html", "redirects", "libraryjson"]
 
 # Keep the full-size originals in the repository but publish only the web-sized copies.
 [[cascade]]
