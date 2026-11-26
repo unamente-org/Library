@@ -1,0 +1,7 @@
+{{- /* Every published entry and Calling All Minds question: header fields as written, and the full text in Markdown. */ -}}
+{{- $entries := where (where site.RegularPages "Section" "entries") "Params.status" "published" -}}
+{{- $qs := where (where site.RegularPages "Section" "calling-all-minds") "Params.status" "published" -}}
+{{- $skip := slice "build" "draft" "iscjklanguage" -}}
+{{- $e := slice }}{{ range $entries.ByTitle }}{{ $r := dict }}{{ range $k, $v := .Params }}{{ if not (in $skip $k) }}{{ $r = merge $r (dict $k $v) }}{{ end }}{{ end }}{{ $e = $e | append (merge $r (dict "address" .Permalink "title" .Title "text_markdown" .RawContent)) }}{{ end -}}
+{{- $q := slice }}{{ range $qs.ByTitle }}{{ $r := dict }}{{ range $k, $v := .Params }}{{ if not (in $skip $k) }}{{ $r = merge $r (dict $k $v) }}{{ end }}{{ end }}{{ $q = $q | append (merge $r (dict "address" .Permalink "title" .Title "text_markdown" .RawContent)) }}{{ end -}}
+{{- dict "about" "UnaMente's free, permanent library: every published entry and open question, as data. Each record carries its own sources in its text. https://library.unamente.org/" "generated" (now.Format "2006-01-02") "entries" $e "calling_all_minds" $q | jsonify (dict "indent" "  ") -}}
