@@ -7,6 +7,7 @@ id: "qochas-small-earth-dams-that-save-rain-for-the-dry-season-in-the-andes"
 url: "/library/qochas-small-earth-dams-that-save-rain-for-the-dry-season-in-the-andes/"
 title: "Qochas: Small Earth Dams That Save Rain for the Dry Season in the Andes"
 summary: "Small earth dams that hold rain high in the Andes for the dry season and drought. How communities build them, what they cost in work, and what is unknown."
+related: ["crianza-del-agua-raising-water-quispillaccta-ayacucho-peru"]   # Cimiento, 27 November 2026 (Alba 0926): a technique anyone may build, and Quispillaccta's own practice; never shown as one
 status: published
 lane: ["Solutions"]
 category: ["Water", "Soil"]

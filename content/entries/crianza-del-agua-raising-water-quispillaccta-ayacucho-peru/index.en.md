@@ -7,6 +7,7 @@ id: "crianza-del-agua-raising-water-quispillaccta-ayacucho-peru"
 url: "/library/crianza-del-agua-raising-water-quispillaccta-ayacucho-peru/"
 title: "Crianza del Agua (Raising Water): Quispillaccta, Ayacucho, Peru"
 summary: "Crianza del agua, raising water, as the Quispillaccta community and the Asociación Bartolomé Aripaylla describe it: lagoons, rituals and shared work in Peru's Andes, and why it is not a how-to."
+related: ["qochas-small-earth-dams-that-save-rain-for-the-dry-season-in-the-andes"]   # Cimiento, 27 November 2026 (Alba 0926): a technique anyone may build, and Quispillaccta's own practice; never shown as one
 status: published
 lane: ["Preserved Knowledge"]
 category: []
