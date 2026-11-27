@@ -1,7 +1,7 @@
 {{- /* Horizontal badges with hover explanations, in the style of the 23 October demo.
      Order: trust, lane, categories, maturity, setting, type. An unverified submission shows no trust badge (B2). */ -}}
 {{- $p := .Params -}}
-{{- $L := cond (eq site.Language.Lang "es") hugo.Data.labels_es hugo.Data.labels -}}
+{{- $L := (index hugo.Data (printf "labels_%s" site.Language.Lang)) | default hugo.Data.labels -}}
 <div class="badges">
   {{- $l2 := in ($p.lane | default slice) "Preserved Knowledge" }}
   {{- /* Lane 2 has no trust tier: it shows Custodian voice instead (Verus, 22 November 12:10). */ -}}

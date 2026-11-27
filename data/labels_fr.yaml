@@ -1,0 +1,35 @@
+# Sens des indicateurs, en français : traduction automatique de data/labels.yaml (Cimiento, 27 novembre 2026), non relue.
+# Les clés restent en anglais, comme dans les fiches ; ce qui s'affiche est dans i18n/fr.yaml.
+# Si une phrase change dans labels.yaml, celle-ci doit changer aussi.
+lane:
+  Solutions: "Une solution à construire soi-même, avec de vraies instructions gratuites. Elle n'appartient à personne."
+  Preserved Knowledge: "Un savoir vivant qui appartient aux personnes qui le détiennent. Nous le décrivons avec respect, et jamais comme un plan à copier."
+  Story: "Un projet ou une personne qui inspire, parfois breveté ou commercial. Nous racontons l'histoire et disons clairement ce qui est quoi."
+trust:
+  Strong: "Vérifié par plusieurs personnes qui l'ont testé elles-mêmes, en travaillant séparément et en obtenant le même résultat."
+  Moderate: "Réel et documenté, mais les preuves sont plus minces ou viennent en partie de ceux qui le promeuvent."
+  Limited: "Prometteur mais peu étayé : à utiliser avec prudence."
+category:
+  Water: "Eau potable, irrigation, et rendre sûre une eau qui ne l'est pas."
+  Food: "Cultiver, élever et conserver les aliments."
+  Energy: "Combustible de cuisson, chaleur et électricité."
+  Soil: "Garder la terre fertile et la maintenir en place."
+  Health: "Rester en bonne santé et soigner les maladies."
+  Waste: "Transformer les déchets en quelque chose d'utile, sans danger."
+  Shelter: "Un logement sûr et abordable."
+  Human-Wildlife Coexistence: "Vivre à côté des animaux sauvages sans perdre ses récoltes ni sa sécurité."
+marker:
+  Custodian-owned: "Ce savoir appartient à ses gardiens. Il ne nous revient pas d'en accorder une licence, et nous ne le proposons pas pour que d'autres le copient."
+custodian_voice:
+  Strong: "Écrit surtout à partir de ce que les gardiens eux-mêmes ont publié, ou nous ont dit."
+  Moderate: "Écrit en partie avec les propres mots des gardiens et en partie à partir de ce que d'autres ont écrit sur eux."
+  Limited: "S'appuie sur des mots publiés par les gardiens eux-mêmes, mais seule une petite partie de la fiche vient directement d'eux."
+  Not yet heard: "Écrit entièrement à partir de ce que d'autres ont publié. Les propres mots des gardiens ne sont pas encore dans cette fiche."
+basis:
+  Custodians' own published material: "Écrit à partir de ce que les gardiens, ou une organisation qu'ils dirigent, ont choisi de publier eux-mêmes."
+  Confirmed by the custodians: "Les gardiens nous ont dit directement qu'ils acceptent que nous le documentions."
+  Others' published accounts: "Écrit à partir de ce que des chercheurs, des journalistes ou d'autres personnes ont publié sur ce savoir, et non à partir des gardiens eux-mêmes. La fiche le dit, et notre invitation aux gardiens reste ouverte."
+notes:
+  custodian_voice: "La voix des gardiens indique dans quelle mesure une fiche de savoirs préservés s'appuie sur les propres mots de ses gardiens. Elle n'évalue pas si la pratique fonctionne."
+order:
+  custodian_voice: ["Strong", "Moderate", "Limited", "Not yet heard"]

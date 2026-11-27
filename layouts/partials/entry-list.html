@@ -9,7 +9,7 @@
   <input id="q" type="search" autocomplete="off" placeholder="{{ T "search_placeholder" }}">
   {{- /* Filter buttons, as in the 23 October demo: tap to switch on or off, hover or focus for what each means. */ -}}
   <div class="filters">
-    {{- $L := cond (eq site.Language.Lang "es") hugo.Data.labels_es hugo.Data.labels }}
+    {{- $L := (index hugo.Data (printf "labels_%s" site.Language.Lang)) | default hugo.Data.labels }}
     {{- range (slice (slice "category" (T "g_category")) (slice "lane" (T "g_lane")) (slice "trust" (T "g_trust"))) }}
     {{- $key := index . 0 }}
     <div class="fgroup" role="group" aria-label="{{ index . 1 }}">

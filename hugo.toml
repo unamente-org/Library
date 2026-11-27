@@ -36,6 +36,12 @@ disableKinds = ["taxonomy", "term"]
     label = "Español"
     locale = "es"
     weight = 2
+  # French (Daniela, 27 November 2026, 12:10: "Let start with Frensh"). Machine-translated and labeled; nobody at UnaMente reads it.
+  [languages.fr]
+    title = "Bibliothèque UnaMente"
+    label = "Français"
+    locale = "fr"
+    weight = 3
   # Further languages are added here, one block each.
   # Right-to-left languages add: direction = "rtl"
 
