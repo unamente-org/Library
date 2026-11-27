@@ -17,7 +17,7 @@
   var clear = document.getElementById("clearAll");
   if (!q || !cards.length) return;
 
-  var SKIP = " a an and the of for to in on at by with from during how what when where which my our your i we is are it its or that this without no not ";
+  var SKIP = " a an and the of for to in on at by with from during how what when where which my our your i we is are it its or that this without no not de del la las el los un una unos unas y o para por con sin en que es son su sus al ";
 
   // Plain-letter, American-spelled, suffix-trimmed form of a word.
   function stem(w) {
@@ -91,8 +91,8 @@
       c.hidden = !ok;
       if (ok) shown++;
     });
-    count.textContent = (partial ? "No entry matches every word. Closest matches: " : "") +
-      shown + " of " + cards.length + " " + (count.dataset.noun || "entries");
+    count.textContent = (partial ? (count.dataset.partial || "No entry matches every word. Closest matches: ") : "") +
+      shown + " " + (count.dataset.of || "of") + " " + cards.length + " " + (count.dataset.noun || "entries");
     if (clear) clear.hidden = !(any || q.value);
     remember(on);
   }

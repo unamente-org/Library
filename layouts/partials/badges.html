@@ -1,15 +1,15 @@
 {{- /* Horizontal badges with hover explanations, in the style of the 23 October demo.
      Order: trust, lane, categories, maturity, setting, type. An unverified submission shows no trust badge (B2). */ -}}
 {{- $p := .Params -}}
-{{- $L := hugo.Data.labels -}}
+{{- $L := cond (eq site.Language.Lang "es") hugo.Data.labels_es hugo.Data.labels -}}
 <div class="badges">
   {{- $l2 := in ($p.lane | default slice) "Preserved Knowledge" }}
   {{- /* Lane 2 has no trust tier: it shows Custodian voice instead (Verus, 22 November 12:10). */ -}}
-  {{- if $l2 }}{{ with $p.custodian_voice }}<span class="b voice" data-tip="{{ index $L.notes "custodian_voice" }} {{ . }}: {{ index $L.custodian_voice . }}" tabindex="0">Custodian voice: {{ . }}</span>{{ end }}{{ end }}
-  {{- if and (not $l2) (ne $p.status "unverified-submission") }}{{ range $p.trust }}<span class="b tier tier-{{ lower . }}" data-tip="Trust: {{ . }}. {{ index $L.trust . }}" tabindex="0">{{ . }}</span>{{ end }}{{ end }}
-  {{- range $p.lane }}<span class="b lane{{ if eq . "Preserved Knowledge" }} lane2{{ end }}" data-tip="{{ index $L.lane . }}" tabindex="0">{{ . }}</span>{{ end }}
-  {{- range $p.category }}<span class="b cat" data-tip="{{ index $L.category . }}" tabindex="0">{{ . }}</span>{{ end }}
-  {{- with $p.maturity }}<span class="b" data-tip="Maturity" tabindex="0">{{ . }}</span>{{ end }}
-  {{- with $p.setting }}<span class="b" data-tip="Setting" tabindex="0">{{ . }}</span>{{ end }}
-  {{- with $p.entry_type }}<span class="b" data-tip="Type" tabindex="0">{{ . }}</span>{{ end }}
+  {{- if $l2 }}{{ with $p.custodian_voice }}<span class="b voice" data-tip="{{ index $L.notes "custodian_voice" }} {{ (T (printf "v_%s" .)) | default . }}: {{ index $L.custodian_voice . }}" tabindex="0">{{ T "badge_voice" }}: {{ (T (printf "v_%s" .)) | default . }}</span>{{ end }}{{ end }}
+  {{- if and (not $l2) (ne $p.status "unverified-submission") }}{{ range $p.trust }}<span class="b tier tier-{{ lower . }}" data-tip="{{ T "tip_trust" }}: {{ (T (printf "v_%s" .)) | default . }}. {{ index $L.trust . }}" tabindex="0">{{ (T (printf "v_%s" .)) | default . }}</span>{{ end }}{{ end }}
+  {{- range $p.lane }}<span class="b lane{{ if eq . "Preserved Knowledge" }} lane2{{ end }}" data-tip="{{ index $L.lane . }}" tabindex="0">{{ (T (printf "v_%s" .)) | default . }}</span>{{ end }}
+  {{- range $p.category }}<span class="b cat" data-tip="{{ index $L.category . }}" tabindex="0">{{ (T (printf "v_%s" .)) | default . }}</span>{{ end }}
+  {{- with $p.maturity }}<span class="b" data-tip="{{ T "tip_maturity" }}" tabindex="0">{{ (T (printf "v_%s" .)) | default . }}</span>{{ end }}
+  {{- with $p.setting }}<span class="b" data-tip="{{ T "tip_setting" }}" tabindex="0">{{ (T (printf "v_%s" .)) | default . }}</span>{{ end }}
+  {{- with $p.entry_type }}<span class="b" data-tip="{{ T "tip_type" }}" tabindex="0">{{ (T (printf "v_%s" .)) | default . }}</span>{{ end }}
 </div>

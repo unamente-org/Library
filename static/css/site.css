@@ -139,3 +139,7 @@ h1,h2,h3,.card h2,.entry h1{font-family:var(--serif);font-weight:400;color:var(-
 .related{border-top:1px solid var(--line);margin-top:28px;padding-top:12px}
 .related h2{font-size:1.15rem}
 .related p{color:var(--muted);margin:.2em 0 .5em}
+.langs{display:flex;gap:10px;align-items:baseline;font-size:.9rem;margin:6px 0 0;color:var(--muted)}
+.langs a{color:var(--accent)}
+.langs [aria-current]{font-weight:700;color:var(--fg)}
+.fewnote{color:var(--muted)}

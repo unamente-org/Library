@@ -3,9 +3,9 @@
 {{ if ne .Language.Lang site.Params.defaultLang }}
   {{ $t := .Params.translation | default dict }}
   <p class="translation-notice">
-    {{ if eq $t.status "checked" }}Translation checked by {{ $t.checked_by }}{{ with $t.checked_on }}, {{ . }}{{ end }}.
-    {{ else }}<strong>Machine-translated, not checked.</strong> A person has not yet compared this page with the English original.{{ end }}
-    {{ with $t.from_revision }}Made from the English version of {{ . }}.{{ end }}
-    {{ range .Translations }}{{ if eq .Language.Lang site.Params.defaultLang }}<a href="{{ .RelPermalink }}" hreflang="en">Read the English original</a>.{{ end }}{{ end }}
+    {{ if eq $t.status "checked" }}{{ T "tn_checked" }} {{ $t.checked_by }}{{ with $t.checked_on }}, {{ . }}{{ end }}.
+    {{ else }}<strong>{{ T "tn_unchecked" }}</strong> {{ T "tn_unchecked_text" }}{{ end }}
+    {{ with $t.from_revision }}{{ T "tn_made_from" }} {{ . }}.{{ end }}
+    {{ range .Translations }}{{ if eq .Language.Lang site.Params.defaultLang }}<a href="{{ .RelPermalink }}" hreflang="en">{{ T "tn_original" }}</a>.{{ end }}{{ end }}
   </p>
 {{ end }}

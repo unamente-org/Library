@@ -5,7 +5,7 @@
 {{- with site.GetPage "/calling-all-minds" }}{{ range .RegularPages }}{{ if and (in .Params.entries $id) (or site.Params.testBuild (eq .Params.status "published")) }}{{ $qs = $qs | append . }}{{ end }}{{ end }}{{ end -}}
 {{- with $qs }}
 <section class="open-questions">
-  <h2>Open questions</h2>
+  <h2>{{ T "open_questions" }}</h2>
   <ul>{{ range . }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}</ul>
 </section>
 {{- end }}

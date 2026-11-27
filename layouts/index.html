@@ -1,10 +1,16 @@
 {{ define "main" }}
 {{- /* The home page is the Solutions & Stories section, headed like the other two sections (Daniela, 23 November 2026). */ -}}
-<h1>Solutions &amp; Stories</h1>
+{{ partial "translation-notice.html" . }}
+<h1>{{ T "sec_ss" }}</h1>
 <section class="intro">
   {{ .Content }}
 </section>
-{{ with site.GetPage "/entries" }}
+{{- /* In a language with few entries yet, say so and point to the English library (Spanish first, 27 November 2026). */ -}}
+{{- $list := site.GetPage "/entries" }}
+{{- if ne site.Language.Lang site.Params.defaultLang }}
+  <p class="fewnote">{{ T "no_entries_yet" }} <a href="{{ "/" | relURL }}" hreflang="en">{{ T "nav_library" }} (English)</a></p>
+{{- end }}
+{{ with $list }}{{ if .RegularPages }}
   {{ partial "entry-list.html" . }}
-{{ end }}
+{{ end }}{{ end }}
 {{ end }}

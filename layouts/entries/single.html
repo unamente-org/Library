@@ -13,29 +13,29 @@
   {{ partial "badges.html" . }}
   {{- /* Lane 2 protocol, section 1: the custodian header, with the custodian-owned marker in place of a licence. */ -}}
   {{ if $l2 }}
-  <section class="custodian" aria-label="Custodian header">
-    <p><span class="owned">Custodian-owned</span> This knowledge belongs to the people who hold it. It is not ours to license.</p>
+  <section class="custodian" aria-label="{{ T "custodian_aria" }}">
+    <p><span class="owned">{{ T "owned" }}</span> {{ T "owned_text" }}</p>
     <table>
-      {{ with .Params.custodian }}<tr><th>Custodians</th><td>{{ . | markdownify }}</td></tr>{{ end }}
-      {{ with .Params.place_note }}<tr><th>Place</th><td>{{ . | markdownify }}</td></tr>{{ else }}{{ with .Params.place }}{{ if or (ne .region "not stated") (ne .country "not stated") }}<tr><th>Place</th><td>{{ with .region }}{{ if ne . "not stated" }}{{ . }}{{ end }}{{ end }}{{ if and (ne .region "not stated") (ne .country "not stated") }}, {{ end }}{{ with .country }}{{ if ne . "not stated" }}{{ . }}{{ end }}{{ end }}</td></tr>{{ end }}{{ end }}{{ end }}
-      {{ with .Params.knowledge }}<tr><th>The knowledge</th><td>{{ . | markdownify }}</td></tr>{{ end }}
-      {{ with .Params.custodian_voice }}<tr><th>Custodian voice</th><td>{{ . }}</td></tr>{{ end }}
-      {{ with .Params.basis }}<tr><th>Basis</th><td>{{ . }}{{ with $.Params.basis_note }}. <strong>{{ . | markdownify }}</strong>{{ end }}</td></tr>{{ end }}
-      {{ with .Params.entry_date }}<tr><th>Entry date</th><td>{{ (time .).Format "2 January 2006" }}</td></tr>{{ end }}
-      {{ with .Params.documented_by }}<tr><th>Documented by</th><td>{{ . }}</td></tr>{{ end }}
+      {{ with .Params.custodian }}<tr><th>{{ T "h_custodians" }}</th><td>{{ . | markdownify }}</td></tr>{{ end }}
+      {{ with .Params.place_note }}<tr><th>{{ T "h_place" }}</th><td>{{ . | markdownify }}</td></tr>{{ else }}{{ with .Params.place }}{{ if or (ne .region "not stated") (ne .country "not stated") }}<tr><th>{{ T "h_place" }}</th><td>{{ with .region }}{{ if ne . "not stated" }}{{ . }}{{ end }}{{ end }}{{ if and (ne .region "not stated") (ne .country "not stated") }}, {{ end }}{{ with .country }}{{ if ne . "not stated" }}{{ . }}{{ end }}{{ end }}</td></tr>{{ end }}{{ end }}{{ end }}
+      {{ with .Params.knowledge }}<tr><th>{{ T "h_knowledge" }}</th><td>{{ . | markdownify }}</td></tr>{{ end }}
+      {{ with .Params.custodian_voice }}<tr><th>{{ T "h_voice" }}</th><td>{{ (T (printf "v_%s" .)) | default . }}</td></tr>{{ end }}
+      {{ with .Params.basis }}<tr><th>{{ T "h_basis" }}</th><td>{{ . }}{{ with $.Params.basis_note }}. <strong>{{ . | markdownify }}</strong>{{ end }}</td></tr>{{ end }}
+      {{ with .Params.entry_date }}<tr><th>{{ T "h_entry_date" }}</th><td>{{ time.Format "2 January 2006" . }}</td></tr>{{ end }}
+      {{ with .Params.documented_by }}<tr><th>{{ T "h_documented_by" }}</th><td>{{ . }}</td></tr>{{ end }}
     </table>
     {{- /* Optional longer section (Daniela, 22 November 2026): when the custodians need more than the box holds, the entry text has a "## Custodians" heading and the box links to it. */ -}}
-    {{ if .Fragments.Identifiers.Contains "custodians" }}<p class="more"><a href="#custodians">More about the custodians, below</a></p>{{ end }}
+    {{ if .Fragments.Identifiers.Contains "custodians" }}<p class="more"><a href="#custodians">{{ T "more_custodians" }}</a></p>{{ end }}
   </section>
   {{ else }}
   {{- /* Spec section 1, the rest of the header: shown only when the entry has these fields. */ -}}
   {{ if or .Params.origin .Params.licence .Params.entry_date .Params.documented_by .Params.basis }}
   <table class="glance">
-    {{ with .Params.origin }}<tr><th>Origin</th><td>{{ . }}</td></tr>{{ end }}
-    {{ with .Params.licence }}<tr><th>Licence</th><td>{{ . }}</td></tr>{{ end }}
-    {{ with .Params.entry_date }}<tr><th>Entry date</th><td>{{ . }}</td></tr>{{ end }}
-    {{ with .Params.documented_by }}<tr><th>Documented by</th><td>{{ . }}</td></tr>{{ end }}
-    {{ with .Params.basis }}<tr><th>Basis</th><td>{{ . }}</td></tr>{{ end }}
+    {{ with .Params.origin }}<tr><th>{{ T "h_origin" }}</th><td>{{ . }}</td></tr>{{ end }}
+    {{ with .Params.licence }}<tr><th>{{ T "h_licence" }}</th><td>{{ . }}</td></tr>{{ end }}
+    {{ with .Params.entry_date }}<tr><th>{{ T "h_entry_date" }}</th><td>{{ . }}</td></tr>{{ end }}
+    {{ with .Params.documented_by }}<tr><th>{{ T "h_documented_by" }}</th><td>{{ . }}</td></tr>{{ end }}
+    {{ with .Params.basis }}<tr><th>{{ T "h_basis" }}</th><td>{{ . }}</td></tr>{{ end }}
   </table>
   {{ end }}
   {{ end }}
@@ -45,9 +45,9 @@
   {{- /* Related entries (Verus 0945, 23 November 2026): companion traditions, linked but never presented as one practice. Ids in related:. */ -}}
   {{- $rel := slice }}{{ range (.Params.related | default slice) }}{{ with where (where site.RegularPages "Section" "entries") "Params.id" . }}{{ with index . 0 }}{{ if or site.Params.testBuild (eq .Params.status "published") }}{{ $rel = $rel | append . }}{{ end }}{{ end }}{{ end }}{{ end }}
   {{- with $rel }}
-  <section class="related" aria-label="Related entries">
-    <h2>Related entries</h2>
-    <p>Each is a separate practice, held by its own people.</p>
+  <section class="related" aria-label="{{ T "related" }}">
+    <h2>{{ T "related" }}</h2>
+    <p>{{ T "related_line" }}</p>
     <ul>{{ range . }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}</ul>
   </section>
   {{- end }}
@@ -55,7 +55,7 @@
   {{- /* B6: Lane 2 record of approaches to the custodians. */ -}}
   {{ with .Params.custodian_contact }}
   <section class="custodian-contact">
-    <h2>Custodian contact</h2>
+    <h2>{{ T "custodian_contact" }}</h2>
     <ul>{{ range . }}<li>{{ .date }} — {{ .note }}</li>{{ end }}</ul>
   </section>
   {{ end }}
@@ -63,8 +63,8 @@
   {{- /* B4: contributor credit. */ -}}
   {{ with .Params.credits }}
   <section class="credits">
-    <h2>Contributors</h2>
-    <ul>{{ range . }}<li>{{ .name }}{{ with .contributed }} — {{ . }}{{ end }}{{ with .date }} ({{ . }}){{ end }}{{ with .verified_by }} · verified by {{ . }}{{ end }}</li>{{ end }}</ul>
+    <h2>{{ T "contributors" }}</h2>
+    <ul>{{ range . }}<li>{{ .name }}{{ with .contributed }} — {{ . }}{{ end }}{{ with .date }} ({{ . }}){{ end }}{{ with .verified_by }} · {{ T "verified_by" }} {{ . }}{{ end }}</li>{{ end }}</ul>
   </section>
   {{ end }}
 

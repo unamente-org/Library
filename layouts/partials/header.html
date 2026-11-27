@@ -1,5 +1,5 @@
 <header class="site-header wrap">
-  <a class="brand" href="{{ "/" | relLangURL }}" aria-label="UnaMente Library, home">
+  <a class="brand" href="{{ "/" | relLangURL }}" aria-label="{{ T "home_aria" }}">
     {{- /* The logo from Daniela's Brand and Logo Files (August 2026 set): dark ink on light backgrounds,
          light ink when the reader's device is in dark mode. */ -}}
     <picture>
@@ -10,31 +10,34 @@
   {{- /* The main site's menu, the same six links and Donate button as www.unamente.org (read 22 November 2026),
        so readers can get back to the rest of the site. "The Library" is this site. */ -}}
   {{- $m := site.Params.mainSite }}
-  <nav class="mainmenu" aria-label="Main menu">
-    <a href="{{ $m }}/">Home</a>
-    <a href="{{ "/" | relLangURL }}" aria-current="page">The Library</a>
-    <a href="{{ $m }}/how-it-works">How It Works</a>
-    <a href="{{ $m }}/about">About</a>
-    <a href="{{ $m }}/get-involved">Get Involved</a>
-    <a href="{{ $m }}/contact">Contact</a>
-    <a class="donate" href="{{ $m }}/donate">Donate</a>
+  <nav class="mainmenu" aria-label="{{ T "nav_main" }}">
+    <a href="{{ $m }}/">{{ T "nav_home" }}</a>
+    <a href="{{ "/" | relLangURL }}" aria-current="page">{{ T "nav_library" }}</a>
+    <a href="{{ $m }}/how-it-works">{{ T "nav_how" }}</a>
+    <a href="{{ $m }}/about">{{ T "nav_about" }}</a>
+    <a href="{{ $m }}/get-involved">{{ T "nav_involved" }}</a>
+    <a href="{{ $m }}/contact">{{ T "nav_contact" }}</a>
+    <a class="donate" href="{{ $m }}/donate">{{ T "nav_donate" }}</a>
   </nav>
   {{- /* The library's own sections, a second row under the main menu, as in the mock-up Daniela approved (22 November 2026).
        Preserved Knowledge opens the library filtered to that lane until its own page exists. */ -}}
   {{- $pk := or (eq .Section "preserved-knowledge") (and (eq .Section "entries") (in (.Params.lane | default slice) "Preserved Knowledge")) }}
   {{- $cam := eq .Section "calling-all-minds" }}
   {{- $ss := or .IsHome (and (eq .Section "entries") (not $pk)) }}
-  <nav class="sections" aria-label="Library sections">
-    <a href="{{ "/" | relURL }}"{{ if $ss }} aria-current="page"{{ end }}>Solutions &amp; Stories</a>
-    <a href="{{ "/preserved-knowledge/" | relURL }}" class="pk"{{ if $pk }} aria-current="page"{{ end }}>Preserved Knowledge</a>
-    <a href="{{ "/calling-all-minds/" | relURL }}"{{ if $cam }} aria-current="page"{{ end }}>Calling All Minds</a>
+  {{- /* Each section link goes to the page in this language if it exists, otherwise to the English one. */ -}}
+  {{- $pkp := site.GetPage "/preserved-knowledge" }}{{ $camp := site.GetPage "/calling-all-minds" }}
+  <nav class="sections" aria-label="{{ T "nav_sections" }}">
+    <a href="{{ "/" | relLangURL }}"{{ if $ss }} aria-current="page"{{ end }}>{{ T "sec_ss" }}</a>
+    <a href="{{ with $pkp }}{{ .RelPermalink }}{{ else }}{{ "/preserved-knowledge/" | relURL }}{{ end }}" class="pk"{{ if $pk }} aria-current="page"{{ end }}>{{ T "sec_pk" }}</a>
+    <a href="{{ with $camp }}{{ .RelPermalink }}{{ else }}{{ "/calling-all-minds/" | relURL }}{{ end }}"{{ if $cam }} aria-current="page"{{ end }}>{{ T "sec_cam" }}</a>
   </nav>
-  <nav class="langs" aria-label="Language">
-    {{- if .IsTranslated }}
-      {{- range .AllTranslations }}
-        {{- if eq .Language.Lang $.Language.Lang }}<span aria-current="true">{{ .Language.Label }}</span>
-        {{- else }}<a href="{{ .RelPermalink }}" hreflang="{{ .Language.Locale }}">{{ .Language.Label }}</a>{{ end }}
-      {{- end }}
+  {{- /* Language switcher, named in words and each language in its own name (Puente's 18 November note, Daniela's example).
+       A page with no version in a language links to that language's library home. */ -}}
+  <nav class="langs" aria-label="{{ T "lang_nav" }}">
+    <span class="langlabel">{{ T "lang_nav" }}:</span>
+    {{- range site.Home.AllTranslations }}{{ $l := .Language }}
+      {{- if eq $l.Lang $.Language.Lang }} <span aria-current="true">{{ $l.Label }}</span>
+      {{- else }}{{ $to := . }}{{ range $.Translations }}{{ if eq .Language.Lang $l.Lang }}{{ $to = . }}{{ end }}{{ end }} <a href="{{ $to.RelPermalink }}" hreflang="{{ $l.Locale }}" lang="{{ $l.Locale }}">{{ $l.Label }}</a>{{ end }}
     {{- end }}
   </nav>
 </header>

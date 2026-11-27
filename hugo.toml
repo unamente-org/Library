@@ -30,11 +30,13 @@ disableKinds = ["taxonomy", "term"]
     label = "English"
     locale = "en"
     weight = 1
-  # Further languages are added here, one block each, for example:
-  # [languages.es]
-  #   label = "Español"
-  #   locale = "es"
-  #   weight = 2
+  # Castellano (Daniela's "start now", 27 November 2026): pages are machine-translated and labeled until she reads them.
+  [languages.es]
+    title = "Biblioteca UnaMente"
+    label = "Español"
+    locale = "es"
+    weight = 2
+  # Further languages are added here, one block each.
   # Right-to-left languages add: direction = "rtl"
 
 [markup.goldmark.renderer]
