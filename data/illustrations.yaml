@@ -177,6 +177,14 @@ qochas-small-earth-dams-that-save-rain-for-the-dry-season-in-the-andes:
   status: current
   alt: "A small pond in a natural hollow in high Andean grassland, held back on its lower side by a low, grass-covered earth bank, with snow-dusted mountains in the distance."
 
+farmer-managed-natural-regeneration-niger:
+  file: "farmer-managed-natural-regeneration-niger.jpg"
+  card_file: "cards/farmer-managed-natural-regeneration-niger.jpg"   # FMNR_card_2026-11-19.jpg, passed by Verus 19 November 14:57 (all 20 cards)
+  original_file: "FMNR_2026-11-17.jpg"   # passed by Verus 17 November about 08:40 (Lente's 0805 handoff); SHA-256 matches Lente's E: copy (ed0eed6c…c0ca369, Lente 27 November 0742). Moved out of pending/ 27 November 2026.
+  ai_generated: true
+  status: current
+  alt: "A tree regrowing from an old cut stump with a wide spreading root system below ground, its new stems pruned to a few strong ones, standing in a field of crops beside a mature tree."
+
 za-pits-bringing-dead-soil-back-to-life:
   file: "za-pits-bringing-dead-soil-back-to-life.jpg"
   card_file: "cards/za-pits-bringing-dead-soil-back-to-life.jpg"   # ZAI_PITS_card_2026-11-22c.jpg, passed by Verus 22 November 19:09; swapped in that evening
@@ -194,7 +202,7 @@ za-pits-bringing-dead-soil-back-to-life:
 #   CHANGU_CHANGU_MOTO_2026-11-19b.jpg (Verus 19 November, passed provisionally; no card yet),
 #   FANYA_JUU_2026-11-21.jpg + card (Verus 21 November, 11:33, PROVISIONAL: the ditch water may need toning down at the entry's gate).
 # Passed by Verus on 17 November 2026, waiting for their pages to be published; files in assets/illustrations/pending/.
-# FMNR_2026-11-17.jpg (FMNR, Niger). Add an entry above when the page goes live. (Qochas moved in, 27 November 2026.)
+# (FMNR and Qochas moved in, 27 November 2026.)
 # Alt text from Lente (19 November), to use then:
 #   FMNR: "A tree regrowing from an old cut stump with a wide spreading root system below ground, its new stems pruned to a few strong ones, standing in a field of crops beside a mature tree."
 #   Qochas: "A small pond in a natural hollow in high Andean grassland, held back on its lower side by a low, grass-covered earth bank, with snow-dusted mountains in the distance."
