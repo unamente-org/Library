@@ -8,7 +8,7 @@
   {{ if $unverified }}<p class="testnote">Unverified submission. UnaMente has not yet checked this against sources, so it carries no trust rating.</p>{{ end }}
   {{ partial "translation-notice.html" . }}
   <h1>{{ .Title }}</h1>
-  {{- with index hugo.Data.illustrations .Params.id }}{{ $d := . }}{{ with resources.Get (printf "illustrations/%s" $d.file) }}{{ $img := .Resize "750x q80" }}<figure class="hero"><img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $d.alt }}" loading="lazy">{{ if $d.ai_generated }}<figcaption>Illustration (AI-generated)</figcaption>{{ end }}</figure>{{ end }}{{ end }}
+  {{- with index hugo.Data.illustrations .Params.id }}{{ $d := . }}{{ with resources.Get (printf "illustrations/%s" $d.file) }}{{ $img := .Resize "750x q80" }}<figure class="hero"><img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $d.alt }}" loading="lazy">{{ if $d.ai_generated }}<figcaption>{{ T "ai_caption" }}</figcaption>{{ end }}</figure>{{ end }}{{ end }}
 
   {{ partial "badges.html" . }}
   {{- /* Lane 2 protocol, section 1: the custodian header, with the custodian-owned marker in place of a licence. */ -}}
