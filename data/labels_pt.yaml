@@ -1,0 +1,35 @@
+# Significado dos indicadores, em português (do Brasil): tradução automática de data/labels.yaml (Cimiento, 27 de novembro de 2026), não revisada.
+# As chaves ficam em inglês, como nas entradas; o que aparece está em i18n/pt.yaml.
+# Se uma frase mudar em labels.yaml, esta deve mudar também.
+lane:
+  Solutions: "Uma solução para construir por conta própria, com instruções reais e gratuitas. Não pertence a ninguém."
+  Preserved Knowledge: "Um conhecimento vivo que pertence às pessoas que o guardam. Nós o descrevemos com respeito, e nunca como uma planta para copiar."
+  Story: "Um projeto ou uma pessoa que inspira, às vezes patenteado ou comercial. Contamos a história e deixamos claro o que é cada coisa."
+trust:
+  Strong: "Verificado por várias pessoas que o testaram por conta própria, trabalhando separadamente e obtendo o mesmo resultado."
+  Moderate: "Real e documentado, mas as evidências são mais escassas ou vêm em parte de quem o promove."
+  Limited: "Promissor, mas com poucas evidências: use com cuidado."
+category:
+  Water: "Água potável, irrigação, e como tornar segura a água que não é."
+  Food: "Cultivar, criar e conservar alimentos."
+  Energy: "Combustível para cozinhar, calor e eletricidade."
+  Soil: "Manter a terra fértil e no lugar."
+  Health: "Manter a saúde e tratar doenças."
+  Waste: "Transformar resíduos em algo útil, com segurança."
+  Shelter: "Moradia segura e acessível."
+  Human-Wildlife Coexistence: "Conviver com os animais silvestres sem perder colheitas nem segurança."
+marker:
+  Custodian-owned: "Este conhecimento pertence aos seus guardiões. Não cabe a nós licenciá-lo, e não o oferecemos para que alguém o copie."
+custodian_voice:
+  Strong: "Escrito sobretudo a partir do que os próprios guardiões publicaram ou nos contaram."
+  Moderate: "Escrito em parte com as próprias palavras dos guardiões e em parte com o que outros escreveram sobre eles."
+  Limited: "Apoia-se em palavras publicadas pelos próprios guardiões, mas só uma pequena parte da entrada vem diretamente deles."
+  Not yet heard: "Escrito inteiramente a partir do que outros publicaram. As próprias palavras dos guardiões ainda não estão nesta entrada."
+basis:
+  Custodians' own published material: "Escrito a partir do que os guardiões, ou uma organização que eles dirigem, decidiram publicar."
+  Confirmed by the custodians: "Os guardiões nos disseram diretamente que concordam que o documentemos."
+  Others' published accounts: "Escrito a partir do que pesquisadores, jornalistas ou outras pessoas publicaram sobre este conhecimento, e não a partir dos próprios guardiões. A entrada diz isso, e nosso convite aos guardiões continua aberto."
+notes:
+  custodian_voice: "A voz dos guardiões indica em que medida uma entrada de conhecimento preservado se apoia nas próprias palavras dos seus guardiões. Não avalia se a prática funciona."
+order:
+  custodian_voice: ["Strong", "Moderate", "Limited", "Not yet heard"]

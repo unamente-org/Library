@@ -42,6 +42,12 @@ disableKinds = ["taxonomy", "term"]
     label = "Français"
     locale = "fr"
     weight = 3
+  # Portuguese, Brazilian spelling (Daniela, 27 November 2026, 12:33: "Yes", Portuguese after French). Machine-translated and labeled; nobody at UnaMente reads it.
+  [languages.pt]
+    title = "Biblioteca UnaMente"
+    label = "Português"
+    locale = "pt"
+    weight = 4
   # Further languages are added here, one block each.
   # Right-to-left languages add: direction = "rtl"
 

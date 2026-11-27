@@ -17,7 +17,7 @@
   var clear = document.getElementById("clearAll");
   if (!q || !cards.length) return;
 
-  var SKIP = " a an and the of for to in on at by with from during how what when where which my our your i we is are it its or that this without no not de del la las el los un una unos unas y o para por con sin en que es son su sus al le les des du une et ou pour par avec sans dans sur au aux ce cette est sont qui ne pas ";
+  var SKIP = " a an and the of for to in on at by with from during how what when where which my our your i we is are it its or that this without no not de del la las el los un una unos unas y o para por con sin en que es son su sus al le les des du une et ou pour par avec sans dans sur au aux ce cette est sont qui ne pas os as um uma e ou para por com sem em que é são seu sua do da dos das no na nos nas ao aos ";
 
   // Plain-letter, American-spelled, suffix-trimmed form of a word.
   function stem(w) {
