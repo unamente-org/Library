@@ -1,0 +1,35 @@
+# Significado de las etiquetas, en castellano: traducción automática de data/labels.yaml (Cimiento, 27 noviembre 2026),
+# pendiente de la lectura de Daniela. Las claves quedan en inglés, como en las entradas; lo que se muestra está en i18n/es.yaml.
+# Si cambia una frase en labels.yaml, esta debe cambiar también.
+lane:
+  Solutions: "Una solución para construir por cuenta propia, con instrucciones reales y gratuitas. No pertenece a nadie."
+  Preserved Knowledge: "Un saber vivo que pertenece a las personas que lo guardan. Lo describimos con respeto, y nunca como un plano para copiar."
+  Story: "Un proyecto o una persona que inspira, a veces con patente o con fines comerciales. Contamos la historia y dejamos claro qué es cada cosa."
+trust:
+  Strong: "Revisado por varias personas que lo probaron por su cuenta, trabajando por separado y obteniendo el mismo resultado."
+  Moderate: "Real y documentado, pero la evidencia es más escasa o la informa en parte quien lo promueve."
+  Limited: "Prometedor pero con poca evidencia: úsalo con cuidado."
+category:
+  Water: "Agua potable, riego, y cómo hacer segura el agua que no lo es."
+  Food: "Cultivar, criar y conservar alimentos."
+  Energy: "Combustible para cocinar, calor y electricidad."
+  Soil: "Mantener la tierra fértil y en su sitio."
+  Health: "Mantenerse sano y tratar enfermedades."
+  Waste: "Convertir los residuos en algo útil, de forma segura."
+  Shelter: "Vivienda segura y asequible."
+  Human-Wildlife Coexistence: "Convivir con los animales silvestres sin perder cosechas ni seguridad."
+marker:
+  Custodian-owned: "Este saber pertenece a sus custodios. No nos corresponde licenciarlo, y no lo ofrecemos para que nadie lo copie."
+custodian_voice:
+  Strong: "Escrito sobre todo a partir de lo que los propios custodios han publicado o nos han contado."
+  Moderate: "Escrito en parte con las propias palabras de los custodios y en parte con lo que otros han escrito sobre ellos."
+  Limited: "Se apoya en palabras publicadas por los propios custodios, pero solo una pequeña parte de la entrada viene directamente de ellos."
+  Not yet heard: "Escrito por completo a partir de lo que otros han publicado. Las propias palabras de los custodios aún no están en esta entrada."
+basis:
+  Custodians' own published material: "Escrito a partir de lo que los custodios, o una organización que ellos dirigen, decidieron publicar."
+  Confirmed by the custodians: "Los custodios nos han dicho directamente que están de acuerdo con que lo documentemos."
+  Others' published accounts: "Escrito a partir de lo que investigadores, periodistas u otras personas han publicado sobre este saber, no de los propios custodios. La entrada lo dice, y nuestra invitación a los custodios sigue abierta."
+notes:
+  custodian_voice: "La voz de los custodios indica en qué medida una entrada de saberes preservados se apoya en las propias palabras de sus custodios. No califica si la práctica funciona."
+order:
+  custodian_voice: ["Strong", "Moderate", "Limited", "Not yet heard"]

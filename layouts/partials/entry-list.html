@@ -4,38 +4,38 @@
 {{- /* Preserved Knowledge entries have their own section page, so this list shows Solutions and Stories (Daniela, 23 November 2026). */ -}}
 {{- $entries = complement (where $entries "Params.lane" "intersect" (slice "Preserved Knowledge")) $entries -}}
 {{- if not site.Params.testBuild }}{{ $entries = where $entries "Params.status" "published" }}{{ end -}}
-<section class="finder" aria-label="Find an innovation">
-  <label for="q">Search by problem or name</label>
-  <input id="q" type="search" autocomplete="off" placeholder="For example: water for a dry season">
+<section class="finder" aria-label="{{ T "finder_aria" }}">
+  <label for="q">{{ T "search_label" }}</label>
+  <input id="q" type="search" autocomplete="off" placeholder="{{ T "search_placeholder" }}">
   {{- /* Filter buttons, as in the 23 October demo: tap to switch on or off, hover or focus for what each means. */ -}}
   <div class="filters">
-    {{- $L := hugo.Data.labels }}
-    {{- range (slice (slice "category" "Category") (slice "lane" "Lane") (slice "trust" "Trust")) }}
+    {{- $L := cond (eq site.Language.Lang "es") hugo.Data.labels_es hugo.Data.labels }}
+    {{- range (slice (slice "category" (T "g_category")) (slice "lane" (T "g_lane")) (slice "trust" (T "g_trust"))) }}
     {{- $key := index . 0 }}
     <div class="fgroup" role="group" aria-label="{{ index . 1 }}">
       <span class="flabel">{{ index . 1 }}</span>
       {{- $vals := slice }}
       {{- range $entries }}{{ with index .Params $key }}{{ $vals = $vals | append . }}{{ end }}{{ end }}
       {{- $order := cond (eq $key "trust") (slice "Strong" "Moderate" "Limited") ($vals | uniq | sort) }}
-      {{- range $order }}{{ if in $vals . }}<button type="button" class="fchip" data-filter="{{ $key }}" data-value="{{ . }}" aria-pressed="false"{{ with index (index $L $key) . }} data-tip="{{ . }}"{{ end }}>{{ . }}</button>{{ end }}{{ end }}
+      {{- range $order }}{{ if in $vals . }}<button type="button" class="fchip" data-filter="{{ $key }}" data-value="{{ . }}" aria-pressed="false"{{ with index (index $L $key) . }} data-tip="{{ . }}"{{ end }}>{{ (T (printf "v_%s" .)) | default . }}</button>{{ end }}{{ end }}
     </div>
     {{- end }}
-    <button type="button" class="clear" id="clearAll" hidden>Clear all</button>
+    <button type="button" class="clear" id="clearAll" hidden>{{ T "clear_all" }}</button>
   </div>
   <details class="legend">
-    <summary>What the labels mean</summary>
+    <summary>{{ T "legend" }}</summary>
     <div class="defs">
       {{- $hasL2 := false }}{{ range $entries }}{{ if in (.Params.lane | default slice) "Preserved Knowledge" }}{{ $hasL2 = true }}{{ end }}{{ end }}
-      {{- $groups := slice (slice "lane" "Lanes") (slice "category" "Categories") (slice "trust" "Trust") (slice "marker" "Preserved Knowledge marker") (slice "custodian_voice" "Custodian voice (Preserved Knowledge only, in place of Trust)") (slice "basis" "Basis (Preserved Knowledge only)") }}
+      {{- $groups := slice (slice "lane" (T "lg_lanes")) (slice "category" (T "lg_categories")) (slice "trust" (T "lg_trust")) (slice "marker" (T "lg_marker")) (slice "custodian_voice" (T "lg_voice_list")) (slice "basis" (T "lg_basis_list")) }}
       {{- range $groups }}{{ $g := index . 0 }}{{ if or $hasL2 (in (slice "lane" "category" "trust") $g) }}
       <div class="ghead">{{ index . 1 }}</div>
       {{- with index $L.notes $g }}<div class="gnote">{{ . }}</div>{{ end }}
       {{- $vals := index $L $g }}{{ $keys := index ($L.order | default dict) $g }}{{ if not $keys }}{{ $keys = slice }}{{ range $k, $_ := $vals }}{{ $keys = $keys | append $k }}{{ end }}{{ end }}
-      {{- range $k := $keys }}{{ if or $hasL2 (ne $k "Preserved Knowledge") }}<div><b>{{ $k }}</b> — {{ index $vals $k }}</div>{{ end }}{{ end }}
+      {{- range $k := $keys }}{{ if or $hasL2 (ne $k "Preserved Knowledge") }}<div><b>{{ with $k }}{{ (T (printf "v_%s" .)) | default . }}{{ end }}</b> — {{ index $vals $k }}</div>{{ end }}{{ end }}
       {{- end }}{{ end }}
     </div>
   </details>
-  <p class="count" id="count" aria-live="polite"></p>
+  <p class="count" id="count" aria-live="polite" data-of="{{ T "count_of" }}" data-noun="{{ T "count_entries" }}" data-partial="{{ T "count_partial" }}"></p>
 </section>
 <ul class="cards" id="cards">
   {{- /* Entries listed in site.Params.pinFirst (by id) come first, in that order; the rest follow alphabetically. */ -}}
@@ -43,18 +43,18 @@
   {{- $rest := slice }}{{ range $entries.ByTitle }}{{ if not (in $pinned .) }}{{ $rest = $rest | append . }}{{ end }}{{ end }}
   {{- range ($pinned | append $rest) }}
   {{- $tier := lower (index (.Params.trust | default (slice "none")) 0) }}{{ if in (.Params.lane | default slice) "Preserved Knowledge" }}{{ $tier = "none" }}{{ end }}
-  <li class="card tier-{{ if eq .Params.status "unverified-submission" }}none{{ else }}{{ $tier }}{{ end }}{{ if in (.Params.lane | default slice) "Preserved Knowledge" }} lane2{{ end }}" data-lane="{{ delimit (.Params.lane | default slice) "|" }}" data-category="{{ delimit (.Params.category | default slice) "|" }}" data-trust="{{ delimit (.Params.trust | default slice) "|" }}" data-text="{{ lower (printf "%s %s %s %s %s" .Title (.Params.summary | default "") (.Params.problem | default "") (delimit (.Params.keywords | default slice) " ") (delimit (.Params.category | default slice) " ")) }}">
+  <li class="card tier-{{ if eq .Params.status "unverified-submission" }}none{{ else }}{{ $tier }}{{ end }}{{ if in (.Params.lane | default slice) "Preserved Knowledge" }} lane2{{ end }}" data-lane="{{ delimit (.Params.lane | default slice) "|" }}" data-category="{{ delimit (.Params.category | default slice) "|" }}" data-trust="{{ delimit (.Params.trust | default slice) "|" }}" data-text="{{ lower (printf "%s %s %s %s %s" .Title (.Params.summary | default "") (.Params.problem | default "") (delimit (.Params.keywords | default slice) " ") (delimit (.Params.category | default slice) " ")) }}{{ range .Params.category }} {{ lower (T (printf "v_%s" .)) }}{{ end }}">
     <a href="{{ .RelPermalink }}">
       {{- /* Lane 2: a band no Solutions card has, so it reads as different even in gray (Verus, 22 November 12:10). */ -}}
-      {{ if in (.Params.lane | default slice) "Preserved Knowledge" }}<span class="l2band">Preserved Knowledge · Custodian-owned</span>{{ end }}
+      {{ if in (.Params.lane | default slice) "Preserved Knowledge" }}<span class="l2band">{{ T "l2band" }}</span>{{ end }}
       {{- /* Card picture: sized for the card (Ducky's page-speed advice), lazy-loaded, with explicit size. */ -}}
       {{- with index hugo.Data.illustrations .Params.id }}{{ $d := . }}{{ with resources.Get (printf "illustrations/%s" ($d.card_file | default $d.file)) }}{{ $s := .Resize "400x q75" }}{{ $l := .Resize "800x q75" }}<img class="thumb" src="{{ $s.RelPermalink }}" srcset="{{ $s.RelPermalink }} 400w, {{ $l.RelPermalink }} 800w" sizes="(max-width: 520px) 92vw, 340px" width="{{ $s.Width }}" height="{{ $s.Height }}" alt="{{ $d.alt }}" loading="lazy">{{ end }}{{ end }}
       <h2>{{ .Title }}</h2>
       {{ partial "badges.html" . }}
       {{ with .Params.summary }}<p class="summary">{{ . }}</p>{{ end }}
-      {{ if eq .Params.status "unverified-submission" }}<p class="chips"><span class="chip test">Unverified</span></p>{{ end }}
+      {{ if eq .Params.status "unverified-submission" }}<p class="chips"><span class="chip test">{{ T "unverified" }}</span></p>{{ end }}
       {{ if and site.Params.testBuild (ne .Params.status "published") }}<p class="chips"><span class="chip">{{ .Params.status | default "no status" }}</span></p>{{ end }}
-      <span class="openlink">Open the full entry →</span>
+      <span class="openlink">{{ T "open_entry" }}</span>
     </a>
   </li>
   {{- end }}
