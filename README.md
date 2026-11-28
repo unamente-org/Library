@@ -2,7 +2,26 @@
 
 The source of the UnaMente library: a free, permanent library of proven community-scale innovations. Each entry is a plain-text file in this repository, and a static website is built from those files. No paywalls, no logins, no database to keep running.
 
-**Status: test build.** Nothing here is public. The site carries a "test build" banner and tells search engines not to index it. The only entry is a placeholder used to check the layout.
+**Read the library at https://library.unamente.org** (in English, with a growing part in Español, Français and Português).
+
+UnaMente is a Washington State nonprofit. It gathers community-scale innovations from around the world: water, food, energy, soil, health, waste, living alongside wildlife, and traditional knowledge. It checks each one against real sources, says openly how strong the evidence is and when the method does *not* work, and gives it all away free. No paywalls, no logins.
+
+The library has three kinds of entry:
+- **Solutions:** build-it-yourself methods with real, free instructions.
+- **Preserved Knowledge:** traditional knowledge that belongs to its custodians. It is documented with respect, never as a blueprint to copy, and it is **not ours to license**.
+- **Stories:** inspiring projects and people, some of them patented or commercial, with clear notes saying which is which.
+
+### Using the library's data
+
+- **The whole library as one file:** https://library.unamente.org/library.json. It holds every published entry and every Calling All Minds question, with their sources.
+- **Every entry's history** is in this repository: every change, when it was made, and why.
+- **Licence: not yet chosen.** Until one is added here, please link to the library rather than copying from it. Preserved Knowledge entries will stay outside any licence we choose, because they belong to their custodians.
+
+### Corrections and suggestions
+
+Found a mistake, a better source, or a poor translation? Write to info@unamente.org or use the contact form at https://www.unamente.org. Native speakers' corrections to the translated pages are especially welcome.
+
+Entries are researched and checked by people working with UnaMente's AI helpers. How that works: https://www.unamente.org/how-we-use-ai
 
 ## Where things are
 
@@ -44,8 +63,6 @@ hugo --minify   # build the site into public/
 
 Every change of an entry's public address adds a line to `data/redirects.yaml`. The build turns that list into a `_redirects` file, which Cloudflare Pages uses to send old links on to the new address (301).
 
-## Not decided yet
+## Where it runs
 
-- The public address. `baseURL` in `hugo.toml` is a placeholder until it is chosen.
-- The host. Cloudflare Pages is the recommendation in the options paper.
-- When the repository becomes public as an open dataset.
+The site is built and hosted on Cloudflare Pages: the `main` branch is the live library, and `scaffold` is a preview that search engines are told not to index.
