@@ -2,7 +2,7 @@
 
 The source of the UnaMente library: a free, permanent library of proven community-scale innovations. Each entry is a plain-text file in this repository, and a static website is built from those files. No paywalls, no logins, no database to keep running.
 
-**Read the library at https://library.unamente.org** (in English, with a growing part in Español, Français and Português).
+**Read the library at https://library.unamente.org** (in English, with a first part in Español; French and Portuguese are on the way).
 
 UnaMente is a Washington State nonprofit. It gathers community-scale innovations from around the world: water, food, energy, soil, health, waste, living alongside wildlife, and traditional knowledge. It checks each one against real sources, says openly how strong the evidence is and when the method does *not* work, and gives it all away free. No paywalls, no logins.
 
