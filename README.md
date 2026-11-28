@@ -15,7 +15,7 @@ The library has three kinds of entry:
 
 - **The whole library as one file:** https://library.unamente.org/library.json. It holds every published entry and every Calling All Minds question, with their sources.
 - **Every entry's history** is in this repository: every change, when it was made, and why.
-- **Licence: not yet chosen.** Until one is added here, please link to the library rather than copying from it. Preserved Knowledge entries will stay outside any licence we choose, because they belong to their custodians.
+- **Licence:** UnaMente's own text is CC BY-SA 4.0. Linked guides, images and quoted material belong to their authors, and traditional knowledge belongs to its custodians. The details are in [LICENSE.md](LICENSE.md).
 
 ### Corrections and suggestions
 
